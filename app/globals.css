@@ -89,10 +89,13 @@ body {
   margin: 0.25rem 0;
 }
 .guide-md table {
+  display: block;
   width: 100%;
+  overflow-x: auto;
   border-collapse: collapse;
   margin: 1rem 0;
   font-size: 14px;
+  -webkit-overflow-scrolling: touch;
 }
 .guide-md th,
 .guide-md td {

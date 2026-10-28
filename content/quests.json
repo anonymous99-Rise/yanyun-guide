@@ -5,7 +5,8 @@
   "第一章 · 神仙不渡（清河）",
   "第二章 · 天地熔炉（开封）",
   "第三章 · 问月长安（河西）",
-  "第四章 · 金乌衔枝（不见山）"
+  "第四章 · 金乌衔枝（不见山）",
+  "第五章 · 平澜起风波（江南）"
  ],
  "entries": [
   {
@@ -95,6 +96,15 @@
    "chapter": "第三章 · 问月长安（河西）",
    "region": "河西",
    "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "main-jiangnan-overview",
+   "category": "main",
+   "name": "平澜起风波（江南 · 当期主章）",
+   "chapter": "第五章 · 平澜起风波（江南）",
+   "region": "江南",
+   "note": "9/24 已开。推进建议：先推平澜书院主章，再逛十里桑海 / 钱塘浦（镇守捍海塘），渡尘墟排后。逐任务清单本站资料未收录，以游戏内任务日志为准。",
+   "source": "https://guide.nidcsoft.cn/guides/season-chase.html"
   },
   {
    "id": "main-开封-0",

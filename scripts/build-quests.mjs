@@ -74,9 +74,23 @@ function keyOf(entry) {
   return (entry.name ?? "").replace(/[·（）()、\s]/g, "");
 }
 
+// 江南主章（平澜起风波）：任务级数据暂无公开机器可读源，只录已核实事实，来源自家站。
+const NIDC_SEASON = "https://guide.nidcsoft.cn/guides/season-chase.html";
+const JIANGNAN_MAIN = [
+  {
+    id: "main-jiangnan-overview",
+    category: "main",
+    name: "平澜起风波（江南 · 当期主章）",
+    chapter: "第五章 · 平澜起风波（江南）",
+    region: "江南",
+    note: "9/24 已开。推进建议：先推平澜书院主章，再逛十里桑海 / 钱塘浦（镇守捍海塘），渡尘墟排后。逐任务清单本站资料未收录，以游戏内任务日志为准。",
+    source: NIDC_SEASON,
+  },
+];
+
 function main() {
   const datasets = readDatasets();
-  const base = QUESTS.map((q) => ({ ...q }));
+  const base = [...JIANGNAN_MAIN, ...QUESTS.map((q) => ({ ...q }))];
   const extras = collectDatasetEntries(datasets);
 
   // 按名字去重：同名的条目把 extras 的路线信息并入 base 条目缺失的字段
@@ -101,7 +115,15 @@ function main() {
 
   fs.writeFileSync(
     path.join(CONTENT_DIR, "quests.json"),
-    JSON.stringify({ dataAsOf: DATA_AS_OF, mainChapters: MAIN_CHAPTERS, entries: merged }, null, 1),
+    JSON.stringify(
+      {
+        dataAsOf: DATA_AS_OF,
+        mainChapters: [...MAIN_CHAPTERS, "第五章 · 平澜起风波（江南）"],
+        entries: merged,
+      },
+      null,
+      1,
+    ),
     "utf8",
   );
   const byCat = {};

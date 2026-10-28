@@ -18,9 +18,12 @@ const GROUPS = [
   { id: 200265, name: "万事知", note: "各地风土小任务，常有双结局" },
   { id: 199690, name: "见闻", note: "与 NPC 交谈收集的地区见闻" },
   { id: 200396, name: "不平事", note: "路见不平的微型行侠任务" },
-  { id: 200548, name: "众生录", note: "众生相图鉴收集" },
+  { id: 152046, name: "博物录", note: "佳肴 · 书画 · 民器 · 兵戈图鉴收集" },
+  { id: 199949, name: "人物", note: "各州城 NPC 图鉴与生平" },
+  { id: 200169, name: "江湖势力", note: "门派与组织来历" },
   { id: 199829, name: "前尘旧物", note: "旧物与往事残页" },
   { id: 200545, name: "别录", note: "乡邑录 · 往来书 · 杂闻录 · 江湖录" },
+  { id: 151681, name: "新手入门", note: "基础指引与开局攻略" },
 ];
 
 async function api<T>(path: string): Promise<T> {

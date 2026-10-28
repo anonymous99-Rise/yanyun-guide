@@ -121,7 +121,7 @@ function MapChecklist({ mapKey, data }: { mapKey: string; data: MapData }) {
               type="button"
               onClick={() => setTypeFilter(tab.id)}
               aria-pressed={typeFilter === tab.id}
-              className={`rounded-full border px-2.5 py-1 text-xs transition ${
+              className={`rounded-full border px-2.5 py-1.5 text-xs transition ${
                 typeFilter === tab.id ? "border-gold bg-gold/15 text-gold" : "border-border text-muted hover:text-foreground"
               }`}
             >
