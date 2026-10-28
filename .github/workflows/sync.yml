@@ -1,0 +1,41 @@
+# 内容同步：定时抓取 guide.nidcsoft.cn，有变化自动提交（push 触发 Vercel 重新部署）。
+# 迁移到 GitHub 后即生效；Schedule 最短间隔受 GitHub 免费额度限制，每日一次足够。
+name: sync-content
+
+on:
+  schedule:
+    - cron: "17 19 * * *" # 每天 UTC 19:17 = 北京时间凌晨 3:17
+  workflow_dispatch: # 手动触发入口
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 同步攻略内容
+        run: |
+          node scripts/sync-content.mjs
+          node scripts/build-quests.mjs
+
+      - name: 有变化则提交
+        run: |
+          git config user.name "sync-bot"
+          git config user.email "sync-bot@users.noreply.github.com"
+          git add content/
+          if git diff --cached --quiet; then
+            echo "内容无变化"
+          else
+            git commit -m "chore(content): 同步攻略数据 $(date -u +%F)"
+            git push
+          fi

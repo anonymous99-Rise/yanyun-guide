@@ -1,0 +1,1600 @@
+{
+ "dataAsOf": "2026-10",
+ "mainChapters": [
+  "序章",
+  "第一章 · 神仙不渡（清河）",
+  "第二章 · 天地熔炉（开封）",
+  "第三章 · 问月长安（河西）",
+  "第四章 · 金乌衔枝（不见山）"
+ ],
+ "entries": [
+  {
+   "id": "main-不见山-0",
+   "category": "main",
+   "name": "盈盈相邀 · 阎王金镖",
+   "chapter": "第四章 · 金乌衔枝（不见山）",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "main-不见山-1",
+   "category": "main",
+   "name": "桃源迷津",
+   "chapter": "第四章 · 金乌衔枝（不见山）",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "main-不见山-2",
+   "category": "main",
+   "name": "百鸟齐喑",
+   "chapter": "第四章 · 金乌衔枝（不见山）",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "main-不见山-3",
+   "category": "main",
+   "name": "矢落金乌",
+   "chapter": "第四章 · 金乌衔枝（不见山）",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "main-河西-0",
+   "category": "main",
+   "name": "夜灯诡话",
+   "chapter": "第三章 · 问月长安（河西）",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "main-河西-1",
+   "category": "main",
+   "name": "画中寻路",
+   "chapter": "第三章 · 问月长安（河西）",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "main-河西-2",
+   "category": "main",
+   "name": "麻布袋",
+   "chapter": "第三章 · 问月长安（河西）",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "main-河西-3",
+   "category": "main",
+   "name": "凉州曲",
+   "chapter": "第三章 · 问月长安（河西）",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "main-河西-4",
+   "category": "main",
+   "name": "纸月亮",
+   "chapter": "第三章 · 问月长安（河西）",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "main-河西-5",
+   "category": "main",
+   "name": "秦川梦别",
+   "chapter": "第三章 · 问月长安（河西）",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "main-河西-6",
+   "category": "main",
+   "name": "我的朋友",
+   "chapter": "第三章 · 问月长安（河西）",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "main-开封-0",
+   "category": "main",
+   "name": "开封新客",
+   "chapter": "第二章 · 天地熔炉（开封）",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-开封-1",
+   "category": "main",
+   "name": "群英荟萃",
+   "chapter": "第二章 · 天地熔炉（开封）",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-开封-2",
+   "category": "main",
+   "name": "故人重逢",
+   "chapter": "第二章 · 天地熔炉（开封）",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-开封-3",
+   "category": "main",
+   "name": "平地风波（一）· 千里送京娘",
+   "chapter": "第二章 · 天地熔炉（开封）",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-开封-4",
+   "category": "main",
+   "name": "平地风波（二）",
+   "chapter": "第二章 · 天地熔炉（开封）",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-开封-5",
+   "category": "main",
+   "name": "大义熔炉",
+   "chapter": "第二章 · 天地熔炉（开封）",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-清河-0",
+   "category": "main",
+   "name": "又见新来燕",
+   "chapter": "第一章 · 神仙不渡（清河）",
+   "region": "清河",
+   "source": "https://www.gamekee.com/yysls/644026.html",
+   "note": "开服早期主章。完成且角色达 3 级后开放多人模式，可邀请最多 4 位朋友进入自己的世界，双方共享探索进度与奖励。"
+  },
+  {
+   "id": "main-清河-1",
+   "category": "main",
+   "name": "竹林旧居",
+   "chapter": "第一章 · 神仙不渡（清河）",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-清河-2",
+   "category": "main",
+   "name": "将军祠",
+   "chapter": "第一章 · 神仙不渡（清河）",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-清河-3",
+   "category": "main",
+   "name": "神仙不渡",
+   "chapter": "第一章 · 神仙不渡（清河）",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml",
+   "caution": "资料库与部分攻略站此处写作「神仙渡」，与清河的同名地点容易混淆。"
+  },
+  {
+   "id": "main-清河-4",
+   "category": "main",
+   "name": "不羡仙",
+   "chapter": "第一章 · 神仙不渡（清河）",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-清河-5",
+   "category": "main",
+   "name": "匹马映林嘶",
+   "chapter": "第一章 · 神仙不渡（清河）",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-清河-6",
+   "category": "main",
+   "name": "菱花尘满",
+   "chapter": "第一章 · 神仙不渡（清河）",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "main-清河-7",
+   "category": "main",
+   "name": "为谁归去",
+   "chapter": "第一章 · 神仙不渡（清河）",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-不见山-0",
+   "category": "remnant",
+   "name": "山中见墨",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "remnant-不见山-1",
+   "category": "remnant",
+   "name": "大衍迷阵",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "remnant-不见山-2",
+   "category": "remnant",
+   "name": "薤露存辉",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "remnant-不见山-3",
+   "category": "remnant",
+   "name": "有谷芃芃",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "remnant-不见山-4",
+   "category": "remnant",
+   "name": "揽星为衿",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "remnant-不见山-5",
+   "category": "remnant",
+   "name": "滹沱旧事",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "remnant-不见山-6",
+   "category": "remnant",
+   "name": "奉敕不杀",
+   "region": "不见山",
+   "source": "https://www.gamersky.com/handbook/202512/2060317.shtml"
+  },
+  {
+   "id": "remnant-河西-0",
+   "category": "remnant",
+   "name": "静夜思",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "remnant-河西-1",
+   "category": "remnant",
+   "name": "沙海无舟",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "remnant-河西-2",
+   "category": "remnant",
+   "name": "问渠几许",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "remnant-河西-3",
+   "category": "remnant",
+   "name": "此身归唐",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "remnant-河西-4",
+   "category": "remnant",
+   "name": "玉露为乡",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "remnant-河西-5",
+   "category": "remnant",
+   "name": "太平归处",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "remnant-河西-6",
+   "category": "remnant",
+   "name": "凯风徐来",
+   "region": "河西",
+   "source": "https://www.gamersky.com/handbook/202512/2060295.shtml"
+  },
+  {
+   "id": "remnant-开封-0",
+   "category": "remnant",
+   "name": "瓦肆奇人",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-1",
+   "category": "remnant",
+   "name": "繁花谍影",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml",
+   "caution": "有攻略站写作「繁华谍影」，以游戏内显示为准。"
+  },
+  {
+   "id": "remnant-开封-2",
+   "category": "remnant",
+   "name": "悬檐之下",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-3",
+   "category": "remnant",
+   "name": "雕栏剑影",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-4",
+   "category": "remnant",
+   "name": "雪夜定策",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-5",
+   "category": "remnant",
+   "name": "十二载恩仇",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-6",
+   "category": "remnant",
+   "name": "杀神出庙",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-7",
+   "category": "remnant",
+   "name": "阴兵借道",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-8",
+   "category": "remnant",
+   "name": "悬赏风波",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-9",
+   "category": "remnant",
+   "name": "白日参辰",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-10",
+   "category": "remnant",
+   "name": "河清难俟",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-11",
+   "category": "remnant",
+   "name": "公子书",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-12",
+   "category": "remnant",
+   "name": "一叶平生 · 卷一",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-13",
+   "category": "remnant",
+   "name": "一叶平生 · 卷二",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-开封-14",
+   "category": "remnant",
+   "name": "一叶平生 · 卷三",
+   "region": "开封",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "src-ks-i-1",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "州桥夜话",
+   "region": "开封",
+   "group": "内城 · 市井残章",
+   "location": "州桥广场 · 夜市茶摊",
+   "route": "夜间至茶摊 → 与说书人对话 → 跟随至桥洞",
+   "hint": "需游戏内夜晚时段",
+   "note": "跟开封主章同步推进，多数在坊市与州桥一带触发",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-i-2",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "绸缎庄疑云",
+   "region": "开封",
+   "group": "内城 · 市井残章",
+   "location": "坊市东 · 云锦绸缎庄",
+   "route": "庄内与掌柜对话 → 查后仓 → 回报",
+   "hint": "与探索点「绸缎庄后仓」同区",
+   "note": "跟开封主章同步推进，多数在坊市与州桥一带触发",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-i-3",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "当铺旧物",
+   "region": "开封",
+   "group": "内城 · 市井残章",
+   "location": "坊市南 · 当铺",
+   "route": "当铺柜台接取 → 赎回指定当品 → 送至失主",
+   "hint": "白天营业时触发",
+   "note": "跟开封主章同步推进，多数在坊市与州桥一带触发",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-i-4",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "药铺奇方",
+   "region": "开封",
+   "group": "内城 · 市井残章",
+   "location": "坊市北 · 回春药铺",
+   "route": "药铺老板 → 采集三味药 → 煎制交付",
+   "hint": "可顺带完成奇术「金疮秘要」相关",
+   "note": "跟开封主章同步推进，多数在坊市与州桥一带触发",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-c-1",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "漕帮信物",
+   "region": "开封",
+   "group": "汴河 · 漕运残章",
+   "location": "汴河北码头 · 漕帮分舵",
+   "route": "码头找舵主 → 送信至河心亭 → 取回信物",
+   "hint": "完成后可进地下渠道秘库",
+   "note": "水路支线，与漕帮、码头 NPC 相关",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-c-2",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "沉船秘辛",
+   "region": "开封",
+   "group": "汴河 · 漕运残章",
+   "location": "河湾 · 半沉渔舟",
+   "route": "潜水进入沉船 → 取账本 → 交还漕帮",
+   "hint": "与探索宝箱「废弃渔舟」同船",
+   "note": "水路支线，与漕帮、码头 NPC 相关",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-c-3",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "水门异变",
+   "region": "开封",
+   "group": "汴河 · 漕运残章",
+   "location": "汴河水门",
+   "route": "水门守卫处接取 → 调查闸室 → 报告水师",
+   "hint": "需水门区域已开放",
+   "note": "水路支线，与漕帮、码头 NPC 相关",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-t-1",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "经阁钥匙",
+   "region": "开封",
+   "group": "大相国寺 · 佛门残章",
+   "location": "寺东院 · 知客僧",
+   "route": "知客僧对话 → 打扫经阁 → 取回遗失经卷",
+   "hint": "解锁探索宝箱「僧舍经阁」",
+   "note": "寺区支线，部分需完成前置残章",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-t-2",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "木人阵试",
+   "region": "开封",
+   "group": "大相国寺 · 佛门残章",
+   "location": "寺西 · 练武场",
+   "route": "武僧接取 → 按序击破木人 → 领取奖励",
+   "hint": "正确木人有裂痕标记",
+   "note": "寺区支线，部分需完成前置残章",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-t-3",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "古井回声",
+   "region": "开封",
+   "group": "大相国寺 · 佛门残章",
+   "location": "寺后院 · 古井",
+   "route": "井边倾听 → 下井查源头 → 上报方丈",
+   "hint": "与探索蹊跷「后院古井栏」同井",
+   "note": "寺区支线，部分需完成前置残章",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-o-1",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "驿站急信",
+   "region": "开封",
+   "group": "外郭 · 郊野残章",
+   "location": "官道驿站",
+   "route": "驿丞接信 → 穿越郊野送至烽火台 → 回报",
+   "hint": "路线经过猎户小径",
+   "note": "烽火台、驿站一带，适合跟外郭探索同步",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-o-2",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "猎户陷阱",
+   "region": "开封",
+   "group": "外郭 · 郊野残章",
+   "location": "林缘小径",
+   "route": "猎户处接取 → 拆除三处陷阱 → 护送回村",
+   "hint": "与探索宝箱「猎户陷阱旁」同区",
+   "note": "烽火台、驿站一带，适合跟外郭探索同步",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-o-3",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "窑洞遗事",
+   "region": "开封",
+   "group": "外郭 · 郊野残章",
+   "location": "外郭西 · 窑洞群",
+   "route": "窑洞深处发现碑刻 → 拓印 → 交予学者",
+   "hint": "选有风声的窑洞深入",
+   "note": "烽火台、驿站一带，适合跟外郭探索同步",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-p-1",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "旧仪",
+   "region": "开封",
+   "group": "宫城 · 禁中残章",
+   "location": "宫城西侧 · 仪仗库",
+   "route": "宫城外围老吏接取 → 库内整理旧仪 → 呈报",
+   "hint": "解锁探索宝箱「废弃仪仗库」",
+   "note": "需主线推进至宫城相关章节后解锁",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-p-2",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "午门密令",
+   "region": "开封",
+   "group": "宫城 · 禁中残章",
+   "location": "午门东侧翼楼",
+   "route": "翼楼守卫 → 递送密令 → 确认签收",
+   "hint": "需潜行，勿惊动巡逻",
+   "note": "需主线推进至宫城相关章节后解锁",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-p-3",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "角楼谍影",
+   "region": "开封",
+   "group": "宫城 · 禁中残章",
+   "location": "宫墙东南角楼",
+   "route": "角楼外接取 → 监视指定时段 → 回报",
+   "hint": "特定游戏时段触发后续",
+   "note": "需主线推进至宫城相关章节后解锁",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-u-1",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "暗渠入口",
+   "region": "开封",
+   "group": "地下 · 暗渠残章",
+   "location": "坊市西北巷 · 枯井",
+   "route": "井口跳下 → 渠道初段 → 标记地图",
+   "hint": "井口有微弱光",
+   "note": "隐藏线，多由漕帮或蹊跷引入",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-u-2",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "漕帮秘库",
+   "region": "开封",
+   "group": "地下 · 暗渠残章",
+   "location": "地下渠道 · 秘库",
+   "route": "持漕帮信物 → 最左岔路铁门 → 清点货物",
+   "hint": "与探索宝箱「漕帮秘库」同室",
+   "note": "隐藏线，多由漕帮或蹊跷引入",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "src-ks-u-3",
+   "category": "remnant",
+   "sub": "残章",
+   "name": "前朝遗诏",
+   "region": "开封",
+   "group": "地下 · 暗渠残章",
+   "location": "渠道最深 · 前朝密室",
+   "route": "三块石碑「天地人」解谜 → 取遗诏 → 选择上交或留存",
+   "hint": "顺序错会重置，无惩罚",
+   "note": "隐藏线，多由漕帮或蹊跷引入",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-side.html"
+  },
+  {
+   "id": "remnant-清河-0",
+   "category": "remnant",
+   "name": "荒祠暗影",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-1",
+   "category": "remnant",
+   "name": "金玉手",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-2",
+   "category": "remnant",
+   "name": "河山如故",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-3",
+   "category": "remnant",
+   "name": "暮云何物",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-4",
+   "category": "remnant",
+   "name": "红尘无眼",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-5",
+   "category": "remnant",
+   "name": "阴阳如影",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-6",
+   "category": "remnant",
+   "name": "独行杀手",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-7",
+   "category": "remnant",
+   "name": "千佛残墟",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-8",
+   "category": "remnant",
+   "name": "长夜有虹",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-9",
+   "category": "remnant",
+   "name": "皮影师",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml"
+  },
+  {
+   "id": "remnant-清河-10",
+   "category": "remnant",
+   "name": "梦中世界",
+   "region": "清河",
+   "source": "https://www.gamersky.com/handbook/202412/1864988.shtml",
+   "note": "资料库条目「江无浪 · 江湖梦远」把完成残章「梦中世界」列为前置条件。"
+  },
+  {
+   "id": "encounter-清河-0",
+   "category": "encounter",
+   "name": "稚子江湖",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-1",
+   "category": "encounter",
+   "name": "酒逢知己",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html",
+   "note": "资料库把完成奇遇「死生错」列为本条的触发条件之一。"
+  },
+  {
+   "id": "encounter-清河-2",
+   "category": "encounter",
+   "name": "一声见佛",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-3",
+   "category": "encounter",
+   "name": "花海无颜",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-4",
+   "category": "encounter",
+   "name": "井中人",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-5",
+   "category": "encounter",
+   "name": "老弱妇孺",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-6",
+   "category": "encounter",
+   "name": "隐月山童姥",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-7",
+   "category": "encounter",
+   "name": "话山论见",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-8",
+   "category": "encounter",
+   "name": "清河有雕",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-9",
+   "category": "encounter",
+   "name": "归去来兮",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-10",
+   "category": "encounter",
+   "name": "难得好活",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-11",
+   "category": "encounter",
+   "name": "化马记",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-12",
+   "category": "encounter",
+   "name": "什么九流",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-13",
+   "category": "encounter",
+   "name": "割以永治",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-14",
+   "category": "encounter",
+   "name": "寻香靥",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-15",
+   "category": "encounter",
+   "name": "追光的人",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-16",
+   "category": "encounter",
+   "name": "大锤小锤",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-17",
+   "category": "encounter",
+   "name": "寻蕈记",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-18",
+   "category": "encounter",
+   "name": "所谓报应",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-19",
+   "category": "encounter",
+   "name": "美食继承者",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-20",
+   "category": "encounter",
+   "name": "纸人夭",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-21",
+   "category": "encounter",
+   "name": "不同凡狗",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-22",
+   "category": "encounter",
+   "name": "三蛇闹傻惊奇",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-23",
+   "category": "encounter",
+   "name": "道人梦驴",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-24",
+   "category": "encounter",
+   "name": "寻侠之路",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-25",
+   "category": "encounter",
+   "name": "失败的绚烂",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-26",
+   "category": "encounter",
+   "name": "鳏居奇事",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-27",
+   "category": "encounter",
+   "name": "缘生缘灭",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-28",
+   "category": "encounter",
+   "name": "英雄与美",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-29",
+   "category": "encounter",
+   "name": "摇红一梦",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-30",
+   "category": "encounter",
+   "name": "玉马行",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-31",
+   "category": "encounter",
+   "name": "佛花与鼠（上、下）",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-32",
+   "category": "encounter",
+   "name": "应律之人",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-33",
+   "category": "encounter",
+   "name": "闻籁之声",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html"
+  },
+  {
+   "id": "encounter-清河-34",
+   "category": "encounter",
+   "name": "死生错",
+   "region": "清河",
+   "source": "https://www.3dmgame.com/gl/3976201.html",
+   "note": "资料库多处出现「完成奇遇死生错」，是若干奇遇与万事知的共同前置。"
+  },
+  {
+   "id": "src-cd-qh-1",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "神仙渡 · 传送点左侧",
+   "group": "清河 · 猫戏",
+   "location": "清河 · 神仙渡",
+   "route": "传送后左侧找猫 → 抚摸",
+   "hint": "最易漏的第一只",
+   "note": "新手友好 + 将军祠解谜",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-qh-2",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "曲坊后院一带（多只）",
+   "group": "清河 · 猫戏",
+   "location": "神仙渡 · 曲坊后院",
+   "route": "进门右侧、跳围栏、河边、过桥左转院子 — 依次互动",
+   "hint": "社区常见约 4～5 只同区",
+   "note": "新手友好 + 将军祠解谜",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-qh-3",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "浣石浦 · 过河第一只",
+   "group": "清河 · 猫戏",
+   "location": "清河 · 浣石浦",
+   "route": "传送后向西南过河 → 互动",
+   "note": "新手友好 + 将军祠解谜",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-qh-4",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "浣石浦 · 雕像解谜猫",
+   "group": "清河 · 猫戏",
+   "location": "浣石浦西南爬坡",
+   "route": "第二只猫处：两座雕像转到面向石碑",
+   "hint": "不解谜可能不算完整猫戏",
+   "note": "新手友好 + 将军祠解谜",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-qh-5",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "烧瓷岭 · 瓷窑大门右转",
+   "group": "清河 · 猫戏",
+   "location": "清河 · 烧瓷岭瓷窑",
+   "route": "进门右转抚摸",
+   "hint": "无额外条件",
+   "note": "新手友好 + 将军祠解谜",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-qh-6",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "将军祠 · 翻墙白猫",
+   "group": "清河 · 猫戏",
+   "location": "清河 · 将军祠",
+   "route": "传送向前翻红墙 → 抚摸",
+   "hint": "关联摸金手奇遇时更完整",
+   "note": "新手友好 + 将军祠解谜",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-qh-7",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "将军祠 · 祠堂后方翻墙",
+   "group": "清河 · 猫戏",
+   "location": "将军祠后方",
+   "route": "绕祠堂再翻墙 → 抚摸",
+   "note": "新手友好 + 将军祠解谜",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-qh-8",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "将军祠 · 山洞搬石像",
+   "group": "清河 · 猫戏",
+   "location": "将军祠右侧山洞",
+   "route": "与洞中猫对话 → 小石像搬到指定石板",
+   "hint": "做完三只才算完整一串奖励",
+   "note": "新手友好 + 将军祠解谜",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-hx-1",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "清玉岸 · 猫猫酒儿",
+   "group": "河西 · 猫戏",
+   "location": "河西 · 清玉岸临水木屋",
+   "route": "主路过石桥小径 → 进屋互动",
+   "note": "凉州藤王村最密；迷津渡/马迷途分散",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-hx-2",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "藤王村院落猫群",
+   "group": "河西 · 猫戏",
+   "location": "河西 · 藤王村左侧下坡院落",
+   "route": "传送转身找左侧下坡 → 院内多猫逐一互动",
+   "hint": "破碎前后可能有差异；需推进相关剧情后再回补",
+   "note": "凉州藤王村最密；迷津渡/马迷途分散",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-hx-3",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "迷津渡 · 猫猫卢克",
+   "group": "河西 · 猫戏",
+   "location": "骆驼驿 · 枯树屋檐",
+   "route": "出驿站枯树下屋檐互动",
+   "note": "凉州藤王村最密；迷津渡/马迷途分散",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-hx-4",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "迷津渡 · 卡尔兹屋内猫",
+   "group": "河西 · 猫戏",
+   "location": "卡尔兹屋内",
+   "route": "进屋互动",
+   "note": "凉州藤王村最密；迷津渡/马迷途分散",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-hx-5",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "迷津渡 · 猫猫黑炭",
+   "group": "河西 · 猫戏",
+   "location": "卡尔兹出屋左转草棚右",
+   "route": "草棚右侧互动",
+   "note": "凉州藤王村最密；迷津渡/马迷途分散",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-hx-6",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "迷津渡 · 猫猫茉莉",
+   "group": "河西 · 猫戏",
+   "location": "卡尔兹上楼进屋",
+   "route": "上楼梯进屋互动",
+   "note": "凉州藤王村最密；迷津渡/马迷途分散",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-hx-7",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "马迷途 · 猫猫嘻嘻",
+   "group": "河西 · 猫戏",
+   "location": "万安屯双烟囱平台",
+   "route": "传送正前方平台互动",
+   "hint": "晴天更好找",
+   "note": "凉州藤王村最密；迷津渡/马迷途分散",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-hx-8",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "马迷途 · 猫猫咚咚",
+   "group": "河西 · 猫戏",
+   "location": "万安屯大枯树后",
+   "route": "枯树后方互动",
+   "note": "凉州藤王村最密；迷津渡/马迷途分散",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-dg-1",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "滹沱区域犬戏（一批）",
+   "group": "不见山 · 犬戏（狗戏）",
+   "location": "不见山 · 滹沱周边",
+   "route": "城镇角落与野外建筑旁找狗互动点",
+   "hint": "建议对照游戏内游历筛选 + 社区一条龙视频补漏",
+   "note": "滹沱等地；点位持续补充",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-dg-2",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "耘丘一带犬戏",
+   "group": "不见山 · 犬戏（狗戏）",
+   "location": "不见山 · 耘丘",
+   "route": "跟全收集路线扫院落/路边",
+   "hint": "与猫戏、妙妙喵同趟更省",
+   "note": "滹沱等地；点位持续补充",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-cd-dg-3",
+   "category": "explore",
+   "sub": "猫狗戏",
+   "name": "犬戏漏点自查",
+   "group": "不见山 · 犬戏（狗戏）",
+   "location": "不见山大地图",
+   "route": "筛选游历相关图标，未勾点回扫",
+   "hint": "本区分条会持续加精确地标",
+   "note": "滹沱等地；点位持续补充",
+   "source": "https://guide.nidcsoft.cn/guides/cat-dog-play.html"
+  },
+  {
+   "id": "src-mm-j1",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "屯田之所",
+   "region": "河西",
+   "group": "万安屯 · 见闻",
+   "location": "万安屯传送点附近",
+   "route": "传送后转身面向身后区域 → 路边 NPC 对话",
+   "hint": "白天更明显，最易拿",
+   "note": "基础 3 + 子时 2",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-mm-j2",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "白头城的声音",
+   "region": "河西",
+   "group": "万安屯 · 见闻",
+   "location": "万安屯南 · 栅栏外草地",
+   "route": "向南穿过栅栏 → 找带「李」字标识、神色惊慌的 NPC 对话",
+   "hint": "位置较显眼",
+   "note": "基础 3 + 子时 2",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-mm-j3",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "精工射日（金弓射日）",
+   "region": "河西",
+   "group": "万安屯 · 见闻",
+   "location": "万安屯左后方 · 茅草屋",
+   "route": "时辰调至午时 → 屋前白衣 NPC「索毗卢」对话",
+   "hint": "仅午时；不在就传送刷新",
+   "note": "基础 3 + 子时 2",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-mm-j4",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "最后一炉币",
+   "region": "河西",
+   "group": "万安屯 · 见闻",
+   "location": "万安屯核心 · 炉子旁",
+   "route": "时辰调至子时 → 右前方炉子旁找「霍九川」对话",
+   "hint": "对话后可顺接下一个",
+   "note": "基础 3 + 子时 2",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-mm-j5",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "护身宝钳",
+   "region": "河西",
+   "group": "万安屯 · 见闻",
+   "location": "万安屯中间大路",
+   "route": "子时与霍九川谈完 → 左转大路追上「马巴兰」对话",
+   "hint": "白天也能看见人，但见闻要子时谈",
+   "note": "基础 3 + 子时 2",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-mm-j6",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "忘不了的歌",
+   "region": "河西",
+   "group": "城前隘 · 见闻",
+   "location": "城前隘 · 煎饼摊下方",
+   "route": "站传送点前方石头右转朝饼店 → 煎饼摊下方找迷途士兵对话",
+   "hint": "时辰不对就多切换几次；位置容易漏",
+   "note": "1 个；士兵较隐蔽",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-mm-j7a",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "风中箫声 · 接悟不能",
+   "region": "河西",
+   "group": "风中箫声（奇术关键）",
+   "location": "万安屯左前方",
+   "route": "找吹笛 NPC「悟不能」对话 → 接演奏任务",
+   "hint": "演奏需达到「余音绕梁」",
+   "note": "见闻 + 箫吟千浪 + 暗涌碎片",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-mm-j7b",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "风中箫声 · 两地演奏",
+   "region": "河西",
+   "group": "风中箫声（奇术关键）",
+   "location": "城前隘城门下；马头村英烈种",
+   "route": "按任务指引两处演奏达标 → 回万安屯复命",
+   "hint": "差一个见闻优先查这个",
+   "note": "见闻 + 箫吟千浪 + 暗涌碎片",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-mm-j7c",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "风中箫声 · 复命拿奖",
+   "region": "河西",
+   "group": "风中箫声（奇术关键）",
+   "location": "万安屯 · 悟不能",
+   "route": "复命对话拿见闻与箫吟千浪相关奖励",
+   "hint": "暗涌碎片「风沙里的箫声」常一并到手",
+   "note": "见闻 + 箫吟千浪 + 暗涌碎片",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-mm-qy1",
+   "category": "explore",
+   "sub": "见闻",
+   "name": "他的名字",
+   "region": "河西",
+   "group": "关联奇遇",
+   "location": "万安屯 · 枯树方向",
+   "route": "沿枯树前进触发 → 拾取 3 个道具（木塔下、石头旁、东南）→ 回枯树与树枝对话",
+   "hint": "可与见闻同趟",
+   "note": "非见闻，建议同趟清",
+   "source": "https://guide.nidcsoft.cn/guides/hexi-mamitu.html"
+  },
+  {
+   "id": "src-kf-bp-1",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "宫门卫士争执",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "皇宫 · 午门 / 宫门一带",
+   "route": "靠近争执的卫士或路人 → 对话接取不平事",
+   "hint": "主线未开宫城时进不去",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-bp-2",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "武德司周边纠纷",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "皇宫 · 武德司附近",
+   "route": "清宝箱顺路看橙色/特殊事件标 → 对话",
+   "hint": "版本可能新增点位，以地图图标为准",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-bp-3",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "内苑下人闲话起事",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "皇宫 · 内苑/廊下",
+   "route": "潜行靠近对话中的下人 → 接取",
+   "hint": "注意守卫视线",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-qy-1",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "皇宫奇遇 · 宫墙异响",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "皇宫外围宫墙 / 角楼一带",
+   "route": "满足时辰或天气后靠近触发点 → 出现奇遇提示再接",
+   "hint": "同时待接奇遇通常有上限（常见约 2 个）；触发失败可能进冷却",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-qy-2",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "皇宫奇遇 · 旧仪遗闻",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "仪仗库 / 旧库一带",
+   "route": "与残章「旧仪」同区时留意奇遇气泡",
+   "hint": "可与开封残章清单对照",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-mm-1",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "皇宫妙妙喵 · 宫门附近",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "皇宫 · 入口侧廊/花坛",
+   "route": "找猫图标 → 互动",
+   "hint": "蓝标先查前置任务",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-mm-2",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "皇宫妙妙喵 · 内苑屋顶",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "皇宫 · 内苑屋顶或高台",
+   "route": "轻功上屋顶找猫",
+   "hint": "常与猫戏点邻近",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-mm-3",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "皇宫妙妙喵 · 水池边",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "皇宫 · 水池/假山",
+   "route": "绕水池一圈，注意矮丛后",
+   "hint": "夜间更显眼",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-mx-1",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "皇宫猫戏 · 内苑",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "皇宫 · 内苑空地",
+   "route": "找猫戏互动点 → 完成小游戏",
+   "hint": "与妙妙喵不是同一进度",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-mx-2",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "皇宫猫戏 · 廊下",
+   "region": "开封",
+   "group": "开封 · 皇宫（重点）",
+   "location": "皇宫 · 长廊下",
+   "route": "廊下地毯/垫子旁互动",
+   "hint": "完成一次即可勾",
+   "note": "宫城解锁后清；不平事 / 妙妙喵 / 猫戏集中，适合单独开一趟",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-bp-s1",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "南门大街市井争执（一批）",
+   "region": "开封",
+   "group": "开封 · 南门大街 / 开封府",
+   "location": "南门大街沿街商铺/路口",
+   "route": "沿大街自南向北扫，见争执 NPC 即对话",
+   "hint": "数量较多，按地图「不平事」筛选更稳",
+   "note": "城南高密度区：不平事与妙妙喵多，适合跟武林录一条龙",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-bp-s2",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "开封府门口纠纷",
+   "region": "开封",
+   "group": "开封 · 南门大街 / 开封府",
+   "location": "开封府门前",
+   "route": "府衙台阶附近对话",
+   "hint": "白天人多时更好找",
+   "note": "城南高密度区：不平事与妙妙喵多，适合跟武林录一条龙",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-mm-s1",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "南门大街妙妙喵",
+   "region": "开封",
+   "group": "开封 · 南门大街 / 开封府",
+   "location": "南门大街巷弄/屋顶",
+   "route": "巷弄死角与低屋顶优先",
+   "hint": "可与投壶、渔获顺路",
+   "note": "城南高密度区：不平事与妙妙喵多，适合跟武林录一条龙",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-mm-s2",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "开封府妙妙喵",
+   "region": "开封",
+   "group": "开封 · 南门大街 / 开封府",
+   "location": "开封府庭院/侧廊",
+   "route": "进府后绕庭院一圈",
+   "hint": "部分需府内区域解锁",
+   "note": "城南高密度区：不平事与妙妙喵多，适合跟武林录一条龙",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-mx-s1",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "勾栏瓦肆猫戏",
+   "region": "开封",
+   "group": "开封 · 南门大街 / 开封府",
+   "location": "勾栏瓦肆表演区周边",
+   "route": "瓦肆空地找猫戏点",
+   "hint": "瓦肆猫戏较集中",
+   "note": "城南高密度区：不平事与妙妙喵多，适合跟武林录一条龙",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-qy-s1",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "开封城奇遇 · 街头奇人",
+   "region": "开封",
+   "group": "开封 · 南门大街 / 开封府",
+   "location": "南门大街 / 勾栏瓦肆",
+   "route": "满足时辰后找奇遇光柱或特殊 NPC",
+   "hint": "概率/时辰奇遇失败后等冷却再试",
+   "note": "城南高密度区：不平事与妙妙喵多，适合跟武林录一条龙",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-tip-1",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "待接奇遇别堆满",
+   "region": "开封",
+   "group": "触发总则（勾选自查）",
+   "location": "全图",
+   "route": "先做掉进行中的奇遇再去刷新触发",
+   "hint": "同时待接常有上限",
+   "note": "不是点位，用来提醒自己有没有踩坑",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-tip-2",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "触发失败等冷却",
+   "region": "开封",
+   "group": "触发总则（勾选自查）",
+   "location": "全图",
+   "route": "时辰/天气不对时离开，过一段时间再回",
+   "hint": "硬刷无效",
+   "note": "不是点位，用来提醒自己有没有踩坑",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-tip-3",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "蓝标先做前置",
+   "region": "开封",
+   "group": "触发总则（勾选自查）",
+   "location": "全图",
+   "route": "点开图标看提示，完成前置再回来",
+   "hint": "常见与一叶平生/区域进度有关",
+   "note": "不是点位，用来提醒自己有没有踩坑",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  },
+  {
+   "id": "src-kf-tip-4",
+   "category": "explore",
+   "sub": "不平事",
+   "name": "用地图筛选扫漏",
+   "region": "开封",
+   "group": "触发总则（勾选自查）",
+   "location": "开封大地图",
+   "route": "筛选不平事后按区清",
+   "hint": "比纯走路漏得少",
+   "note": "不是点位，用来提醒自己有没有踩坑",
+   "source": "https://guide.nidcsoft.cn/guides/kaifeng-events.html"
+  }
+ ]
+}
