@@ -133,6 +133,7 @@ export function searchContent(
     quests: QuestEntry[];
     mainSections?: {
       slug: string;
+      chapter: string;
       chapterName: string;
       region: string;
       title: string;
