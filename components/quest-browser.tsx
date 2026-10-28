@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 import type { QuestCategory, QuestEntry } from "@/lib/content";
@@ -56,6 +57,14 @@ export function QuestBrowser({ entries, chapters }: { entries: QuestEntry[]; cha
 
   return (
     <div className="flex flex-col gap-4">
+      {category === "main" && (
+        <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-accent/30 bg-accent/5 px-4 py-2.5 text-[13px]">
+          <span>五章主章已收录逐节攻略：任务目标链、流程节点与隐藏成就。</span>
+          <Link href="/main-quests" className="shrink-0 font-medium text-accent underline underline-offset-4">
+            查看主章攻略 →
+          </Link>
+        </div>
+      )}
       <div className="flex flex-wrap items-center gap-2">
         <div className="flex gap-1" role="tablist" aria-label="任务分类">
           {TABS.map((t) => (

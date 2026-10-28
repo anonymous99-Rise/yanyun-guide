@@ -16,6 +16,7 @@ const sql = postgres(process.env.POSTGRES_URL, { max: 3, prepare: false });
 const guides = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "guides.json"), "utf8"));
 const quests = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "quests.json"), "utf8"));
 const datasets = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "datasets.json"), "utf8"));
+const mainQuests = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "huiji/parsed/main-quests.json"), "utf8"));
 
 try {
   await sql.begin(async (tx) => {
@@ -57,6 +58,19 @@ try {
       data jsonb not null,
       updated text not null default ''
     )`;
+    await tx`create table if not exists main_sections (
+      slug text primary key,
+      chapter text not null,
+      chapter_name text not null,
+      region text not null,
+      section text not null,
+      title text not null default '',
+      intro text not null default '',
+      goals jsonb not null default '[]',
+      steps jsonb not null default '[]',
+      achievements jsonb not null default '[]',
+      source text not null default ''
+    )`;
 
     await tx`delete from guides`;
     for (const g of guides) {
@@ -77,9 +91,19 @@ try {
       const updated = typeof data === "object" && data && "updated" in data ? String(data.updated) : "";
       await tx`insert into datasets (key, data, updated) values (${key}, ${JSON.stringify(data)}, ${updated})`;
     }
+
+    await tx`delete from main_sections`;
+    for (const ch of mainQuests.chapters) {
+      for (const s of ch.sections) {
+        await tx`
+          insert into main_sections (slug, chapter, chapter_name, region, section, title, intro, goals, steps, achievements, source)
+          values (${s.slug}, ${ch.key}, ${ch.name}, ${ch.region}, ${s.section}, ${s.title}, ${s.intro}, ${JSON.stringify(s.goals)}, ${JSON.stringify(s.steps)}, ${JSON.stringify(s.achievements)}, ${s.source})`;
+      }
+    }
   });
 
-  console.log(`导入完成：guides ${guides.length} 篇，quests ${quests.entries.length} 条，datasets ${Object.keys(datasets).length} 块`);
+  const sectionCount = mainQuests.chapters.reduce((s, c) => s + c.sections.length, 0);
+  console.log(`导入完成：guides ${guides.length} 篇，quests ${quests.entries.length} 条，datasets ${Object.keys(datasets).length} 块，main_sections ${sectionCount} 节`);
 } finally {
   await sql.end();
 }

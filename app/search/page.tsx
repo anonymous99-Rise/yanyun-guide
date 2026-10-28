@@ -28,6 +28,7 @@ async function Results({ searchParams }: { searchParams: PageProps<"/search">["s
   const hits = query ? searchContent(query, await loadSearchCorpus(), 30) : [];
   const guideHits = hits.filter((h) => h.kind === "guide");
   const questHits = hits.filter((h) => h.kind === "quest");
+  const sectionHits = hits.filter((h) => h.kind === "section");
 
   return (
     <div className="flex flex-col gap-6">
@@ -64,6 +65,31 @@ async function Results({ searchParams }: { searchParams: PageProps<"/search">["s
                       <span className="font-medium">{hit.guide.title}</span>
                       <span className="ml-2 text-xs text-muted">{hit.guide.categoryLabel}</span>
                       <p className="mt-0.5 text-[13px] leading-6 text-muted">{hit.guide.summary}</p>
+                    </Link>
+                  </li>
+                ),
+            )}
+          </ul>
+        </section>
+      )}
+
+      {sectionHits.length > 0 && (
+        <section className="flex flex-col gap-2">
+          <h2 className="text-xs tracking-[0.25em] text-muted">主章 ({sectionHits.length})</h2>
+          <ul className="grid gap-2">
+            {sectionHits.map(
+              (hit) =>
+                hit.section && (
+                  <li key={hit.section.slug}>
+                    <Link
+                      href={`/main-quests/${hit.section.chapter}#sec-${hit.section.slug.split("/")[1] ?? ""}`}
+                      className="block rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent/60"
+                    >
+                      <span className="font-medium">{hit.section.title}</span>
+                      <span className="ml-2 text-xs text-muted">{hit.section.chapterName}</span>
+                      {(hit.section.intro || hit.section.goals[0]) && (
+                        <p className="mt-0.5 text-[13px] leading-6 text-muted">{hit.section.intro || hit.section.goals[0]}</p>
+                      )}
                     </Link>
                   </li>
                 ),

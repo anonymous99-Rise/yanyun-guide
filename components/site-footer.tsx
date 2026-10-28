@@ -6,7 +6,11 @@ export function SiteFooter() {
     <footer className="border-t border-border bg-surface/60">
       <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs leading-6 text-muted sm:px-6">
         <p>
-          燕云攻略 — 非官方攻略站。内容条目截至 {DATA_AS_OF}，以游戏内实际显示为准；分步流程随版本改动，发现偏差欢迎指正。
+          燕云攻略 — 非官方攻略站。内容条目截至 {DATA_AS_OF}，以游戏内实际显示为准；分步流程随版本改动，发现偏差欢迎指正。主章逐节攻略数据来自
+          <a href="https://yy16s.huijiwiki.com" target="_blank" rel="noreferrer noopener" className="underline underline-offset-4 hover:text-foreground">
+            灰机wiki
+          </a>
+          （CC BY-NC-SA）。
         </p>
         <p className="flex flex-wrap items-center gap-x-3 gap-y-1">
           <Link href="/guides" className="hover:text-foreground">全部攻略</Link>

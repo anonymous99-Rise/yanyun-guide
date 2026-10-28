@@ -76,16 +76,61 @@ function toQuest(row: QuestRow): QuestEntry {
   };
 }
 
-export type Corpus = { guides: Guide[]; quests: QuestEntry[] };
+export type Corpus = { guides: Guide[]; quests: QuestEntry[]; mainSections: MainSection[] };
+
+export type MainSection = {
+  slug: string;
+  chapter: string;
+  chapterName: string;
+  region: string;
+  section: string;
+  title: string;
+  intro: string;
+  goals: string[];
+  steps: string[];
+  achievements: string[];
+  source: string;
+};
+
+type MainSectionRow = {
+  slug: string;
+  chapter: string;
+  chapter_name: string;
+  region: string;
+  section: string;
+  title: string;
+  intro: string;
+  goals: string[];
+  steps: string[];
+  achievements: string[];
+  source: string;
+};
 
 // 全量语料：助手检索与站内搜索一次取全部条目，应用层计分。
 export async function loadSearchCorpus(): Promise<Corpus> {
   const sql = getDb();
-  const [guideRows, questRows] = await Promise.all([
+  const [guideRows, questRows, sectionRows] = await Promise.all([
     sql<[GuideRow]>`select * from guides`,
     sql<[QuestRow]>`select * from quests`,
+    sql<[MainSectionRow]>`select * from main_sections`,
   ]);
-  return { guides: guideRows.map(toGuide), quests: questRows.map(toQuest) };
+  return {
+    guides: guideRows.map(toGuide),
+    quests: questRows.map(toQuest),
+    mainSections: sectionRows.map((r) => ({
+      slug: r.slug,
+      chapter: r.chapter,
+      chapterName: r.chapter_name,
+      region: r.region,
+      section: r.section,
+      title: r.title,
+      intro: r.intro,
+      goals: r.goals ?? [],
+      steps: r.steps ?? [],
+      achievements: r.achievements ?? [],
+      source: r.source,
+    })),
+  };
 }
 
 export async function getGlossary(): Promise<unknown> {

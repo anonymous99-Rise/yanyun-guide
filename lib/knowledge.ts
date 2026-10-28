@@ -1,7 +1,7 @@
 // 助手知识层：站点大纲 + 术语表常驻，其余靠检索按题组上下文。
 import { DATA_AS_OF } from "./site-meta";
 import { GUIDES, QUEST_ENTRIES, searchContent, type Guide, type QuestEntry } from "./content";
-import { getGlossary, loadSearchCorpus } from "./queries";
+import { getGlossary, loadSearchCorpus, type MainSection } from "./queries";
 
 type Glossary = { terms?: { term?: string; def?: string }[]; systems?: { name?: string; cap?: string; source?: string }[] };
 
@@ -45,6 +45,15 @@ export async function buildSystemPrompt(): Promise<string> {
     .join("\n");
 }
 
+function sectionBlock(s: MainSection): string {
+  const parts = [`【主章攻略 · ${s.chapterName} 第${s.section}节「${s.title}」】（区域：${s.region}）`];
+  if (s.intro) parts.push(`剧情：${s.intro}`);
+  if (s.goals.length) parts.push(`任务目标：\n${s.goals.map((g, i) => `${i + 1}. ${g}`).join("\n")}`);
+  if (s.steps.length) parts.push(`流程节点：${s.steps.join(" → ")}`);
+  if (s.achievements.length) parts.push(`本节成就：${s.achievements.join("、")}`);
+  return parts.join("\n");
+}
+
 // 检索命中 → 资料块文本。guide 取头部元信息加正文片段，quest 取全字段。
 function guideBlock(guide: Guide): string {
   const head = `【攻略 · ${guide.title}】（${guide.categoryLabel} · ${guide.version}）\n`;
@@ -82,7 +91,8 @@ export async function retrieveContext(question: string, focus?: string): Promise
   const corpus = await loadSearchCorpus();
   const seenGuides = new Set<string>();
   const seenQuests = new Set<string>();
-  for (const hit of searchContent(question, corpus, 10)) {
+  const seenSections = new Set<string>();
+  for (const hit of searchContent(question, corpus, 12)) {
     if (used >= CONTEXT_BUDGET) break;
     if (hit.kind === "guide" && hit.guide && !seenGuides.has(hit.guide.slug)) {
       seenGuides.add(hit.guide.slug);
@@ -94,6 +104,13 @@ export async function retrieveContext(question: string, focus?: string): Promise
     if (hit.kind === "quest" && hit.quest && !seenQuests.has(hit.quest.id)) {
       seenQuests.add(hit.quest.id);
       const block = questBlock(hit.quest);
+      if (used + block.length > CONTEXT_BUDGET) continue;
+      sections.push(block);
+      used += block.length;
+    }
+    if (hit.kind === "section" && hit.section && !seenSections.has(hit.section.slug)) {
+      seenSections.add(hit.section.slug);
+      const block = sectionBlock({ ...hit.section, chapter: hit.section.chapterName.split(" ")[0] } as MainSection);
       if (used + block.length > CONTEXT_BUDGET) continue;
       sections.push(block);
       used += block.length;

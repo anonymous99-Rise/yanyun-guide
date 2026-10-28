@@ -100,10 +100,22 @@ export function getDataset(key: string): unknown {
 }
 
 export type SearchHit = {
-  kind: "guide" | "quest";
+  kind: "guide" | "quest" | "section";
   score: number;
   guide?: Guide;
   quest?: QuestEntry;
+  section?: {
+    slug: string;
+    chapter: string;
+    chapterName: string;
+    region: string;
+    title: string;
+    intro: string;
+    goals: string[];
+    steps: string[];
+    achievements: string[];
+    source: string;
+  };
 };
 
 // 中文检索：整词 + 2-gram 命中计分，站内搜索与 AI 检索共用。语料由调用方传入（页面用打包数据，助手查库）。
@@ -116,7 +128,21 @@ function bigrams(text: string): string[] {
 
 export function searchContent(
   query: string,
-  corpus: { guides: Guide[]; quests: QuestEntry[] },
+  corpus: {
+    guides: Guide[];
+    quests: QuestEntry[];
+    mainSections?: {
+      slug: string;
+      chapterName: string;
+      region: string;
+      title: string;
+      intro: string;
+      goals: string[];
+      steps: string[];
+      achievements: string[];
+      source: string;
+    }[];
+  },
   limit = 20,
 ): SearchHit[] {
   const needle = query.trim();
@@ -150,6 +176,10 @@ export function searchContent(
   for (const quest of corpus.quests) {
     const s = score([quest.name, quest.region, quest.chapter, quest.note, quest.route, quest.location, quest.hint, quest.steps]);
     if (s > 0) hits.push({ kind: "quest", score: s, quest });
+  }
+  for (const section of corpus.mainSections ?? []) {
+    const s = score([section.chapterName, section.region, section.title, section.intro, section.goals, section.steps]);
+    if (s > 0) hits.push({ kind: "section", score: s + 2, section });
   }
   return hits.sort((a, b) => b.score - a.score).slice(0, limit);
 }
