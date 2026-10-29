@@ -14,7 +14,15 @@ const TABS: { id: QuestCategory; label: string; groupKey: "chapter" | "region" |
 
 const VALID_CATEGORIES = new Set(TABS.map((t) => t.id));
 
-export function QuestBrowser({ entries, chapters }: { entries: QuestEntry[]; chapters: string[] }) {
+export function QuestBrowser({
+  entries,
+  chapters,
+  guideMap,
+}: {
+  entries: QuestEntry[];
+  chapters: string[];
+  guideMap: Record<string, string>;
+}) {
   const searchParams = useSearchParams();
   const param = searchParams.get("category") as QuestCategory | null;
   const initial: QuestCategory = param && VALID_CATEGORIES.has(param) ? param : "main";
@@ -105,7 +113,7 @@ export function QuestBrowser({ entries, chapters }: { entries: QuestEntry[]; cha
           </h2>
           <ul className="grid gap-2 sm:grid-cols-2">
             {items.map((entry) => (
-              <QuestCard key={entry.id} entry={entry} />
+              <QuestCard key={entry.id} entry={entry} guideSlug={guideMap[entry.name]} />
             ))}
           </ul>
         </section>
@@ -114,13 +122,21 @@ export function QuestBrowser({ entries, chapters }: { entries: QuestEntry[]; cha
   );
 }
 
-function QuestCard({ entry }: { entry: QuestEntry }) {
+function QuestCard({ entry, guideSlug }: { entry: QuestEntry; guideSlug?: string }) {
   return (
     <li className="rounded-lg border border-border bg-surface px-4 py-3">
       <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
         <span className="font-medium">{entry.name}</span>
         {entry.sub && <span className="rounded bg-surface-2 px-1.5 py-0.5 text-[11px] text-muted">{entry.sub}</span>}
         {entry.time && <span className="text-[11px] text-gold">{entry.time}</span>}
+        {guideSlug && (
+          <Link
+            href={`/quest-guide/${encodeURIComponent(guideSlug)}`}
+            className="ml-auto shrink-0 rounded bg-accent/10 px-1.5 py-0.5 text-[11px] text-accent transition hover:bg-accent/20"
+          >
+            攻略
+          </Link>
+        )}
       </div>
       {entry.location && <p className="mt-1 text-[13px] leading-6"><span className="text-muted">位置：</span>{entry.location}</p>}
       {entry.route && <p className="mt-1 text-[13px] leading-6"><span className="text-muted">路线：</span>{entry.route}</p>}

@@ -29,6 +29,7 @@ async function Results({ searchParams }: { searchParams: PageProps<"/search">["s
   const guideHits = hits.filter((h) => h.kind === "guide");
   const questHits = hits.filter((h) => h.kind === "quest");
   const sectionHits = hits.filter((h) => h.kind === "section");
+  const questGuideHits = hits.filter((h) => h.kind === "questGuide");
 
   return (
     <div className="flex flex-col gap-6">
@@ -89,6 +90,31 @@ async function Results({ searchParams }: { searchParams: PageProps<"/search">["s
                       <span className="ml-2 text-xs text-muted">{hit.section.chapterName}</span>
                       {(hit.section.intro || hit.section.goals[0]) && (
                         <p className="mt-0.5 text-[13px] leading-6 text-muted">{hit.section.intro || hit.section.goals[0]}</p>
+                      )}
+                    </Link>
+                  </li>
+                ),
+            )}
+          </ul>
+        </section>
+      )}
+
+      {questGuideHits.length > 0 && (
+        <section className="flex flex-col gap-2">
+          <h2 className="text-xs tracking-[0.25em] text-muted">奇遇 / 万事知 ({questGuideHits.length})</h2>
+          <ul className="grid gap-2">
+            {questGuideHits.map(
+              (hit) =>
+                hit.questGuide && (
+                  <li key={hit.questGuide.name}>
+                    <Link
+                      href={`/quest-guide/${encodeURIComponent(hit.questGuide.name)}`}
+                      className="block rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent/60"
+                    >
+                      <span className="font-medium">{hit.questGuide.name}</span>
+                      <span className="ml-2 text-xs text-muted">{hit.questGuide.category === "wanshizhi" ? "万事知" : "奇遇"}</span>
+                      {(hit.questGuide.intro || hit.questGuide.highlights[0]) && (
+                        <p className="mt-0.5 text-[13px] leading-6 text-muted">{hit.questGuide.intro || hit.questGuide.highlights[0]}</p>
                       )}
                     </Link>
                   </li>

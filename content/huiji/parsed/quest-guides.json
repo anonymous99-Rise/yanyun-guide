@@ -1,0 +1,5578 @@
+{
+ "license": "CC BY-NC-SA, 来源: 灰机wiki yy16s.huijiwiki.com",
+ "encounters": [
+  {
+   "name": "一场不好架",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%80%E5%9C%BA%E4%B8%8D%E5%A5%BD%E6%9E%B6",
+   "intro": "",
+   "highlights": [
+    "市井中人爱热闹，若加入其中，或能展开一段奇遇"
+   ],
+   "goals": [],
+   "steps": [
+    "从外表看，只是一个市井中常见的普通包袱。"
+   ],
+   "achievements": [
+    "扰扰市井"
+   ]
+  },
+  {
+   "name": "一声见佛",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%80%E5%A3%B0%E8%A7%81%E4%BD%9B",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "窃听佛爷寨匪徒的交谈",
+    "阻止两名匪徒",
+    "救下和尚",
+    "和尚痛心疾首",
+    "对匪徒念经",
+    "和尚对你苦口婆心",
+    "与突然出现的匪徒头目对话",
+    "对匪徒头目当头棒喝",
+    "对匪徒头目当头棒喝（使用奇术“狮吼正声”）",
+    "匪徒头目痛哭流涕",
+    "找到码头上的书商"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "一粥所患",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%80%E7%B2%A5%E6%89%80%E6%82%A3",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "尝第一锅粥",
+    "尝第二锅粥",
+    "尝第三锅粥",
+    "悬壶治疗小牛"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "一日为师",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%80%E6%97%A5%E4%B8%BA%E5%B8%88",
+   "intro": "",
+   "highlights": [
+    "听听师生二人都在说什么。"
+   ],
+   "goals": [
+    "接过荆子期给的物件",
+    "跟着三人去僻静地",
+    "用狮吼正声制止",
+    "走远一点，看看三人反应",
+    "再次现身教导三人",
+    "准备好开始考核",
+    "等待两日后的考试",
+    "去考试场地看看",
+    "悬壶救治乡亲",
+    "问问荆子期打算"
+   ],
+   "steps": [
+    "使用金玉手"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "一葫不归(奇遇)",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%80%E8%91%AB%E4%B8%8D%E5%BD%92(%E5%A5%87%E9%81%87)",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "附近好像有人说话",
+    "寻找说话的人",
+    "跟老者了解情况",
+    "为小张将军扶乩问灵",
+    "前往天水集购买粮、油、酒",
+    "回到郭怀烈身边",
+    "摆放祭品",
+    "再次扶乩问灵",
+    "寻找劝农使",
+    "寻找卖油翁",
+    "寻找藤王酒",
+    "前往武威山巅"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "三不像",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%89%E4%B8%8D%E5%83%8F",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "向王铁勺提交“怪异的图案”",
+    "向焦步豪提交“怪异的图案”",
+    "向常思绵提交“怪异的图案”"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "三蛇闹傻惊奇",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%89%E8%9B%87%E9%97%B9%E5%82%BB%E6%83%8A%E5%A5%87",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "上前问问大聪明",
+    "使用悬壶为大聪明解毒",
+    "看看大聪明现状",
+    "找到大精明",
+    "上前询问大精明",
+    "使用悬壶为大精明解毒",
+    "看看大精明现状",
+    "寻找大英明",
+    "上前询问大英明",
+    "使用悬壶为大英明解毒",
+    "看看大英明现状",
+    "教训三兄弟",
+    "痛斥三兄弟"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "不宿之客",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%8D%E5%AE%BF%E4%B9%8B%E5%AE%A2",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "不同凡狗",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%8D%E5%90%8C%E5%87%A1%E7%8B%97",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "前往望川坪找找那个会吵架的狗",
+    "向围观群众打听这是怎么回事",
+    "为尤福保悬壶诊断",
+    "与尤福保对话",
+    "跟随尤福保",
+    "潜行到牢头身后吓他",
+    "和尤福保喝水",
+    "寻找吠吠帮",
+    "吵赢吠吠帮",
+    "使用奇术狮吼正声",
+    "让尤福保买吃食",
+    "等到第二天上午再看看情况",
+    "回到临江驿巡狱打听情况",
+    "与捕快二郎对话",
+    "探查丰禾村村口的情况",
+    "询问村民",
+    "寻找失踪的狗儿",
+    "查看狗儿们的情况",
+    "询问村民发生了什么",
+    "隐藏环追踪失败表现"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "不义之约",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%8D%E4%B9%89%E4%B9%8B%E7%BA%A6",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "不象话",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%8D%E8%B1%A1%E8%AF%9D",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "乞丐与狗",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B9%9E%E4%B8%90%E4%B8%8E%E7%8B%97",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与老君交谈",
+    "请少侠在完成故人重逢任务后继续奇遇。",
+    "一日后再来寻老君",
+    "前往无忧帮驻地",
+    "击败无忧帮帮众",
+    "查看大锅",
+    "前往巷子深处",
+    "偷听小乞丐的对话",
+    "与小乞丐交谈",
+    "查看笼子",
+    "告知老君调查结果",
+    "继续寻找哈哈",
+    "与任奶奶交谈",
+    "到无忧帮驻地找草药",
+    "回到任奶奶家中",
+    "明日未时再去灰坑",
+    "保持隐藏"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "什么九流",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BB%80%E4%B9%88%E4%B9%9D%E6%B5%81",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与张一豪对话",
+    "找到成实",
+    "找到其他被九流门所骗的人",
+    "回去见成实",
+    "在附近探索一番（使用听风辩位）",
+    "窃听成实与受害人的交谈",
+    "上前质问",
+    "忍无可忍，先揍元成实一顿出口气",
+    "查看地上的荷包",
+    "狗楼门，我跟你妹完！！",
+    "赶跑大鹅",
+    "与梅川乙对话",
+    "借钱给梅川乙",
+    "炸毁碎石",
+    "与龙仔对话",
+    "借钱给龙仔",
+    "将大碗宽面交给池不辣",
+    "与池不辣对话",
+    "借钱给池不辣"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "他的名字",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BB%96%E7%9A%84%E5%90%8D%E5%AD%97",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "火里似乎传来了求救声",
+    "与树枝对话，问问它在写什么",
+    "往玉门关西北角去",
+    "找到能让树枝回想起的东西",
+    "找到折断的木箭",
+    "找到残破的医书",
+    "找到生锈的枪",
+    "与树枝对话"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "会说话的小坟",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BC%9A%E8%AF%B4%E8%AF%9D%E7%9A%84%E5%B0%8F%E5%9D%9F",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "踩下石板触发机关桌",
+    "查看墓碑",
+    "前往购买书本",
+    "带书籍回到墓碑处",
+    "在附近休息等待至第二天",
+    "听听老奶奶在说些什么",
+    "与老奶奶对话",
+    "查看书籍",
+    "前往洛千垂所在之处",
+    "与洛千垂对话"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "传说之国",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BC%A0%E8%AF%B4%E4%B9%8B%E5%9B%BD",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "去海边看看",
+    "偷听海边的人讲故事",
+    "和若若搭话",
+    "探寻若若的心思",
+    "见证传说",
+    "探查周围",
+    "调查地上的螃蟹",
+    "调查船上的风扇",
+    "跟上若若",
+    "找到躲在礁石后的人",
+    "与瑞清对话",
+    "追上若若",
+    "与若若对话",
+    "送若若回家",
+    "等到第二天晚上",
+    "前往海边听故事"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "估价",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BC%B0%E4%BB%B7",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与烦恼的人对话",
+    "前往赌场",
+    "寻找徐载的下落",
+    "询问桌前的赌客",
+    "询问饮酒的商人",
+    "前往九间当铺",
+    "偷听柜台前的人在说什么",
+    "与徐载对话",
+    "与薛复之交谈",
+    "跟随薛复之",
+    "薛复之似乎有话想说",
+    "等待两天",
+    "前往赌场打听徐载的事",
+    "听听看徐载和薛复之在说什么",
+    "向赌客打听发生了什么",
+    "与薛复之交流",
+    "与庄家交谈，赢得赌局胜利",
+    "赢得赌局胜利",
+    "听听薛复之在对掌柜说什么",
+    "薛复之似乎有话想对你说"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "佛花与鼠",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BD%9B%E8%8A%B1%E4%B8%8E%E9%BC%A0",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "借假修真",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%80%9F%E5%81%87%E4%BF%AE%E7%9C%9F",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "晚上戌时后，试着与老者搭话",
+    "询问老者在做什么",
+    "开始挑货",
+    "运货到山顶",
+    "向唐老板提交货物",
+    "晚上戌时后，回去寻老者",
+    "查看蒿里地界石碑",
+    "晚上戌时后，与老丈交谈",
+    "在老者身旁放下工钱",
+    "拾起纸条看看",
+    "调整时辰到次日戌时",
+    "晚上戌时后，向老者坦白",
+    "前往挑夫歇脚处",
+    "询问唐老板",
+    "查看扁担里的草药",
+    "询问远处的妇人",
+    "给与妇人连翘",
+    "前往妇人家",
+    "向妇人询问情况",
+    "使用听风辨位追踪",
+    "前往悬崖边",
+    "使用金玉手定住挑夫",
+    "等待妇人赶到挑夫身边",
+    "使用悬壶医治老李",
+    "询问老李发生了什么",
+    "下山寻找三爷",
+    "在远处观察三爷",
+    "前往隐蔽处",
+    "偷听三爷在说什么",
+    "寻找隐藏处",
+    "假扮鬼伯吓唬三爷",
+    "使用金玉手灭掉三爷的香",
+    "使用金玉手点住三爷",
+    "使用金玉手解开三爷",
+    "听三爷坦白",
+    "出手教训三爷",
+    "将三爷扭送官府",
+    "晚上戌时后，向老者学功法",
+    "问问老者的去向"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "净铲铲",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%87%80%E9%93%B2%E9%93%B2",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "刀环记",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%88%80%E7%8E%AF%E8%AE%B0",
+   "intro": "",
+   "highlights": [
+    "找到哭泣的老兵，询问他哭泣的缘由，你隐隐察觉，这个中必有故事"
+   ],
+   "goals": [],
+   "steps": [
+    "人物：张议潮、张淮深",
+    "势力：狂澜、归义军",
+    "书籍：刀意在藏"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "割以永治",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%89%B2%E4%BB%A5%E6%B0%B8%E6%B2%BB",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "医本在医",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8C%BB%E6%9C%AC%E5%9C%A8%E5%8C%BB",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "千日醉生",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8D%83%E6%97%A5%E9%86%89%E7%94%9F",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "千里送京娘(奇遇)",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8D%83%E9%87%8C%E9%80%81%E4%BA%AC%E5%A8%98(%E5%A5%87%E9%81%87)",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与戏院老板对话",
+    "在戏院入座",
+    "观看戏曲"
+   ],
+   "steps": [],
+   "achievements": [
+    "是谁千里送京娘"
+   ]
+  },
+  {
+   "name": "卧榻酣眠",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8D%A7%E6%A6%BB%E9%85%A3%E7%9C%A0",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "说服符二",
+    "证明大哥清白",
+    "和赵大哥交谈",
+    "走进屋内",
+    "卧榻小憩",
+    "查看包裹",
+    "和孩子们交谈",
+    "跟随孩子们",
+    "看看孩子们在说什么",
+    "揭穿赵大哥的身份",
+    "等到后天看看",
+    "打开包裹看看"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "取经之后",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8F%96%E7%BB%8F%E4%B9%8B%E5%90%8E",
+   "intro": "",
+   "highlights": [
+    "和迷茫寻路的东行僧人搭话，或许能展开一段奇遇"
+   ],
+   "goals": [],
+   "steps": [
+    "拾遗·十力经"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "反诈大使",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8F%8D%E8%AF%88%E5%A4%A7%E4%BD%BF",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "窃听二人密谈",
+    "前往开封府看看",
+    "前往南门大街",
+    "上前看看",
+    "招募目标群体",
+    "招募张大爷",
+    "招募孙秀才",
+    "招募王掌柜",
+    "等待申时讲座开始",
+    "回去看看反诈讲座的情况",
+    "看看群众们的反应",
+    "看看九流门弟子的反应",
+    "前往东十字街",
+    "窃听二人对话",
+    "上前查看情况",
+    "前往开封府",
+    "围观",
+    "参加“反诈知识测试”"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "听者有心",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%90%AC%E8%80%85%E6%9C%89%E5%BF%83",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "跃入"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "喽有所属",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%96%BD%E6%9C%89%E6%89%80%E5%B1%9E",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "噫！恁真中",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%99%AB%EF%BC%81%E6%81%81%E7%9C%9F%E4%B8%AD",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与百工坊的“先生”对话",
+    "找赵大哥考试",
+    "完成赵大哥的测试"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "噫恁真中",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%99%AB%E6%81%81%E7%9C%9F%E4%B8%AD",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与百工坊的“先生”对话",
+    "找赵大哥考试",
+    "完成赵大哥的测试"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "墨道之声",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A2%A8%E9%81%93%E4%B9%8B%E5%A3%B0",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "大锤小锤(奇遇)",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A4%A7%E9%94%A4%E5%B0%8F%E9%94%A4(%E5%A5%87%E9%81%87)",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "王铁锤叫卖",
+    "买个铁锤，听段故事",
+    "再买个铁锤，再听段故事",
+    "不如……再买一个铁锤",
+    "再买个铁锤听听后续",
+    "再买最后一个铁锤",
+    "忍不了了，教训王铁锤一顿",
+    "听听王铁锤要说什么",
+    "去喂王铁锤的猫",
+    "给猫喂些鱼肉",
+    "查看张贴的字条",
+    "回去找王铁锤算账",
+    "询问奇怪的路人"
+   ],
+   "steps": [],
+   "achievements": [
+    "买个锤子"
+   ]
+  },
+  {
+   "name": "大侠与大侠",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A4%A7%E4%BE%A0%E4%B8%8E%E5%A4%A7%E4%BE%A0",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "查看异样尸体",
+    "使用听风辨位，寻找声音来源",
+    "安抚小结巴的情绪",
+    "为关自在疗伤",
+    "治疗后对话",
+    "远离小结巴",
+    "与山上的神秘老人交谈",
+    "将酒老人的生死契交给关自在",
+    "等明日小安醒来",
+    "与小安交谈",
+    "送小安与家人团圆",
+    "赶往决战地点",
+    "看看关自在怎么样了"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "天下无蛋",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A4%A9%E4%B8%8B%E6%97%A0%E8%9B%8B",
+   "intro": "",
+   "highlights": [
+    "晚上",
+    "晚上",
+    "屋子后头",
+    "狗仙神龛"
+   ],
+   "goals": [
+    "询问围观的人",
+    "等到亥时",
+    "问问屋内的人",
+    "去老杨那儿看看",
+    "找老杨询问",
+    "供奉狗仙神龛",
+    "跟随眼前的狗",
+    "面见仙师",
+    "引领仙师面见老杨头",
+    "将仙师介绍给老杨头",
+    "和众人讨论对策",
+    "从村子里寻些狗毛",
+    "从海海身上取毛",
+    "从大飞身上取毛",
+    "从阿丝身上取毛",
+    "将狗毛给予仙师",
+    "询问当前情形",
+    "跟随仙师前往村头",
+    "看看阿月的情况"
+   ],
+   "steps": [],
+   "achievements": [
+    "琼林苑·世上无奇事"
+   ]
+  },
+  {
+   "name": "失败的绚烂",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A4%B1%E8%B4%A5%E7%9A%84%E7%BB%9A%E7%83%82",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与悲伤的村民交谈",
+    "打开背包查看欠条",
+    "去找老学究",
+    "劝劝老学究",
+    "展开与杨老的话术",
+    "与杨老对话",
+    "离开这里",
+    "与年轻人对话",
+    "第二天申时再来拜访",
+    "和杨老交谈",
+    "询问杨明",
+    "找到杨老",
+    "与杨明对话"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "妙哉妙哉",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A6%99%E5%93%89%E5%A6%99%E5%93%89",
+   "intro": "",
+   "highlights": [
+    "春风里的大街上，躺着几条膘肥肉厚的大青鱼，看似是无主之物，拾起来或许会遭遇一桩奇事。"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "金牌销售"
+   ]
+  },
+  {
+   "name": "如来与卿",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A6%82%E6%9D%A5%E4%B8%8E%E5%8D%BF",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "询问工匠为何叹气",
+    "帮林双回忆当年心境",
+    "帮林双说服住持",
+    "随住持去见林双",
+    "听听林双和住持怎么说",
+    "问问林双的打算",
+    "一天后再来看看情况",
+    "查看信件",
+    "去看看怎么回事",
+    "离开早悟寺",
+    "等待三日后讲经会的到来",
+    "参加讲经会"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "娘娘有灵",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A8%98%E5%A8%98%E6%9C%89%E7%81%B5",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "向老沙弥打探情况",
+    "查看大殿的功德簿",
+    "听听丫鬟们的谈话",
+    "听听小沙弥的谈话",
+    "乔装打扮",
+    "假意离开",
+    "归还服装",
+    "追上少女",
+    "把香方交给娘娘们",
+    "前往信中地点",
+    "收下“因果”"
+   ],
+   "steps": [],
+   "achievements": [
+    "谢谢大师！"
+   ]
+  },
+  {
+   "name": "寻蕈记",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%AF%BB%E8%95%88%E8%AE%B0",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "那边似乎有人",
+    "去瓷窑找时一墨",
+    "去千佛谷找时一墨",
+    "和时一墨对话",
+    "再次呼唤时一墨",
+    "用悬壶医术治疗时一墨",
+    "询问中毒原因",
+    "继续询问",
+    "提醒茯苓",
+    "找三朵野生菌菇给茯苓",
+    "看看茯苓要做什么",
+    "品尝蘑菇汤"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "寻侠之路",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%AF%BB%E4%BE%A0%E4%B9%8B%E8%B7%AF",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "解决众孩童的纷争",
+    "查看附近的遗落之物",
+    "将平安牌交给燕大铁",
+    "与燕大铁商议动身",
+    "探访燕大铁故里",
+    "与燕大铁对话",
+    "搜寻田英的痕迹",
+    "跟随燕大铁",
+    "击溃寨中山匪",
+    "查探异响来源",
+    "将香囊交给燕大铁",
+    "向燕大铁说出你的推断",
+    "顺着阿牛的足迹寻找",
+    "击溃神秘黑衣人一众",
+    "与父子二人交谈"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "寻香靥",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%AF%BB%E9%A6%99%E9%9D%A5",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "和婆婆对话",
+    "找姚药药要一株川芎",
+    "带川芎给婆婆",
+    "帮婆婆找3株泽兰",
+    "带泽兰给婆婆",
+    "帮婆婆找到沉香",
+    "从香料商手中获取沉香",
+    "带沉香给婆婆",
+    "等到第二天傍晚",
+    "到九曲石船找三娘",
+    "前往善妙洲找三娘",
+    "进屋找岑平",
+    "和三娘对话"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "小瑕小侠",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%B0%8F%E7%91%95%E5%B0%8F%E4%BE%A0",
+   "intro": "",
+   "highlights": [
+    "凤凰山上，一名年轻商贩正在遭受同行欺凌，前去帮助商贩脱困，或许能展开一段奇遇"
+   ],
+   "goals": [],
+   "steps": [
+    "治疗【脑震荡】：受到外力打击，导致轻度脑损伤。",
+    "侦查周围",
+    "制服歹人",
+    "松绑"
+   ],
+   "achievements": [
+    "散财亦有道"
+   ]
+  },
+  {
+   "name": "山诡奇谭",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%B1%B1%E8%AF%A1%E5%A5%87%E8%B0%AD",
+   "intro": "",
+   "highlights": [
+    "乐安浦野外树林中，两个人正左右探看，时不时发出怪叫，瞧着实在可疑，去打探一下……"
+   ],
+   "goals": [
+    "寻找怪叫的来源",
+    "和怪叫之人对话",
+    "前往乐安浦",
+    "询问忙碌的村民",
+    "听听村民在说什么",
+    "和蒲景庐商量",
+    "找梁大个问清实情",
+    "在猪圈附近寻找线索",
+    "再和梁大个聊聊",
+    "等待到夜里子时",
+    "躲在角落",
+    "用金玉手定住毛贼",
+    "和蒲景庐对话",
+    "前往山贼藏身处",
+    "窃听可疑之人",
+    "进入屋子搜查",
+    "靠近山贼",
+    "劝降山贼"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "川上遇龙",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%B7%9D%E4%B8%8A%E9%81%87%E9%BE%99",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "和两位老者搭话",
+    "寻找张姓母女",
+    "打开袁不语的锦囊",
+    "等待两日",
+    "看看母女的情况",
+    "护送母女去芥子庐",
+    "回去破门村找两位“龙王”",
+    "前去帮忙",
+    "调查尸体",
+    "打开姜无鱼的锦囊",
+    "等待一日",
+    "回河边看看",
+    "和李大哥对话",
+    "带着李家兄弟去认尸",
+    "回去找两位老人",
+    "查看袁不语的手",
+    "查看姜无鱼的腿",
+    "听听二人的回忆",
+    "继续和姜无鱼对话",
+    "继续回忆",
+    "拜别二人",
+    "离开鬼门汀"
+   ],
+   "steps": [],
+   "achievements": [
+    "龙宫仙人"
+   ]
+  },
+  {
+   "name": "引雷人",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%BC%95%E9%9B%B7%E4%BA%BA",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "查看昏迷的人",
+    "救起昏迷的人",
+    "与吴大夫交谈",
+    "等到次日再来探望",
+    "与苏醒的李舜举交谈",
+    "开启医馆的听瓮",
+    "向医馆弟子打探",
+    "向养伤年轻人打探",
+    "通过听瓮询问李舜举",
+    "向养伤山民打探",
+    "回去与李舜举对话",
+    "前往寻找笔记",
+    "捡起李舜举的笔记",
+    "返回寻找李舜举",
+    "与医馆弟子对话",
+    "去找医馆众人问问",
+    "前往山顶",
+    "问问吴鑫机当前情况",
+    "率众悼念",
+    "和李舜举对话"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "应律之人",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%BA%94%E5%BE%8B%E4%B9%8B%E4%BA%BA",
+   "intro": "",
+   "highlights": [
+    "夜晚"
+   ],
+   "goals": [
+    "跳上屋顶",
+    "于{{高亮|夜晚"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "当契不弃",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%BD%93%E5%A5%91%E4%B8%8D%E5%BC%83",
+   "intro": "",
+   "highlights": [
+    "路过「松烟阁」当铺门口时，总能听见里面传来掌柜的叹气声，像是遇上了什么棘手的难题。去和愁眉不展的当铺掌柜搭话，或许能帮上他的忙，开启一段奇遇。"
+   ],
+   "goals": [],
+   "steps": [
+    "查看砚台",
+    "查看精钢剑",
+    "查看茶碗",
+    "提交老旧精钢剑",
+    "提交赎金",
+    "书轴",
+    "扇骨"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "归去来兮",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%BD%92%E5%8E%BB%E6%9D%A5%E5%85%AE",
+   "intro": "",
+   "highlights": [
+    "隐月山……枫树下……"
+   ],
+   "goals": [
+    "替烈家兄弟留意崔小晋的下落",
+    "和农夫交谈",
+    "前往丰禾村寻找烈家兄弟",
+    "向村口的村民询问",
+    "向其他村民询问",
+    "问问农民",
+    "问问农妇",
+    "问问村民",
+    "向丰禾村村长询问",
+    "前往北盟遗址寻找烈不尽",
+    "和烈不尽交谈",
+    "等待烈不尽确认尸骨",
+    "查看密信",
+    "和烈不尽一起抬棺",
+    "回去看看那名农夫",
+    "将事情的进展告诉农夫",
+    "查看桌上的信件",
+    "收集木头，准备火葬",
+    "摆放木头",
+    "为农夫采一些花",
+    "将花摆在农夫身边",
+    "将农夫火葬",
+    "找到农夫的妻子采珠",
+    "将骨灰交给采珠"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "惊天墨盗团",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%83%8A%E5%A4%A9%E5%A2%A8%E7%9B%97%E5%9B%A2",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "上床休息",
+    "去奇货铺碰碰运气",
+    "前往思危阁",
+    "找找武元的墨条",
+    "在思危阁二楼探索",
+    "寻找声音源头",
+    "接过检讨册",
+    "前往习斋复习",
+    "偷听窗外二人对话"
+   ],
+   "steps": [
+    "需加入或访学文津馆可触发",
+    "门派：文津馆",
+    "人物：林险生，萧鹤衣，李思，唐新词，诸葛非非，魏仁浦，柴荣，田英"
+   ],
+   "achievements": [
+    "我有的是力气和手段",
+    "时光的河入海流"
+   ]
+  },
+  {
+   "name": "所谓报应",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%89%80%E8%B0%93%E6%8A%A5%E5%BA%94",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "探望张刀疤",
+    "将肉转交给张刀疤",
+    "劝说张嫂",
+    "试探算命先生",
+    "说服算命先生",
+    "质问算命先生",
+    "转告张刀疤夫妇",
+    "找到张刀疤",
+    "询问张刀疤",
+    "等到第二天",
+    "前往伏马庄",
+    "听听前面大伙说什么",
+    "触发任务"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "招工记",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%8B%9B%E5%B7%A5%E8%AE%B0",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "故纸三更",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%95%85%E7%BA%B8%E4%B8%89%E6%9B%B4",
+   "intro": "",
+   "highlights": [
+    "藏书馆闹鬼传言，沸沸扬扬，鬼火青荧，低语如诉，闻者莫不心惊。究竟是冤魂淹留，还是人自作祟？"
+   ],
+   "goals": [],
+   "steps": [
+    "一纸祭文",
+    "一碟糕点，颇为精巧。旁有酒盏，俱为冷食。",
+    "残灯冷烛，焰光明灭，堪堪照亮方寸一室。",
+    "治疗秦书禾【血气不足】：文津馆弟子，面色苍白，晕厥不起",
+    "祭拜“司书神”"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "摇红一梦",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%91%87%E7%BA%A2%E4%B8%80%E6%A2%A6",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "拾取藏宝图",
+    "寻找藏宝图上的地点",
+    "向垂钓的老翁询问",
+    "和老翁比试钓鱼，赢过老翁",
+    "在背包里查看摇红女侠留下的信",
+    "寻找下一个藏宝地点",
+    "在附近搜寻宝贝",
+    "与好奇的村夫对话",
+    "查看获得的藏宝图",
+    "向樵夫询问",
+    "在屋顶上寻找所藏之宝",
+    "向猎户询问",
+    "与猎户一同射鸟并胜过他",
+    "在背包查看猎户给你的字条",
+    "前往竹林小屋",
+    "在附近搜寻",
+    "在小屋附近搜寻宝贝",
+    "查阅找到的信",
+    "思绪烦乱，去小屋中静坐",
+    "和梦中的红线对话",
+    "摇红一梦·终"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "旧友来书",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%97%A7%E5%8F%8B%E6%9D%A5%E4%B9%A6",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "查看旧友的来信"
+   ],
+   "steps": [
+    "招募盈盈条件达成"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "月迷津渡",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%88%E8%BF%B7%E6%B4%A5%E6%B8%A1",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "旁听沈玉与村民的交谈",
+    "和萧史对话",
+    "观看萧史耕地",
+    "询问萧史的情况",
+    "继续观看萧史耕地",
+    "上前扶起萧史",
+    "先行离开，夜晚再来时辰于戌至亥时",
+    "前往探望萧史",
+    "倾听二人对话",
+    "等待至次日辰时",
+    "找到萧史对话"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "最强笑招",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%80%E5%BC%BA%E7%AC%91%E6%8B%9B",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "同银筝交谈",
+    "驻足静观，秋招盛况",
+    "对秋姐姐使用金玉手",
+    "同妃子商议招人之法",
+    "跟随妃子去往群面地点",
+    "围观群面",
+    "与妃子讨论人选",
+    "恭喜银筝"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "月下诗会",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%88%E4%B8%8B%E8%AF%97%E4%BC%9A",
+   "intro": "",
+   "highlights": [
+    "敦煌古往出神将，感得诸蕃遥钦仰……"
+   ],
+   "goals": [
+    "获得两位“诗人”的认可",
+    "安抚二人",
+    "了解二人的请求，选择一位帮助",
+    "帮助康我白寻找灵感",
+    "记录“烟水”相关的灵感",
+    "记录“芦花”相关的灵感",
+    "记录“星野”相关的灵感",
+    "记录“月湖”相关的灵感",
+    "帮助吴子美寻找灵感",
+    "记录“天云”相关的灵感",
+    "记录“浮萍”相关的灵感",
+    "记录“鸿雁”相关的灵感",
+    "把记录的灵感交给康我白",
+    "把记录的灵感交给吴子美",
+    "参加月下诗会",
+    "思考诗会结果",
+    "宣布诗会结果",
+    "去市楼寻找新的诗句灵感",
+    "与唱歌之人交谈",
+    "等待次日，回去劝解二人",
+    "前去看望二人",
+    "劝解二人",
+    "婉拒了康我白，再想想帮谁",
+    "婉拒了吴子美，再想想帮谁"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "有暗香来",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%89%E6%9A%97%E9%A6%99%E6%9D%A5",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "查看香炉"
+   ],
+   "steps": [
+    "招募晋中原条件达成"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "朝三暮四",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%9D%E4%B8%89%E6%9A%AE%E5%9B%9B",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "木已成舟",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%A8%E5%B7%B2%E6%88%90%E8%88%9F",
+   "intro": "",
+   "highlights": [
+    "苟翠英的女儿鱼儿和云彩正在此处，若与云彩搭话，或许能展开一段奇遇"
+   ],
+   "goals": [
+    "帮云彩找江湖人",
+    "代谢轻舟折花",
+    "与如净对话",
+    "捡起落花",
+    "回去找谢轻舟",
+    "去看看发生了什么",
+    "打败方万平",
+    "问问鱼儿怎么回事",
+    "问问如净怎么回事",
+    "和鱼儿对话",
+    "靠近窃听二人对话",
+    "阻止如净求死",
+    "和谢轻舟对话"
+   ],
+   "steps": [],
+   "achievements": [
+    "不系之舟"
+   ]
+  },
+  {
+   "name": "朝生暮落",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%9D%E7%94%9F%E6%9A%AE%E8%90%BD",
+   "intro": "",
+   "highlights": [
+    "金玉手",
+    "任务",
+    "千愿补辑",
+    "千愿坞",
+    "雾林残方",
+    "无心居",
+    "雾林残方",
+    "绣金所",
+    "雾林残方"
+   ],
+   "goals": [
+    "探索隐雾之林",
+    "倏忽而醒",
+    "拾起地上玉佩",
+    "和翟煦对话",
+    "于屋中探取线索",
+    "转移翟煦注意，探取线索",
+    "与翟煦道别",
+    "权宜之计，暂离千愿坞",
+    "在包裹{{高亮|任务",
+    "获取三方研究手札",
+    "{{高亮|千愿坞",
+    "{{高亮|无心居",
+    "{{高亮|绣金所",
+    "返回千愿坞交付手札",
+    "等待至两天后",
+    "返回千愿坞找翟煦",
+    "前往雾林北侧荒滩",
+    "与翟煦交谈",
+    "前往雾林深处",
+    "击败绣金卫",
+    "摧毁朝生暮落花",
+    "穿过甬道",
+    "调查此处",
+    "击败梦傀",
+    "查看朝生暮落所缚之物",
+    "跟随人影前行",
+    "进入暗窖",
+    "寻找孙不弃的手札",
+    "查看梦傀",
+    "打死梦傀",
+    "寻找线索"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "杀马记",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9D%80%E9%A9%AC%E8%AE%B0",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "传来马鸣",
+    "与士卒对话",
+    "找到队正",
+    "与队正对话",
+    "和队长到一旁",
+    "仔细观察马",
+    "找些驼铃草喂给马",
+    "带马找个好归宿",
+    "与老卒对话",
+    "马发狂后",
+    "找到虞侯",
+    "调查老卒尸身",
+    "老者的脊柱",
+    "老者的面部",
+    "与虞侯对话",
+    "等待次日午时之后",
+    "告知队正夜不脱的结果",
+    "跟队正到达杀马处",
+    "与老兵对话"
+   ],
+   "steps": [],
+   "achievements": [
+    "大星陨落天柱折"
+   ]
+  },
+  {
+   "name": "来自心底的声音",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9D%A5%E8%87%AA%E5%BF%83%E5%BA%95%E7%9A%84%E5%A3%B0%E9%9F%B3",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与甄铺头对话",
+    "与秦捕快对话",
+    "在夜晚探查悬空屋",
+    "在夜晚与悬空屋门内之人对话",
+    "上屋顶探查线索",
+    "窃听屋内之人对话",
+    "用“摄星拿月”拿取桌上的笔记",
+    "阅读《传音来访记录》",
+    "调查来访者·狄以秋",
+    "调查来访者·沈二娘",
+    "偷听小梅和朋友谈话",
+    "等到晚上再探悬空屋",
+    "与眼前之人对话",
+    "通过传音器与叶婆婆对话",
+    "向松弛的弟子汇报",
+    "向甄捕头汇报",
+    "结束后氛围",
+    "结束后成就条件",
+    "和在车站挨骂的墨一舟对话",
+    "使用点穴控制住逃跑的墨羽",
+    "等待播放黑屏",
+    "和墨羽对话",
+    "给墨一舟点笑穴",
+    "问墨一舟为什么要跳崖",
+    "两人一起看风景",
+    "听墨成规说完废话"
+   ],
+   "steps": [],
+   "achievements": [
+    "只为你敞开的地方",
+    "桃源何处寻"
+   ]
+  },
+  {
+   "name": "松海一梦",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9D%BE%E6%B5%B7%E4%B8%80%E6%A2%A6",
+   "intro": "",
+   "highlights": [
+    "天外村的酒馆老板把没酿好的酒卖给了登岳“讨封”的三位读书人，这么晚没见人回来，怕是出了什么事情……"
+   ],
+   "goals": [
+    "与张全交谈",
+    "前往五大夫松",
+    "前往五大夫松后的松林寻找几位书生",
+    "尝试叫醒昏睡的年轻书生",
+    "尝试叫醒昏睡的中年书生",
+    "尝试叫醒昏睡的老年书生",
+    "与三位书生交谈",
+    "取回年轻书生的酒壶",
+    "取回中年书生的酒壶",
+    "救治老年书生",
+    "取回老年书生的酒壶",
+    "目送书生下山",
+    "与张全说明情况"
+   ],
+   "steps": [
+    "治疗【水蛊】：即“水鼓”，鼓胀之一，多因饮酒过量，损伤脾胃，水湿停聚而致。"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "棋墨粥来喽",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%A3%8B%E5%A2%A8%E7%B2%A5%E6%9D%A5%E5%96%BD",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "和鸥大匠对话",
+    "偷听鸥大匠自言自语",
+    "查看《棋墨粥食方》",
+    "取得棋墨粥的食材",
+    "获取参雪籽",
+    "获取尾生粟",
+    "获取枸杞墨",
+    "帮鸥大匠煮粥",
+    "把粥带给鸥大匠",
+    "查看院内情况",
+    "找出兼相爱的下一句",
+    "询问弟子吴威",
+    "询问弟子查三娘",
+    "询问弟子章晓阅",
+    "求助鸥大匠",
+    "前往百悬桥",
+    "召集墨门弟子",
+    "突破万难，带众弟子出山",
+    "别了，最终幻想",
+    "医治鸥大匠",
+    "与“西门霸”对话",
+    "与鸥大匠对话"
+   ],
+   "steps": [],
+   "achievements": [
+    "若背尔文学奖"
+   ]
+  },
+  {
+   "name": "死生错",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%AD%BB%E7%94%9F%E9%94%99",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "尘埃落定后，你欲前往江湖，却忽闻竹林小屋外近日常有野狼出没，不知是被何物所吸引……",
+    "这些雕塑之人与王清可能有何关系？",
+    "将军祠内杀人者对王清态度如何？",
+    "将军祠内杀人者来此何为？",
+    "此人下一步可能前往何处？办何事？",
+    "窃听",
+    "跳过动画：",
+    "跳过动画：",
+    "镇守：中渡桥",
+    "奇遇：英雄剑",
+    "物品：平安剑"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "毛手毛脚清洁铺",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%AF%9B%E6%89%8B%E6%AF%9B%E8%84%9A%E6%B8%85%E6%B4%81%E9%93%BA",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "再次前往门外查看"
+   ],
+   "steps": [
+    "等到明日",
+    "干净的木桌，桌腿处似有抓痕……",
+    "光洁如新的地面，不见老鼠的痕迹，也没有积尘，似乎被打扫得很干净。"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "洞中奇谈",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B4%9E%E4%B8%AD%E5%A5%87%E8%B0%88",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "浆糊豪侠",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B5%86%E7%B3%8A%E8%B1%AA%E4%BE%A0",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "救起倒地的男子",
+    "向男子了解求救原因",
+    "与男子交谈",
+    "探看村庄情况",
+    "等待至亥时",
+    "趁夜进入村中",
+    "探听屋内谈话",
+    "继续探听消息",
+    "跟上去看看",
+    "先行躲藏，静观其变",
+    "旁听巡逻村民交谈",
+    "准备回去找男子",
+    "寻找合适的位置",
+    "从屋后绕行离开",
+    "质问偷袭者",
+    "旁听男子的说辞",
+    "上前质问男子原委",
+    "与众人交谈",
+    "问清事情原由",
+    "与众人告别"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "清河有雕",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B8%85%E6%B2%B3%E6%9C%89%E9%9B%95",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "澜舟渡海",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%BE%9C%E8%88%9F%E6%B8%A1%E6%B5%B7",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "教训沈大网",
+    "等待钱老三回来",
+    "回到洞口",
+    "前往海边",
+    "侠迹：八仙过海咩"
+   ],
+   "achievements": [
+    "恩如浪涌"
+   ]
+  },
+  {
+   "name": "犬坊百计",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%8A%AC%E5%9D%8A%E7%99%BE%E8%AE%A1",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "喂食白大爷",
+    "喂食灰老汉",
+    "喂食黄小弟",
+    "喂食踏雪",
+    "一朵小蓝花，沾有牙印和口水。但似乎是小狗心爱之物。",
+    "近日狗崽子们都不啃我带的骨头了……想来背后有高人投喂。还请高人跟上踏雪脚步，前来林中一叙。",
+    "流浪狗营生百计坊。"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "狸猫太子",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%8B%B8%E7%8C%AB%E5%A4%AA%E5%AD%90",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "猫瘾患者",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%8C%AB%E7%98%BE%E6%82%A3%E8%80%85",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "求助猫瘾病友",
+    "击败於突鸟，取得鸟人毛",
+    "将鸟人毛带给仙人毛",
+    "撸眼前的小猫",
+    "质问仙人毛",
+    "求助仙人帽",
+    "寻找声音来源",
+    "和神秘的声音交谈",
+    "抚摸仙人猫"
+   ],
+   "steps": [],
+   "achievements": [
+    "猫瘾患者"
+   ]
+  },
+  {
+   "name": "玉马行",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%8E%89%E9%A9%AC%E8%A1%8C",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "疯狂的木桶",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%96%AF%E7%8B%82%E7%9A%84%E6%9C%A8%E6%A1%B6",
+   "intro": "",
+   "highlights": [
+    "叔向",
+    "叔向",
+    "冯叔向",
+    "冯叔向",
+    "史馆",
+    "摄星拿月"
+   ],
+   "goals": [
+    "加入围桶官员",
+    "找到附近官员询问",
+    "查看崇文院的来信",
+    "前往崇文院",
+    "查问情况",
+    "与周子虚对话",
+    "与陈光乂对话",
+    "与邬有为对话",
+    "简单梳理线索",
+    "前往史馆找人",
+    "开门救人",
+    "找人开门",
+    "使用{{高亮|摄星拿月"
+   ],
+   "steps": [],
+   "achievements": [
+    "宋行桶"
+   ]
+  },
+  {
+   "name": "瘦骨罗汉(奇遇)",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%98%A6%E9%AA%A8%E7%BD%97%E6%B1%89(%E5%A5%87%E9%81%87)",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "去看看发生了什么",
+    "到布料摊上问问",
+    "去佛寺看看",
+    "窃听波陈僧人讲话",
+    "调查周围",
+    "调查佛经残片",
+    "调查降魔杵",
+    "调查一摞书册",
+    "推理调查结果",
+    "将百衲衣献给悟真",
+    "询问妇人下一处神迹的事",
+    "到寺庙外的大钟处看看",
+    "询问铜匠",
+    "帮助工匠抬起钟",
+    "将百衲衣交给悟真",
+    "等待一日",
+    "询问悟真",
+    "前往天水集的卓记绣铺",
+    "与悟真道明所得",
+    "将百衲衣给悟真",
+    "向书生说明一切",
+    "寻找瘦骨罗汉",
+    "将百衲衣给瘦骨罗汉"
+   ],
+   "steps": [
+    "降魔杵构造异常",
+    "汉僧暗中誊抄经文",
+    "瘦骨罗汉降天罚的真相是……"
+   ],
+   "achievements": [
+    "慧根天成"
+   ]
+  },
+  {
+   "name": "疯狂的石头",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%96%AF%E7%8B%82%E7%9A%84%E7%9F%B3%E5%A4%B4",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "查看前方发生何事",
+    "听风辨伪，查探八音窍真伪",
+    "询问长老",
+    "试试手气",
+    "突破弟子重围",
+    "索要八音窍",
+    "查看八音窍兑换券",
+    "质疑长老",
+    "说服受害者退门",
+    "围观退门现场",
+    "寻找八音窍宝库",
+    "寻找属于自己的八音窍",
+    "拿走八音窍",
+    "寻找长老"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "百戏乾坤",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%99%BE%E6%88%8F%E4%B9%BE%E5%9D%A4",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "盗亦有盗",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%9B%97%E4%BA%A6%E6%9C%89%E7%9B%97",
+   "intro": "",
+   "highlights": [
+    "金玉手",
+    "摄星拿月",
+    "坊间规约"
+   ],
+   "goals": [
+    "使用{{高亮|金玉手",
+    "跟随盗眉",
+    "和盗眉打招呼",
+    "回到长乐天",
+    "{{高亮|摄星拿月",
+    "回去找黑大哥和盗眉",
+    "询问盗眉事情进展如何",
+    "向面前的这位“大师”请教",
+    "离开此地",
+    "等到第二天",
+    "回去看看盗眉怎么样了",
+    "询问盗眉发生什么了",
+    "等待两天",
+    "去看看盗眉怎么样了"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "真假摸鱼",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%9C%9F%E5%81%87%E6%91%B8%E9%B1%BC",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与葛芒对话",
+    "询问葛芒",
+    "前往九流门驻地",
+    "与甄瑜对话",
+    "为摸鱼者写真",
+    "前往下一处摸鱼地点",
+    "向周围的人询问马娄",
+    "询问吴瓜",
+    "询问何小成",
+    "询问林田",
+    "与马娄对话",
+    "上前查看究竟发生何事",
+    "发现贾功则的异常(摄星拿月)",
+    "戳穿贾功则",
+    "回到莫宇望处",
+    "窃听莫宇望对话",
+    "揭穿莫宇望",
+    "将写真交给莫宇望"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "碑刻大工",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%A2%91%E5%88%BB%E5%A4%A7%E5%B7%A5",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "神仙席",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%A5%9E%E4%BB%99%E5%B8%AD",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "返回住所，与郑然对话",
+    "跟随郑然",
+    "使用听风辨位寻找“神仙”的踪迹",
+    "使用金玉手防止摔倒的“神仙”逃跑",
+    "与郑然对话",
+    "与巧儿对话",
+    "看看阿然在做什么"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "神秘的借条",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%A5%9E%E7%A7%98%E7%9A%84%E5%80%9F%E6%9D%A1",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与面前的人交谈",
+    "将借条交给僧人幽通，询问小葫的事情",
+    "找到其他借条，通过债主了解她的故事",
+    "回到唐旗处，找到僧人幽通",
+    "将小葫的借条都放到唐旗之下",
+    "找到三娘的借条·一",
+    "通过借条找到债主扈努尔",
+    "向村长询问三娘的事情",
+    "找到三娘的借条·二",
+    "通过借条找到债主唐奇",
+    "向行商询问三娘的事情",
+    "找到三娘的借条·三",
+    "通过借条找到债主伊十三",
+    "向伊十三询问三娘的事情"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "稚子江湖",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%A8%9A%E5%AD%90%E6%B1%9F%E6%B9%96",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "前往指定位置，施展无名剑法·出畏之（武学技-突进）",
+    "和小平安交谈",
+    "和偷摸观察的小孩交谈",
+    "和再次遇见的小平安交谈",
+    "前往指定位置，施展积矩九剑·内一衡径数（武学技）",
+    "前往指定位置，施展八方风雷枪·风雷啸（武学技）",
+    "和村民交谈",
+    "找到百草野竹林河畔的山洞"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "竹篮打水",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%AB%B9%E7%AF%AE%E6%89%93%E6%B0%B4",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "窃听四人交谈",
+    "对话四兄弟",
+    "等待一天",
+    "回松树湾查看情况",
+    "询问唐罔",
+    "跟随唐罔",
+    "和唐罔对话",
+    "向唐罔救助",
+    "交递答案",
+    "寻找宝贝",
+    "挖掘宝贝",
+    "和秋娘对话",
+    "对峙唐罔"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "等待鸽多时",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%AD%89%E5%BE%85%E9%B8%BD%E5%A4%9A%E6%97%B6",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "纸人夭",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%BA%B8%E4%BA%BA%E5%A4%AD",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "上前劝说甄暧",
+    "采集曼陀罗花王",
+    "将花王交给夭夭",
+    "等到第二日子时",
+    "催促夭夭作法",
+    "跟随甄暧",
+    "调查瑜郎",
+    "向瑜郎射火箭",
+    "追上夭夭",
+    "用火箭射光纸人（可用听风辨位找到纸人）",
+    "质问夭夭",
+    "将钱还给甄暧",
+    "制伏甄暧",
+    "询问甄暧真相"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "美食继承者",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%BE%8E%E9%A3%9F%E7%BB%A7%E6%89%BF%E8%80%85",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "询问谢老板",
+    "狩猎山鸡",
+    "将山鸡带给谢老板",
+    "交付山鸡",
+    "寻一偏僻处哭鸡",
+    "与老者交谈",
+    "取回地上的山鸡",
+    "回茶摊寻谢老板",
+    "看看其他人怎么做",
+    "寻灶火烹饪山鸡酥",
+    "请谢老板品尝山鸡酥",
+    "以悬壶医术救治谢老板",
+    "与谢老板交谈",
+    "另寻一处摆摊地",
+    "摆摊贩卖山鸡酥",
+    "抓住偷饼的小乞丐",
+    "回茶摊找谢老板",
+    "搜寻谢老板的踪迹",
+    "听风辨位，顺足迹追查",
+    "远处探听谢老板所言之事",
+    "上前与谢老板交谈"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "缘生缘灭",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%BC%98%E7%94%9F%E7%BC%98%E7%81%AD",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "寻找少年的踪迹",
+    "有两人拦住你问些什么",
+    "过段时间再来",
+    "前往缘生来路",
+    "在雾中转转",
+    "等少年恢复平静后和他交谈",
+    "向少年询问缘由",
+    "查看收到的信物",
+    "前往荒魂村",
+    "靠近前方的少女",
+    "沿着小路往前",
+    "将玉佩交给少女",
+    "捡起少女留下的手帕",
+    "回到缘生来路，找寻少年",
+    "与少年交谈",
+    "追上少年还帕",
+    "向两人询问少年行踪",
+    "教训绣金楼的人，抢回手帕",
+    "向绣金楼之人要回手帕",
+    "查看失而复得的手帕",
+    "前往望川坪，拜访少年",
+    "调查白花盛开之处",
+    "将手帕放入马车中",
+    "来到少年附近",
+    "与白衣少年交谈"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "胡为因果",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%83%A1%E4%B8%BA%E5%9B%A0%E6%9E%9C",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与楚芎对话",
+    "尝试开解楚芎",
+    "寻找季回",
+    "追逐季回",
+    "阻止季回",
+    "窃听两人对话",
+    "帮季回解穴",
+    "与二人告辞",
+    "偷偷跟上两人",
+    "听听两人说了什么"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "胡为良缘",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%83%A1%E4%B8%BA%E8%89%AF%E7%BC%98",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "听听两人在谈什么",
+    "将玉碗恢复原状",
+    "将玉碗还给白玄中",
+    "听完对话",
+    "舀一杯寒潭酒源",
+    "追逐白玄中",
+    "推理线索",
+    "完成线索推理",
+    "对话胡涟"
+   ],
+   "steps": [
+    "金爵与胡涟的渊源是……",
+    "金爵与白玄中的渊源是……",
+    "二人与金爵的关系是……"
+   ],
+   "achievements": [
+    "金爵冰人"
+   ]
+  },
+  {
+   "name": "老弱妇儒",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%80%81%E5%BC%B1%E5%A6%87%E5%84%92",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "参加将军祠前的擂台比武",
+    "与擂台边哭泣的人对话",
+    "挑战“老弱妇儒”",
+    "与袁金刚比试",
+    "与杜乔仙比试",
+    "与公孙登比试",
+    "与公孙大爷比试",
+    "比试结束，去找武柏聊聊"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "臧否圣人",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%87%A7%E5%90%A6%E5%9C%A3%E4%BA%BA",
+   "intro": "",
+   "highlights": [
+    "谢师宴将近，负责筹备的文津馆弟子却愁眉不展，不妨去探听一番背后缘由。"
+   ],
+   "goals": [],
+   "steps": [
+    "去蒙学院的厨房寻找酒缸",
+    "去找村民借蒸器",
+    "将生米放进蒸器",
+    "将熟米放进酒缸",
+    "使用摄星拿月“借”御酒",
+    "取青州酿"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "花海无颜",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%8A%B1%E6%B5%B7%E6%97%A0%E9%A2%9C",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "窃听小屋前的孩童们在说些什么",
+    "训斥孩童",
+    "安慰丑娘",
+    "陪丑娘在花海漫步",
+    "调查丑娘的房间",
+    "将异化金刀铁翼螂带给丑娘异种金刀铁翼螂",
+    "品尝花糕",
+    "使用听风辩位探查房屋附近脚印",
+    "探查医馆后院",
+    "再次使用听风辩位探查附近脚印",
+    "进入瀑布（使用火箭清理门口藤蔓）",
+    "回到丑娘墓前"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "英雄剑",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%8B%B1%E9%9B%84%E5%89%91",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "“卖剑卖剑，卖英雄剑，卖稀世宝剑——”中渡桥之战后，若在镇戍仓遇一个卖剑之人，不妨上前问问他，这剑如何卖。",
+    "从狗洞进入行营",
+    "江晏砍碎酒坛",
+    "江晏出剑",
+    "偷取食物",
+    "屋外流民遭军痞盘问，屋内实睿趁机吃烧饼",
+    "江晏出现",
+    "前往隐蔽处吃掉烧饼",
+    "江晏策马狂奔",
+    "二人相见",
+    "江晏出剑",
+    "镇守：滹沱河",
+    "奇遇：死生错"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "英雄与美",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%8B%B1%E9%9B%84%E4%B8%8E%E7%BE%8E",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "查看围观人群",
+    "接下赵家悬赏",
+    "前往第一道考验之地",
+    "和赵家家丁交谈",
+    "挑战大熊，获得熊毛",
+    "将熊毛交给家丁",
+    "前往第二道考验之地",
+    "用家丁的琴弹奏一曲",
+    "前往最后一道考验之地",
+    "和大门旁的家丁交谈",
+    "找酒厂的小厮聊聊",
+    "去神仙渡东边的屋顶静坐",
+    "回去问问小厮",
+    "去神仙渡西边的屋顶静坐",
+    "再回去问问小厮",
+    "听听二人在说些什么",
+    "上前找二人算账",
+    "和赵小姐交谈",
+    "替赵小姐被劫",
+    "事情已了，和赵小姐告别"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "茶中情",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%8C%B6%E4%B8%AD%E6%83%85",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "倾听两人吵架",
+    "好言相劝",
+    "坐下饮茶",
+    "作答茶恩之问",
+    "等待至未时",
+    "前往茶屋",
+    "和老陈对话",
+    "查看架上的茶叶",
+    "查看左侧茶架",
+    "查看右侧茶架",
+    "决定选茶",
+    "等待比茶开始",
+    "进入比茶现场",
+    "用金玉手敲响铃铛",
+    "观赏比茶过程",
+    "询问缘由"
+   ],
+   "steps": [],
+   "achievements": [
+    "旧茶恩，新茶情"
+   ]
+  },
+  {
+   "name": "话山论见",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%AF%9D%E5%B1%B1%E8%AE%BA%E8%A7%81",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "遇到一群寻死的盗贼",
+    "用听风辨位探查",
+    "追上去看看",
+    "听听他们在说什么",
+    "前往临江驿找普通和尚",
+    "将所见之事告知普通和尚",
+    "尝试用话术唤醒普通和尚",
+    "与普通和尚交谈",
+    "与唐新词交谈",
+    "在春秋别馆附近找到贺万春",
+    "与贺万春交谈",
+    "与楚十二郎话术对决",
+    "与楚十二郎对话",
+    "前往唐新词的小船",
+    "回小船上找唐新词",
+    "查看唐新词留下的讯息",
+    "明日子时前往太平钟楼",
+    "与唐新词进行话术对决"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "话本迷案",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%AF%9D%E6%9C%AC%E8%BF%B7%E6%A1%88",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "回到家中",
+    "查看门外情况",
+    "前往寺庙",
+    "设法进入寺庙",
+    "在院内等小赵会合",
+    "等小赵喘口气",
+    "调查现场",
+    "查看骨头",
+    "查看可疑的瓶子",
+    "与赵承宗交谈",
+    "前往涂山允屋前",
+    "使用“装死”动作，引出涂山允",
+    "与涂山允交谈",
+    "清理杂物，探查屋内",
+    "查看飞镖",
+    "设法离开牢房",
+    "调查牢房大门",
+    "调查牢房窗户",
+    "偷听门外的谈话",
+    "与魏芷昔交谈",
+    "跟上魏芷昔",
+    "查看地上昏迷的人",
+    "请先完成探游：三寸之身·其一"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "诗者何为",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%AF%97%E8%80%85%E4%BD%95%E4%B8%BA",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "看看母子遇到了什么事",
+    "会会两名土匪",
+    "跟随众人前往早悟寺",
+    "跟随众人，听母子闲话",
+    "途中与匪徒兄弟交谈",
+    "听匪徒兄弟交谈",
+    "继续跟随众人前往早悟寺",
+    "听张铁山挤入人群",
+    "查看诗会告示",
+    "找书生叙旧",
+    "等待辰时",
+    "返回湖畔诗会",
+    "请道净大师宣布开场",
+    "用摄星拿月没收杜文魁的小抄",
+    "与杜文魁谈谈小抄",
+    "用金玉手定住张铁水",
+    "劝张铁水保持肃静",
+    "叫醒文儿",
+    "等候考试结束",
+    "询问道净大师",
+    "收取张铁水的诗稿",
+    "收取张铁山的诗稿",
+    "收取文儿的诗稿",
+    "收取杜文魁的诗稿",
+    "向道净交付诗稿",
+    "等待到明日辰时",
+    "向道净领取奖状",
+    "前往山门，离开早悟寺",
+    "与杜文魁交谈",
+    "前往葱王坪",
+    "给大娘报喜",
+    "前往葱王坪村口",
+    "给匪徒兄弟送奖状",
+    "回早悟寺寻找道净大师",
+    "听听两人在说什么",
+    "劝解杜文魁",
+    "说句公道话",
+    "向道净大师道别",
+    "提笔写诗",
+    "离开早悟寺",
+    "询问杜文魁"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "货郎装金",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%B4%A7%E9%83%8E%E8%A3%85%E9%87%91",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "易旧换新"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "追光的人",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%BF%BD%E5%85%89%E7%9A%84%E4%BA%BA",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "窃听单儿与南秀才的交谈",
+    "看看南秀才身上有什么字纸（靠近获取）",
+    "追上单儿",
+    "与单儿对话",
+    "找到南秀才",
+    "回到单大娘家",
+    "与贵妇人搭话",
+    "设法找到蛄蛹者",
+    "躲到安静之处",
+    "前往单大娘家",
+    "通过话术阻止单儿",
+    "调整时间到第二日辰时后，再来探望单大娘",
+    "与单儿交谈"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "逐浪光阴",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%80%90%E6%B5%AA%E5%85%89%E9%98%B4",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与水上漂着的怪人对话",
+    "等到第二天",
+    "回去找余伯仲",
+    "前往铁匠铺取定制器具",
+    "在铁匠铺拿到定制器具",
+    "前往岸边",
+    "看看余伯仲想要干什么",
+    "潜入水中救余伯仲",
+    "潜入水中救出小狍子",
+    "继续在水中寻找小狍子",
+    "查看小狍子的情况",
+    "余伯仲似乎有话想说"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "遗朕五十",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%81%97%E6%9C%95%E4%BA%94%E5%8D%81",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与柳娘子对话",
+    "去村口找柳娘子的外甥",
+    "与郝友闲对话",
+    "摄星拿月,取得“封侯登仙的凭证”",
+    "把东西交给柳娘子",
+    "查看字条",
+    "向老季家打听",
+    "向老王家打听",
+    "拾取字条",
+    "去村北面调查",
+    "探查香炉",
+    "等待时辰到子时",
+    "在香炉前供奉",
+    "使用太极，驱散雾气",
+    "与倒地的男人对话",
+    "查看掉落物件",
+    "返回破门村",
+    "告知骗局实情",
+    "击败郝友闲",
+    "帮柳娘子瞧病",
+    "诊断病情",
+    "改邪归正",
+    "执迷不悟",
+    "嬴子婴的字条",
+    "泥塑虎符"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "道人梦驴",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%81%93%E4%BA%BA%E6%A2%A6%E9%A9%B4",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "酒逢知己",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%85%92%E9%80%A2%E7%9F%A5%E5%B7%B1",
+   "intro": "",
+   "highlights": [
+    "菩提苦海东边",
+    "一处小院"
+   ],
+   "goals": [
+    "取一坛离人泪",
+    "给独饮客上酒",
+    "请独饮客品鉴离人泪",
+    "共同前往拼酒场地",
+    "在拼酒中战胜独饮客",
+    "和独饮客聊聊",
+    "回到座位",
+    "对饮一杯",
+    "上前看看",
+    "进屋看看",
+    "等独饮客回来",
+    "出去看看",
+    "进屋查看书信",
+    "去院中挖出独饮客的遗物",
+    "取出陈酿",
+    "取出埋藏之物",
+    "查看书信",
+    "前往墓地",
+    "埋葬旧物",
+    "祭拜独饮客"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "铸剑",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%93%B8%E5%89%91",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "闻道先后",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%97%BB%E9%81%93%E5%85%88%E5%90%8E",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "听听易氏一家说了什么",
+    "听听大壮家说了什么",
+    "听听成家兄妹说了什么",
+    "洗脸"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "难得远游",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%9A%BE%E5%BE%97%E8%BF%9C%E6%B8%B8",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "乘坐云槎前往晦谷",
+    "治疗小月鹿",
+    "前往陆婆婆家"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "隰桑有阿",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%9A%B0%E6%A1%91%E6%9C%89%E9%98%BF",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与崔天明交谈",
+    "到花月树送信",
+    "将信挂上花月榜",
+    "等待一日",
+    "查看花月榜",
+    "回复崔天明"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "隐月山童姥",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%9A%90%E6%9C%88%E5%B1%B1%E7%AB%A5%E5%A7%A5",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "找到屋顶上的童小云",
+    "与童小云对话",
+    "询问童小云试炼的内容",
+    "从甜甜梨肴铺取来装毒物的罐子",
+    "将散发着梨香的小罐交给童姥",
+    "从咸咸大肉铺取来装毒物的锅子",
+    "将散发着肉香的小锅交给童姥",
+    "从说书人的箱子里取来神秘的油纸包",
+    "将神秘的油纸小包交给童姥",
+    "检查一下纸包内的“大补之物”",
+    "追上童小云看看",
+    "去元甜甜和元咸咸处打听",
+    "再回去看看童小云",
+    "询问元甜甜",
+    "询问元咸咸"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "雪夜定策",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%9B%AA%E5%A4%9C%E5%AE%9A%E7%AD%96",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "夜晚时分前往赵普宅的探索",
+    "寻找聚众烧肉的江湖人",
+    "与赵大哥对话",
+    "前往购买食材",
+    "向商贩购买羊肉",
+    "前去购买鲥鱼",
+    "将鲥鱼交给赵大哥",
+    "雪夜下的对话",
+    "雪夜定策前置任务检测"
+   ],
+   "steps": [],
+   "achievements": [
+    "雪夜定策"
+   ]
+  },
+  {
+   "name": "青石无言",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%9D%92%E7%9F%B3%E6%97%A0%E8%A8%80",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "询问民夫情况",
+    "帮民夫扶正推车",
+    "和民夫对话",
+    "调查四周",
+    "查看小刀",
+    "去狮子坟请石师傅",
+    "查看篝火",
+    "寻找石师傅",
+    "治疗石师傅",
+    "询问石师傅",
+    "前去查看",
+    "和石师傅对话",
+    "研磨石粉",
+    "把石粉交给石师傅",
+    "修复被破坏的石碑",
+    "石碑",
+    "修复最后一块石碑",
+    "回到破庙修碑",
+    "修复石碑",
+    "击倒突然出现的人",
+    "询问突然出现的人",
+    "捡起地上的小刀",
+    "等待时间"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "面通百兽",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%9D%A2%E9%80%9A%E7%99%BE%E5%85%BD",
+   "intro": "",
+   "highlights": [
+    "青葱里的常盛集新开了个古怪的摊子，听听围观村民闲聊，或可展开一段奇遇……",
+    "若问第二式，集下老树窝。",
+    "第三式，村北破屋，狗儿三寿。"
+   ],
+   "goals": [
+    "听听围观村民的闲聊",
+    "询问围观村民",
+    "询问摊主",
+    "前往招牌所在",
+    "远观摊主做生意",
+    "凑近看摊主做生意",
+    "远远看摊主如何应对",
+    "向摊主问个清楚",
+    "偷听老婆婆的困扰",
+    "向围观村民打听",
+    "悄悄向小狗问话",
+    "偷听摊主回话",
+    "上前询问摊主",
+    "追问摊主",
+    "等到夜晚",
+    "前往摊边",
+    "查看摊上遗留字条",
+    "前往集下老树窝",
+    "查看老树下遗留字条",
+    "靠近犬吠之处",
+    "查看遗留信盒",
+    "摸摸小狗三寿"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "飞钱记",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%A3%9E%E9%92%B1%E8%AE%B0",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "去破庙找梁承祖",
+    "前往未央商会看看行情",
+    "找梁承祖聊聊",
+    "找古市买飞钱",
+    "与梁承祖和厉害聊聊未来的计划",
+    "等到第二天",
+    "回破庙看看",
+    "听听两人在说什么梦话",
+    "听听梁承祖说什么",
+    "听听厉害说什么",
+    "呼唤梁承祖和厉害看今日行情",
+    "呼唤大家一起去看今日行情",
+    "回破庙附近找两兄弟",
+    "听听梁承祖和厉害在说什么",
+    "看看今日行情如何",
+    "去破庙找梁承祖和厉害",
+    "去看看今日行情",
+    "与投资伙伴们商量"
+   ],
+   "steps": [],
+   "achievements": [
+    "未央投资人"
+   ]
+  },
+  {
+   "name": "魂兮归来",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%AD%82%E5%85%AE%E5%BD%92%E6%9D%A5",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "心法：寸草心"
+   ],
+   "achievements": []
+  },
+  {
+   "name": "鳏居奇事",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%B3%8F%E5%B1%85%E5%A5%87%E4%BA%8B",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "与陶翁对话",
+    "寻找大虫的踪迹",
+    "循声捉住“大虫”",
+    "将大虫带回给陶翁",
+    "为陶翁点燃火盆",
+    "等到午夜子时",
+    "探查奇怪的响声",
+    "告知陶翁真相",
+    "帮助陶翁铺设陷阱",
+    "返回院落，静待贼人入瓮（等待到第二天）",
+    "查探陷阱情况",
+    "和陷阱中的男人交谈",
+    "将男人解救放下",
+    "与李三郎交谈",
+    "返回陶翁家",
+    "交予陶翁书信",
+    "等到第二天探望陶翁",
+    "与陶翁交谈"
+   ],
+   "steps": [],
+   "achievements": []
+  },
+  {
+   "name": "黄金乡",
+   "category": "encounter",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%BB%84%E9%87%91%E4%B9%A1",
+   "intro": "",
+   "highlights": [],
+   "goals": [
+    "和杨婆婆对话",
+    "去水井旁取水",
+    "寻找杨婆婆",
+    "使用悬壶医治杨婆婆",
+    "查看杨婆婆",
+    "跟上杨婆婆",
+    "看看前面怎么回事",
+    "使用话术解决纷争",
+    "和史诃丹对话",
+    "与三人对话收集线索",
+    "与杨婆婆对话",
+    "与康明珞对话",
+    "与史诃丹对话",
+    "寻找“胡杨叶”标记",
+    "继续寻找“胡杨叶”账本",
+    "告知账本内容",
+    "寻找周围的痕迹",
+    "交付找到的旧物",
+    "寻找最高处",
+    "前往高处寻找线索",
+    "查看舞谱",
+    "起舞",
+    "查看前方的匣子",
+    "拾起地上的手札",
+    "将事情始末告诉众人",
+    "寻找位置观察水井",
+    "调查村落中的水井",
+    "告知水井的位置",
+    "追上杨婆婆",
+    "拾起井边的手札",
+    "疏通枯井"
+   ],
+   "steps": [],
+   "achievements": [
+    "黄金入乡客"
+   ]
+  }
+ ],
+ "wanshizhi": [
+  {
+   "name": "一本万利",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%80%E6%9C%AC%E4%B8%87%E5%88%A9",
+   "intro": "",
+   "highlights": [
+    "神仙渡曲坊西面"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，一个獐头鼠目的年轻男子，似乎在推销着什么……",
+    "神仙渡特产的美酒，滋味隽永，只有每年醉仙月，才可千金一求。",
+    "死人刀的追击令。",
+    "舒鼠儿向你承诺，只要你能为他找来一坛离人泪，那么他便把自己手中，关于死人刀宝藏的秘密，交付于你。",
+    "舒鼠儿拿了你的离人泪，趁你还没反应过来，朝着不羡仙的方向悄悄地溜了……",
+    "舒鼠儿向你承认了错误，不过……那些围困舒鼠儿的人又是谁呢？"
+   ],
+   "items": [
+    "离人泪",
+    "死人刀追击令"
+   ]
+  },
+  {
+   "name": "三千烦恼丝",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%89%E5%8D%83%E7%83%A6%E6%81%BC%E4%B8%9D",
+   "intro": "",
+   "highlights": [
+    "灵隐新寺的客堂外",
+    "戒堂",
+    "后日辰时"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "你的头发呢？"
+   ],
+   "details": [
+    "，有位衣着光鲜的娘子，正与寺中师父交谈……",
+    "许清嘉出身钟鸣鼎食之家，却一心向佛，趁爹爹来礼佛，决意遁入空门斩断尘缘……",
+    "许父得到玉佩后大怒，前往阻拦许清嘉。",
+    "许清嘉坚定出家之心，许父便与她约定，体验出家人的一日苦修，待到，若许清嘉仍如此坚定，便放任其遁入空门。",
+    "一枚玉佩，许清嘉自出生起便将其戴在身上。玉佩光洁如新，想必主人极其爱惜，如今却要随三千烦恼一并斩断了。",
+    "一日苦修后，许清嘉发觉自己已然习惯锦衣玉食，无法忍受苦修的日子，反倒是许父，在听了慧语大师讲经后，毅然决定遁入空门……"
+   ],
+   "items": [
+    "玉佩"
+   ]
+  },
+  {
+   "name": "丹青惊梦",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%B8%B9%E9%9D%92%E6%83%8A%E6%A2%A6",
+   "intro": "",
+   "highlights": [
+    "松烟阁内",
+    "黄识玉"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，一位书生正与掌柜争执。",
+    "不妨去后院看看，或许能找到那幅字画的踪迹。",
+    "带着画芯去质问，他应当会给你一个交代。",
+    "字画重归原主，书生感慨而去。"
+   ],
+   "items": [
+    "古朴的画芯"
+   ]
+  },
+  {
+   "name": "仁者断刀",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BB%81%E8%80%85%E6%96%AD%E5%88%80",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "金盆镖局附近，一个名叫孙九的江湖客正在找人。",
+    "孙九要找的人相貌魁伟……不妨去能见到虎皮的地方找一找。",
+    "你将孙九的包裹带去给了虎岳，并告知虎岳，孙九正在镖局门口等他。",
+    "虎岳和孙九相见会是什么情景呢？不妨去镖局门口看看！"
+   ],
+   "items": []
+  },
+  {
+   "name": "人知鹅知",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BA%BA%E7%9F%A5%E9%B9%85%E7%9F%A5",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "近日，文津馆羲爱塘一带闹起了怪事，鹅前辈闷闷不乐，夏卷王郁郁寡欢，一者说遇到了贼，一者说遇到了鬼。",
+    "鹅前辈从羲爱塘底捡拾的竹简，据说是伤到它的贼人遗落，似乎是文津馆弟子的课本，依稀可在边角处辨出一个“夏”字。",
+    "夏卷王自称从“鬼师兄”身上得到的鹅毛，足有五寸长，似乎来自一只特别大的鹅，上面用小字誊抄着课业内容。",
+    "夏卷王亲口承认，那夜去羲爱塘偷着温书，误将鹅前辈当成了鬼，出手之后仓皇而逃。是时候将鹅毛还给鹅前辈，告知他真相了。",
+    "鹅前辈追着夏卷王啄了一个时辰，夏卷王瘫在床上，还不忘举着课本温书。一个偷偷卷，一个没卷成，到头来谁都没捞着好。",
+    "鹅前辈听闻夏卷王是为了温书才惹出这桩事，非但没再追究，反倒自己也慌慌张张地去温书了。“卷王”就此休战，各忙各的，不知明天的考校能得几等？"
+   ],
+   "items": [
+    "浸水的竹简",
+    "修长的鹅毛"
+   ]
+  },
+  {
+   "name": "今夕闻道",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BB%8A%E5%A4%95%E9%97%BB%E9%81%93",
+   "intro": "",
+   "highlights": [
+    "藏书馆"
+   ],
+   "goals": [],
+   "steps": [
+    "封蚀：来自无心谷的求学之人，平日不与任何人接触，只在夜间出没于天一楼抄书区，一言不合便要放出蝴蝶吓退他人。"
+   ],
+   "achievements": [],
+   "details": [
+    "文津馆与江湖各名门正派向来交好，常有游侠慕名而来。夜深人静之时，甚至会在看到一些几乎不踏足江湖的江湖人……",
+    "小巧可爱的草编虫笼，笼中趴着一只小巧的赤眼蝶。编织细密的草茎似乎不类青州本地的植株，这种蝴蝶也从未在青州见过。",
+    "蝶笼的主人想必不是文津馆学子，也许在前来藏书馆求学的其他门派弟子中。",
+    "无心谷地处偏僻，弟子与世隔绝。封蚀不远万里前来，只为将文津馆的实录抄本带回谷中，因感激文津馆慷慨，也为不将身携毒素沾染他人，他只能于深夜抄书。至孤至毒并非他们所愿，即便是无心之人，也有了解人世的权利。"
+   ],
+   "items": [
+    "伴生蝶笼"
+   ]
+  },
+  {
+   "name": "何日归家",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BD%95%E6%97%A5%E5%BD%92%E5%AE%B6",
+   "intro": "",
+   "highlights": [
+    "酒肆后"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "丰禾村有个疯癫的乞丐，说话前言不搭后语。村子里的人虽不常搭理他，却也毫无怨言地供他一日三餐……不知他到底是何许人也？",
+    "一把破旧长枪，插在丰禾村的墓地旁。",
+    "乞丐一会儿说听到了军令，要变身大鹏飞回去；一会儿又哭着说没枪回不了家，着实让人费解……不过，他似乎真的非常想找回他的“宝枪”。",
+    "你将枪给了乞丐，他呼喊着“燕云好男儿，随我回家！”，冲出了丰禾村。听说，他就此下落不明，再也没有人看到过他。"
+   ],
+   "items": [
+    "长枪"
+   ]
+  },
+  {
+   "name": "何用钱刀为",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E4%BD%95%E7%94%A8%E9%92%B1%E5%88%80%E4%B8%BA",
+   "intro": "",
+   "highlights": [
+    "花港"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "何用钱刀为"
+   ],
+   "details": [
+    "的观鱼长廊处，罗轻寒和兰泣露正为了所谓的知音争执着。",
+    "罗轻寒苦于梨园规矩，难以抉择。不知是否有法子试探出高水阔的真心……"
+   ],
+   "items": []
+  },
+  {
+   "name": "免费的情报",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%85%8D%E8%B4%B9%E7%9A%84%E6%83%85%E6%8A%A5",
+   "intro": "",
+   "highlights": [
+    "隐月山东边的洞窟里"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，传来阵阵哀嚎……",
+    "你救治了受伤的情报探子阿大，一番讨价还价后，对方赠送了东边墨山道洞窟的线索作为回报。",
+    "你在墨山道洞窟里扑了空。阿大为表歉意又提供了一条新线索，指向东南边的春秋别馆洞窟。",
+    "春秋别馆洞窟里，阿大使诈出手抢夺宝物。在被你击败后连连求饶，并承诺日后继续无偿为你提供洞窟线索。"
+   ],
+   "items": []
+  },
+  {
+   "name": "假不成真",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%81%87%E4%B8%8D%E6%88%90%E7%9C%9F",
+   "intro": "",
+   "highlights": [
+    "千翠村"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "骗假不留"
+   ],
+   "details": [
+    "里，一家商铺正在发生争吵，其中一人说，他们要交付给顾客的瓷器平白无故不见了……",
+    "沈昊昊和沈拓拓用画像冒充样品贩卖劣质瓷器。但这次交货当天，准备的瓷瓶却不翼而飞。",
+    "郑肖和郑匀因不满沈家人生意好，悄悄拿走了他们要交付的青瓷，并将其藏在了屋里。",
+    "交付瓷器的时间未到，袁布仲便来到沈家摊位前，揭穿沈家面目，反将其一军。"
+   ],
+   "items": []
+  },
+  {
+   "name": "兰香余韵",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%85%B0%E9%A6%99%E4%BD%99%E9%9F%B5",
+   "intro": "",
+   "highlights": [
+    "群英宴后",
+    "云华",
+    "兰花花笺",
+    "物归原主"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "云华小楼，舞雩沏香；若有一人，抚琴中央。那位美人是谁，又欲为谁解语，或许只有，于沏香阁中得此者，方能知晓。",
+    "花笺于醉花阴花信风有特殊含义，从不轻易许人。偶然拾取弱兰花笺虽令人欣喜，但不告而取终非善事，或许还是更为妥当。",
+    "原来弱兰姐姐竟是故意将花笺相赠？其中“情谊”呼之欲出、若有似无，令人难以言说。"
+   ],
+   "items": [
+    "兰花花笺"
+   ]
+  },
+  {
+   "name": "刀工了得",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%88%80%E5%B7%A5%E4%BA%86%E5%BE%97",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "乐安浦的茶棚 附近，三个小朋友争吵不休，似乎和大侠有关……",
+    "阿斫声称自己是大侠的后代，家里藏着祖传的刀法秘籍。是真是假，去翻翻便知。",
+    "是菜刀还是宝刀，全看握刀的那双手。",
+    "家传秘籍，原来只是祖先留下的一段话……",
+    "所谓的秘籍竟然是一本无字书，阿斫悻悻地跑开，被人误解的滋味可真不好受啊。",
+    "只消三言两语，菜刀亦能作宝刀。毕竟，真相哪有小朋友的自尊心重要呢？"
+   ],
+   "items": [
+    "菜刀",
+    "刀法秘籍"
+   ]
+  },
+  {
+   "name": "初露锋芒",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%88%9D%E9%9C%B2%E9%94%8B%E8%8A%92",
+   "intro": "",
+   "highlights": [
+    "苦海附近",
+    "少侠若是途经妙善洲，特别是菩提苦海附近",
+    "木色的小盒子。"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "菩提苦海的鼓声停止后，似乎发生了一些变化。比如，有什么送货的马车损毁在路边……",
+    "马车上的值钱物品都被捡走了，只剩下这个木盒。木盒有些重，不知道里面放的什么，只能去人多的村镇打听打听了。",
+    "燕藏锋说他托人取佛光顶的旧香灰，可送货之人却迟迟未到，燕藏锋托你在善妙洲，特别是菩提苦海附近时，多多留意，应该是一个木制的小盒子。",
+    "燕藏锋过于重视那盒香灰了，并且言语也有些躲闪……难道这其中另有隐情？",
+    "盒中竟然是燕藏锋弟弟的骨灰！燕藏锋似乎知道弟弟在菩提苦海的所作所为，不如找机会前去探查一番。",
+    "燕藏锋弟弟就是张隐芒，而房中那封密信就是有人写给张隐芒的。张隐芒在苦海中的行为看来是有人指使，或许那背后之人想利用叶万山，利用许许多多的人，做些什么。"
+   ],
+   "items": [
+    "奇怪的木盒"
+   ]
+  },
+  {
+   "name": "分秒必争",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%88%86%E7%A7%92%E5%BF%85%E4%BA%89",
+   "intro": "",
+   "highlights": [
+    "钱塘书院",
+    "《论语》",
+    "钱塘书院附近医馆",
+    "《论语》"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "附近，一名咳嗽的书生正神色焦急地寻找着什么……",
+    "浩学外出买笔墨时，不慎遗失了备考用的。可是明日便是书院月试，眼下正是温习之时。",
+    "的候诊处，拾得一本卷边的。有学子前来候诊时仍手不释卷，这才将书遗落。",
+    "书院规矩严苛，浩学只好隐瞒了求医一事，谎称外出买笔墨。于浩学而言，比病痛更可怕的，是落于人后。"
+   ],
+   "items": [
+    "一本卷边的《论语》"
+   ]
+  },
+  {
+   "name": "包饼不一",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8C%85%E9%A5%BC%E4%B8%8D%E4%B8%80",
+   "intro": "",
+   "highlights": [
+    "烙饼摊",
+    "烙饼摊",
+    "包子摊"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "常盛集中，摊主张煦正在嘟囔着什么……",
+    "上，突现一格格不入的包子。可瞧那摊主张煦，似有遮掩之意。",
+    "奇也怪哉，上又有一烙饼，观其摊主，面露震惊之色。",
+    "包子与饼子，哪个更入人心？ 争来辩去，竟是二人都藏了偷师学艺的心思……"
+   ],
+   "items": []
+  },
+  {
+   "name": "十相迷踪",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8D%81%E7%9B%B8%E8%BF%B7%E8%B8%AA",
+   "intro": "",
+   "highlights": [
+    "文津藏书馆",
+    "思危阁",
+    "书信",
+    "十相",
+    "师长",
+    "范畴",
+    "容止",
+    "林文元、萧武元俱离馆北上",
+    "其余七相常年不在门中",
+    "十相信函",
+    "容止",
+    "信匣",
+    "日后交还唐相",
+    "范畴",
+    "信匣",
+    "与诸师商谈一番"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "据传，如今只有十相之末的唐新词坐镇，其余九相行踪成谜……",
+    "藏于的密匣，匣中存放着一叠。听闻思危阁乃双元十相议会场所，匣中信件或许与不无关联。 藏书院似乎正有对十相下落颇为在意，要不要将信匣交给他们中的某个人？",
+    "青萍斋内，师长正与争论不已，，去向不明，，连容貌姓名都难查证，唐新词虽为十相，年纪尚轻，又是女流之辈，着实不被范师他老人家看在眼里……范畴似乎对唐新词藏起的颇为在意。",
+    "据容师所言，十相下落事关重大，外人不便知晓。",
+    "接过，微感诧异，得知此物来自思危阁，不禁无奈摇头。信中提到林文元曾在六年前中毒一事，还透出七相中一人的身份……容止略看几眼，便将信匣重新掩上，言说。这信中的机密，暂时得以保全了。",
+    "接过，如获至宝，原来他苦苦寻觅的十相信函竟放在思危阁中。信中提到林文元曾在六年前中毒一事，还透出七相中一人的身份……范畴认为此事重大，总得才是。文津馆，或许要变天了。"
+   ],
+   "items": [
+    "信匣"
+   ]
+  },
+  {
+   "name": "南书何寻",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8D%97%E4%B9%A6%E4%BD%95%E5%AF%BB",
+   "intro": "",
+   "highlights": [
+    "南面",
+    "提及过此书的人",
+    "南面",
+    "冯守简",
+    "藏书",
+    "林险生",
+    "“纸片渡江”",
+    "冯守简",
+    "南唐"
+   ],
+   "goals": [],
+   "steps": [
+    "青州码头"
+   ],
+   "achievements": [],
+   "details": [
+    "文津馆藏书馆有“天下第一”的美名，其书库天一楼内藏书万千，不仅有长乐老半生奔波自北方收回的先代流失之书，六年前林文元还从带回了不少典籍……",
+    "一册线状书卷，封面簇新，内页却已泛黄，似是重新被装订过。封皮上题着“阳春录”，另缀有“仲杰先生”几个小字。仔细观察，可看出内页为南唐特产的澄心堂纸，封皮却为北方常见青绫。不妨拿给瞧瞧。",
+    "《阳春录》，仲杰先生词作。此书似是文津馆林文元从带回，颇为珍贵。",
+    "有学子自南唐而来，名为求学，实为寻书。据所言，南唐冯氏珍藏的手书于六年前落入文津馆林文元手中，他此番北上，正是为而来。",
+    "世宗南征，曾借机寻求南唐文人相助，将文津馆多年前流失南方的典籍渡至江北，历经千险，终至南书北归，此即。这本《阳春录》便是于六年前夹在藏书中携回北方，如今成了天一楼的珍藏。",
+    "六年前葬身江中的叔父虽无法复生，失落的藏书终于找回，只盼早日携书返回，以免夜长梦多……但他心中仇恨所向，是真正的仇敌么？其中是否有误解，如今已不得而知……"
+   ],
+   "items": [
+    "《阳春录》"
+   ]
+  },
+  {
+   "name": "单从天降",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8D%95%E4%BB%8E%E5%A4%A9%E9%99%8D",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "治疗周全"
+   ],
+   "achievements": [],
+   "details": [
+    "一位老人，正坐在亭子里的石凳上，发出痛苦的呻吟，似乎身体有些不适……",
+    "老人受伤，似乎是被一位姓孙的人无意撞到所致。在相撞的时候，那人还遗漏了一份单子，老人请你归还给他，或者是交给叶大娘子处理。",
+    "单子上写的，是孙管家所侍奉的郎君给他写的数目，里面记载的最高出价、买卖货物的数量，都极其重要。",
+    "有些数字，某些时候给到错误的人手中，或许才能发挥它对的作用。",
+    "清单回到了原主人的手中，生意该怎么谈便怎么谈。"
+   ],
+   "items": [
+    "清单"
+   ]
+  },
+  {
+   "name": "卢巡捕",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8D%A2%E5%B7%A1%E6%8D%95",
+   "intro": "",
+   "highlights": [
+    "镇远镖局"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "桑海憾事"
+   ],
+   "details": [
+    "蚕花里的某处路边，几位村民正与一疯汉争执不休……",
+    "卢巡捕执意追查蚕花里失踪案丢了差事，落得妻离子散的下场，如今疯疯癫癫，借酒消愁。",
+    "孙禄行与卢巡捕早年相识。他转行去了当镖师，却从未抛弃旧友。他不仅时常回来看望，老卢欠下的房租，也多是他在暗中垫付。"
+   ],
+   "items": []
+  },
+  {
+   "name": "取毛不易",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8F%96%E6%AF%9B%E4%B8%8D%E6%98%93",
+   "intro": "",
+   "highlights": [
+    "天一楼",
+    "“笔海”",
+    "乌公",
+    "天一楼笔海",
+    "三更天弟子",
+    "南宫采毫"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "之侧有一角房，人皆称作，内部设有无数笔架，架上悬挂各色毛笔，供诸学子取用。近日，笔海中负责制笔的学子似乎有什么烦恼……",
+    "从处窃来的尾羽，日光下泛着油润光泽，触手丝滑。 如此羽毛，唯有胆大妄为之人敢于接手，不妨前往打听一二。",
+    "南宫采毫仔细品鉴过三更天的毛发，爱不释手，当即决定拿来制笔。日后若有余暇，不妨看看这支用三更天弟子毛发制成的毛笔有什么妙用？千万别让丢失了毛发的那位三更天弟子得知此事便是……",
+    "从处窃来的一缕发丝，色作鸦青，长约三寸，拈在指尖几乎感觉不到分量，发质偏硬，隐约可嗅到淡淡血腥。 如此毛发，唯有胆大妄为之人敢于接手，不妨前往天一楼笔海打听一二。",
+    "出身制笔世家，平生之愿便是制出天下最好的毛笔，为此他已试过不下百种材料，但仍感不足。若是寻得少见的毫毛，不妨拿给他瞧瞧。",
+    "南宫采毫仔细品鉴过乌公的羽毛，爱不释手，当即决定拿来制笔。日后若有余暇，不妨看看这支用乌公尾羽制成的毛笔有什么妙用？千万别让丢失了羽毛的那只乌公发觉此事便是……"
+   ],
+   "items": [
+    "乌公的羽毛",
+    "三更天的毛发"
+   ]
+  },
+  {
+   "name": "双元秘史",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%8F%8C%E5%85%83%E7%A7%98%E5%8F%B2",
+   "intro": "",
+   "highlights": [
+    "秘阁",
+    "关于文津馆沿革的实录……",
+    "不妨向常在秘阁出没的人打听一二。",
+    "是否有不可外传的江湖秘史？"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "文津馆为天下文宗，历史悠久，但历经浩劫，几更其名，几易其址，当今江湖只知文津馆为江湖著史，却不知文津馆之史。听闻藏书馆有一处内置珍典，其中有一本",
+    "一册线状书卷，封皮上题着“文津馆补遗”，著书人不详。书页已经起了毛边，似乎常被人翻阅。",
+    "秘阁为文津馆重地，藏有大量珍典，为免遗失损毁，不便对外公开，故无十相及诸师长手令不可擅入。想来能收录在此的书籍，自有其珍稀之处，只是未免叫人好奇，其中",
+    "千年文宗，自圣人始，几易其名，多改其址，传道授业，不改其志，文脉不绝，绵延后世。欲知大道，必先知史，文津馆秉笔以录天下，安能独无自传？但有些人事从实录中隐去，自有其深意，不足为外人道耳。"
+   ],
+   "items": [
+    "《文津馆补遗》"
+   ]
+  },
+  {
+   "name": "向岱岳君借命",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%90%91%E5%B2%B1%E5%B2%B3%E5%90%9B%E5%80%9F%E5%91%BD",
+   "intro": "",
+   "highlights": [
+    "断腿之人"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "岱岳之高使人生畏，却有一位硬是爬上了岱岳，声称要向岱岳君讨债……",
+    "男子要寻得当初放下那块山石，质询岱岳君为何只应一半的祈愿？据他说，那块石头形如三角，被他放在了一处可供休憩之所。",
+    "原来男子在出征前曾与好友一同上山拜会岱岳神君，祈求此战得归。",
+    "神鬼之说终属渺茫，让自己活下来的，是自己的好友，带走好友的，也只有战争本身罢了。"
+   ],
+   "items": []
+  },
+  {
+   "name": "名“复”其实",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%90%8D%E2%80%9C%E5%A4%8D%E2%80%9D%E5%85%B6%E5%AE%9E",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "飞来峰的造像处，一位工匠正在焦急踱步，似乎遇到了什么麻烦……",
+    "飞来峰上，造像供养人今日要来查看雕刻进度，但喻皓总作头偏偏不见了，工匠程准托你帮忙寻来总作头的手札……",
+    "项闻涛为给女儿项姝祈福，于是出资请喻皓造像，喻皓本拒绝了项家，可后来又承接了造像一事。",
+    "旁人都道喻皓好酒，可眼前的总作头却滴酒不沾，似乎与传闻大相径庭。",
+    "一本手札，署名为“段青”。翻开可见诸多对于造像的讲解与设计图纸，只是其中还夹杂一些段青所记日常生活，包括一段冒名顶替之事。",
+    "一本手札，未见署名。翻开可见诸多对于造像的讲解与设计图纸，从喻皓常去的休息处中寻来。",
+    "程准拿到了手札，将其揭发给项家人，“喻皓”从此没有出现在此地，不过，飞来峰上多了一个名叫段青的匠人。",
+    "程准拿到了手札，应付了项家人。你见到了“喻皓”总作头，与他点头致意。或许经年以后物是人非，佛像依旧慈悲地看着众生，而只有你二人知道，这尊宝相庄严的造像，其实是一个寒门匠人雕刻的。"
+   ],
+   "items": [
+    "段青手札",
+    "一本手札"
+   ]
+  },
+  {
+   "name": "吾书不孤",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%90%BE%E4%B9%A6%E4%B8%8D%E5%AD%A4",
+   "intro": "",
+   "highlights": [
+    "刻印坊",
+    "刻印坊",
+    "天一楼",
+    "何寄书"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "藏书馆雕印技艺精湛，有传言称，坊间工匠甚至为国子监官刻提供协助。如今刻印坊雕印天下书籍，日夜不怠……",
+    "装订完备的书籍，纸页尤新，不过是万千刻本中极寻常的一册。 听闻所出的新书，往往送去收录，不妨前往一探？",
+    "据所说，天一楼的藏书不仅供诸学子抄录借阅，还作为教材送入三学斋，林林总总，每日都有损耗，不得不列成单子送往刻印坊请工匠们筹备雕印，还需派人日日取来新书登记入库。",
+    "以廉价之形，传无价之道。先贤的著作虽贵重，印成千万本书，每本书却所费无几，天下向学之辈再不必苦于无处求索。长乐老建立刻印坊之时，想必就是为了今日吧？"
+   ],
+   "items": [
+    "遗落的新书"
+   ]
+  },
+  {
+   "name": "喵老大难当",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%96%B5%E8%80%81%E5%A4%A7%E9%9A%BE%E5%BD%93",
+   "intro": "",
+   "highlights": [
+    "慈心山院门口"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "爱的供养"
+   ],
+   "details": [
+    "附近，小女孩苗苗正安抚着焦急的喵老大……",
+    "苗苗说平日里喵老大身后总跟着三只小猫，但今天都不见了。喵老大急得一直喵喵叫，先在附近找找有没有小猫的踪迹吧。",
+    "你在附近找到了三三，喵老大稍稍安静了一些。苗苗说一一和二二有可能跑去了慈心镇和千佛谷那边的山洞附近。",
+    "你好不容易找回了三只贪玩的小猫，喵老大终于放下心来。这个老大真是不好当啊……"
+   ],
+   "items": []
+  },
+  {
+   "name": "哭元宝",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%93%AD%E5%85%83%E5%AE%9D",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "一点青灯人未还"
+   ],
+   "details": [
+    "钱塘江畔，小莲花似乎正在等待谁回来。",
+    "小莲花的爹失踪有几日了，娘亲今早打听到“元宝”的消息，出去找人，却一直没回来。",
+    "一根崭新的蜡烛，像是哪一户人家出门太急落下的。",
+    "李娘子捞回了那具水上浮尸，他不再是没名没姓、漂在水中的“元宝”，也该回家了。"
+   ],
+   "items": [
+    "蜡烛"
+   ]
+  },
+  {
+   "name": "回头是岸",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%9B%9E%E5%A4%B4%E6%98%AF%E5%B2%B8",
+   "intro": "",
+   "highlights": [
+    "佛光顶上",
+    "菩提苦海中心的永福禅院"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，有位僧侣日夜面壁而立，口中念诵不已，举止虔诚中又透着一丝古怪，不知他心中究竟藏着什么执念？",
+    "僧人道悔日夜念诵《八十八佛大忏悔文》，只因良心难安。他自言昔日所造罪孽就在。",
+    "在菩提苦海发现的一卷遗书，卷上沾染陈年血渍，内中字迹斑驳模糊。隐约可见“吾徒道悔……祝祷安然无恙……”等字样，落款为“静怀”。",
+    "斑驳的遗书上没有怨怪，只有祝祷。曾经一同修行的僧侣们皆已在旧日的浩劫中逝去，谁又还听得到他今日的忏悔？重回苦海，回头见岸。"
+   ],
+   "items": [
+    "斑驳的遗书"
+   ]
+  },
+  {
+   "name": "夜半书声",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A4%9C%E5%8D%8A%E4%B9%A6%E5%A3%B0",
+   "intro": "",
+   "highlights": [
+    "杭州城外村郭"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "比你背得快"
+   ],
+   "details": [
+    "途经，村民周五叔正厉声训斥其子周弗，似有隐情……",
+    "周弗近来性情大变，既不温书亦不务农，终日缄口不言。周五叔不明缘由，只恨其不争。",
+    "周弗手札中记有一桩怪事：近来每逢夜读，便有声音在身后学他诵书。起初只当听错，数次回头查看，却始终不见人影，自此落下心病。",
+    "临水小亭传来诵读声，不见读书人，只发现数根新落的鹦鹉羽毛。",
+    "乔弘所养的鹦鹉走失。询问得知，那鹦鹉平日颇爱学人说话，已失踪数日。",
+    "向周家父子道明原委。周弗得知所谓“诡异之事”不过是鹦鹉作祟，顿时心病尽除，父子二人亦重归于好。"
+   ],
+   "items": [
+    "周弗手札",
+    "鹦鹉羽毛"
+   ]
+  },
+  {
+   "name": "大葱王",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A4%A7%E8%91%B1%E7%8E%8B",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "近来，葱王坪内似乎出现了一些不寻常的东西，什么 鱼腹里的布条 ，什么 刻字的石头 ，奇怪得紧！",
+    "从鱼腹中取出的布条，上面用毛笔工整地写着“食大葱王，延年益寿”八个黑字。",
+    "在葱王坪泥地上捡拾的石头，上面歪歪斜斜地刻着“食大葱王，延年益寿”八个大字。",
+    "葱王坪南的山林中，一入夜便传来狐狸的叫声，念着“食大葱王，延年益寿”的词。于顿告诉你，这是出于推广大葱王的需要，你也许可以向 葱长严大葱 问明原委。",
+    "严大葱向你讲述来龙去脉，于顿的确身负打响大葱王名号的任务，只是没想到会以这种方式。事到如今，先将有关此事的信件转交给他，看看能否有所转机吧。",
+    "于顿忙活了一晚上，终于清理完了这一带所有的“食大葱王，延年益寿”，又风风火火地投入到请人试吃大葱的事业中。虽然过程令人啼笑皆非，但葱王坪大葱王的名号到底一天比一天响亮，吸引远近的人前来一观。"
+   ],
+   "items": [
+    "鱼腹中的布条",
+    "刻字的石头"
+   ]
+  },
+  {
+   "name": "大侠试炼",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A4%A7%E4%BE%A0%E8%AF%95%E7%82%BC",
+   "intro": "",
+   "highlights": [
+    "北竹林"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "里有个叫蓉蓉的小女孩，总说此地藏着一本《大侠秘籍》。",
+    "从射落的白鸟腿上找到的一块木牌，上面刻着一个“之”字。",
+    "没有梯子的瞭望塔顶找到的一块木牌，上面刻着一个“证”字。",
+    "砍倒大树后，树上掉落了一块木牌，上面刻着一个“侠”字。",
+    "要想拿到《大侠秘籍》，必须先完成大侠的三道试炼：砍倒最粗的树，射落飞得最高的鸟，以及爬上没有梯子的瞭望塔。这三道试炼应当就在这北竹林附近。",
+    "蓉蓉拿到三个木牌后，决定去找她的师父讨要《大侠秘籍》，不知道跟着她一块去，有没有机会见到秘籍呢？"
+   ],
+   "items": [
+    "【之】字木牌",
+    "【证】字木牌",
+    "【侠】字木牌"
+   ]
+  },
+  {
+   "name": "大鹅争锋",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A4%A7%E9%B9%85%E4%BA%89%E9%94%8B",
+   "intro": "",
+   "highlights": [
+    "酒香塔旁"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "传来了阵阵吵闹声，该不会又有谁家孩子，跟大鹅杠上了吧？",
+    "一双奇臭无比的袜子，可以把任何动物都熏走。",
+    "刘小乖爹爹送她的木牌，是刘小乖的珍宝。",
+    "小乖拿回了爹爹给她的宝贝，这一次一定不会丢了！",
+    "用来照明的火折子，燃烧后可驱赶捣乱的大鹅。",
+    "可恶的大鹅，竟然抢走了小乖父亲留给她的宝贝。不过这大鹅可凶狠得紧，要不去那些厢房里找找，看看有什么可以驱赶大鹅的宝贝。",
+    "有了火折子，再凶恶的大鹅也要逃之夭夭！小乖的木牌终于拿到手了，去还给她吧！",
+    "宋九的袜子也太臭了吧，简直是连大鹅见了，都要退避三舍的程度！不过小乖的木牌终于拿到手了，去还给她吧！",
+    "小乖拿回了爹爹给她的宝贝，只是怎么有些臭臭的？"
+   ],
+   "items": [
+    "宋九的臭袜子",
+    "小乖的木牌",
+    "弄脏的木牌",
+    "火折子"
+   ]
+  },
+  {
+   "name": "失窃的头坛饮",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A4%B1%E7%AA%83%E7%9A%84%E5%A4%B4%E5%9D%9B%E9%A5%AE",
+   "intro": "",
+   "highlights": [
+    "酒香塔下"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，管事裴叔似乎很生气，可是发生了什么？",
+    "一撮神秘的黄毛，交给监工裴酿。",
+    "只剩下半坛的头坛饮，香味浓郁，裴监工正着急寻找呢！",
+    "想不到，开坛宴上要用到的头坛饮，竟然被人给偷去了，怪不得裴叔发了好大的脾气，在酒香塔周围找找，看看有没有什么线索吧！",
+    "一撮奇怪的黄毛……好像……好像是某种动物留下的，会不会是那花海边，山上的猴子遗落的？",
+    "果然是这群贪吃的猴头！可惜，头坛饮被它们喝了一半……",
+    "原来那群猴子竟拿灵物添到头坛饮里，不过倒也因祸得福，裴叔提议要去天叔那里看看，若是天叔知道，裴叔是要薅他羊毛去的，以天叔抠门的性子，肯定会闭门不见吧？"
+   ],
+   "items": [
+    "一撮黄毛",
+    "头坛饮"
+   ]
+  },
+  {
+   "name": "妙妙庙",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A6%99%E5%A6%99%E5%BA%99",
+   "intro": "",
+   "highlights": [
+    "将军祠一带",
+    "妙妙喵",
+    "妙妙喵"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，有位摸金手正在到处探看，好像在寻找什么……",
+    "形状别有深意的小巧铃铛，上面有三道深刻的爪痕，透过爪痕隐约可见三足金乌的纹样。轻轻晃动，可闻空灵悠远的铃声。",
+    "据伏禄宝所言，他跟着商队踏遍清河，在祠堂附近落脚时，偶然窥见了一只的行迹……",
+    "拿到那枚妙妙铃铛后，伏禄宝大喜过望，念叨着什么“妙妙喵”“妙妙庙”的，径自向西北而去，很快没了身影。"
+   ],
+   "items": [
+    "铃铛"
+   ]
+  },
+  {
+   "name": "如此解忧",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%A6%82%E6%AD%A4%E8%A7%A3%E5%BF%A7",
+   "intro": "",
+   "highlights": [
+    "丹崖"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "上有个狂笑不止的男子，也不知他遇上了什么大喜事……",
+    "闻着一股臭味的瓷药瓶，瓶底刻着一个“肖”字。",
+    "闻着一股香味的瓷药瓶，瓶底刻着一个“肖”字。",
+    "闻着一股酸味的瓷药瓶，瓶底刻着一个“肖”字。",
+    "肖游医笑个不停是因为中了毒，要想解毒，须得替他寻回掉落在丹崖附近的三个解药瓶。",
+    "笑未必能得到快乐，解忧也不该借助药物。肖游医能明白这个道理，倒也不算白笑一场。"
+   ],
+   "items": [
+    "臭药瓶",
+    "香药瓶",
+    "酸药瓶"
+   ]
+  },
+  {
+   "name": "孤云的职责",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%AD%A4%E4%BA%91%E7%9A%84%E8%81%8C%E8%B4%A3",
+   "intro": "",
+   "highlights": [
+    "文津馆唐相曾为孤云弟子",
+    "不妨将此物拿给信中提到的人瞧瞧？",
+    "拜入孤云的过往，唐新词并未避而不谈。",
+    "陈见微每晚都例行询问唐新词是否愿意回孤云"
+   ],
+   "goals": [],
+   "steps": [
+    "陈见微：孤云均字门弟子，前来藏书馆访学，有高世之智，寡言少语。据传在孤云时曾与唐新词同窗。"
+   ],
+   "achievements": [],
+   "details": [
+    "相传，，不知何故别孤云入文津馆。又风闻，孤云均字门门主谢韫一直对错失这一人才耿耿于怀……",
+    "不知谁人不慎遗落的信件，封皮一角缀着“谢韫”二字。信封有拆开过的痕迹。 谢韫其名，似乎有所耳闻。",
+    "关于据她所言，入孤云本欲寻求命途之数，然孤云却对此道讳莫如深。此后唐新词便离开孤云，辗转成为了文津馆十相。",
+    "孤云弟子，得到否定答复后，又心安理得地看起书来。说他不上心，他每晚必来；说他上心，又似乎并不热切。",
+    "陈见微与唐新词竟是昔日孤云同窗，二人功课不相上下，日夜讨论学术，孤云谢门主甚至有意撮合二人。",
+    "孤云谢门主求贤若渴，竟不惜挖文津馆墙脚，唐新词想必是难得一见的奇才。但观唐新词心意已决，谢门主怕是难以如愿。",
+    "门主来信不慎遗失，陈见微竟没有察觉。陈见微肩负着替孤云挖文津馆墙脚的重任，却不甚放在心上，借着访学机会一心拜读文津馆藏书。"
+   ],
+   "items": [
+    "谢韫的信"
+   ]
+  },
+  {
+   "name": "子在川上曰？",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%AD%90%E5%9C%A8%E5%B7%9D%E4%B8%8A%E6%9B%B0%EF%BC%9F",
+   "intro": "",
+   "highlights": [
+    "平澜书院泮水边"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "听说有个“小夫子”，日日给鱼讲课，还把它们分作好学生与差学生。",
+    "泮水边的“小夫子”叫阿蒲。他给鱼儿排了座次，一本正经地讲课；至于他口中的“魏夫子”，似乎正在书院库房打盹。",
+    "旧课业按水利、农桑、算学分门扎好，细绳下还压着一张写有“阿蒲”的纸签。这些“废纸”，正是小夫子等着的新教案。",
+    "阿蒲口中的“魏夫子”，原来是守库房的魏大有。他知道阿蒲常在窗下听课，便把书院不用的旧课业捆好，留给这个船家少年。",
+    "水为何往低处流，城中六井如何相通，浮萍一多鱼儿为何会死——阿蒲从窗下听课，也从旧课业里找答案；等能讲给鱼儿听，这一课才算真正学会。"
+   ],
+   "items": [
+    "旧课业"
+   ]
+  },
+  {
+   "name": "家翁何名",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%AE%B6%E7%BF%81%E4%BD%95%E5%90%8D",
+   "intro": "",
+   "highlights": [
+    "撩浅军营地",
+    "塘工名册",
+    "名册",
+    "塘工名册"
+   ],
+   "goals": [
+    "与小青蛟对话",
+    "与弄潮儿对话"
+   ],
+   "steps": [],
+   "achievements": [
+    "正名"
+   ],
+   "details": [
+    "附近，一位男子盯着营地大门，一脸怒意……",
+    "小青蛟想向撩浅军讨要，找到自己太爷爷的下落。军营防备森严，不由分说将他赶了出去。",
+    "军营内的人对一个来讨要的男子议论纷纷，认定这只是他想潜入军营的借口。",
+    "天宝三年，钱王下令统一记录了一本。这本名册既是朝廷功勋簿，也是记录着塘工姓名的英雄名录。",
+    "小青蛟终于找回了塘工前辈的姓名。记忆里的一声声念诵，与纸上的字形一一对上，他们便不再是口口相传的影子，后人的仰慕与怀念，从此有了可以郑重写下的名字。"
+   ],
+   "items": [
+    "天宝三年塘工名册"
+   ]
+  },
+  {
+   "name": "寻侠记",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%AF%BB%E4%BE%A0%E8%AE%B0",
+   "intro": "",
+   "highlights": [
+    "春风里的御街水沟旁"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "猫也要打工吗？"
+   ],
+   "details": [
+    "，一名女童正蹲在水沟旁发呆，不知在想什么……",
+    "御街的水沟旁，墨儿的真珠不慎掉入沟中。水沟缝隙太小，无法将真珠取出，不如去请“三侠”来。",
+    "按照程三娘所说，找到了些许“三侠”的线索，却不知为侠者救助旁人为何还要收取银钱，真是岂有此理！",
+    "从覃伯口中得知，“三侠”竟是在春风里安家的三只小猫，因熟悉此地，见过许多不慎遗失之物。若有所求，可献上新鲜大鱼一条，“三侠”自会为你寻物。",
+    "明州之珠，渡海而至钱塘，是墨儿心爱之物，因落入泥水中之故，表面沾了些污泥。",
+    "真珠失而复得，你将“三侠”之事告诉了墨儿，却得知此事是她故意为之。墨儿听闻“三侠”旧事，决心将“三侠”寻物之事告诉身边人，好让小猫以后都能吃上饱饭。"
+   ],
+   "items": [
+    "一颗真珠"
+   ]
+  },
+  {
+   "name": "工不应求",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%B7%A5%E4%B8%8D%E5%BA%94%E6%B1%82",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "一名工匠站在北塔寺门前，满面愁容……",
+    "为了谋一份修缮南塔寺的工匠差事，邱知柘按着牙人的指引，给一位名为朱民祥的官员送了不少礼。然而时至今日，他也只过一个口头承诺，没能拿到工匠身份牌。",
+    "鲍泰来随身带着南塔寺修缮工匠的身份牌。但只有在看到足够的“诚意”后，他才会将牌子给出。",
+    "一块木制的工匠牌，其上刻有“南塔寺”三个字。",
+    "你将工匠牌交给了邱知柘，得到了他诚挚的感谢。在得知了朱民祥与鲍泰来之间的龌龊交易后，邱知柘表示自己将会四处收集线索，以便有朝一日能让这二人受到应有的惩罚。"
+   ],
+   "items": [
+    "工匠牌"
+   ]
+  },
+  {
+   "name": "当饮好茶",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E5%BD%93%E9%A5%AE%E5%A5%BD%E8%8C%B6",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "临江驿宾客往来，这张老茶的歇脚茶摊，生意又好了不少，但是今年却惹来商客非议。",
+    "客商们拜托你，能不能帮忙将这张老茶的茶水价格打下来！找找看，有什么可以把跟张老茶讨价还价的地方吧！",
+    "你发现了一把破板凳，但张老茶却振振有词，你都喝几文钱的茶了，还在乎环境吗？",
+    "你发现茶汤中的乳酪都馊掉了！可面对铁证，张老茶却振振有词，你都喝几文钱的茶了，还在乎卫生吗？",
+    "你发现了茶堂里的破外甥，却不料这外甥大有来头，乃是当年赵匡胤游历清河时所留，怪不得张老茶有底气涨价呢！"
+   ],
+   "items": []
+  },
+  {
+   "name": "抱山湖秘宝",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%8A%B1%E5%B1%B1%E6%B9%96%E7%A7%98%E5%AE%9D",
+   "intro": "",
+   "highlights": [
+    "抱山湖"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "周围来了些寻找宝物的江湖人……",
+    "你发现了瀑布后藏着的宝箱，似乎需要两把钥匙才能打开。且在周围打听一番。",
+    "神秘的钥匙，或许可以用来打开宝箱。",
+    "神秘的钥匙，或许可以用来打开宝箱。",
+    "传闻雌雄双盗将宝贝藏在了抱山湖，并为之争得死去活来。两人最后分别殒命于北边的竹林废屋和龙虎寨洞窟附近。",
+    "你循着打听到的线索，找到两把钥匙后顺利打开了瀑布后的宝箱，只是里面的秘籍早已被水泡坏……"
+   ],
+   "items": [
+    "奇怪的钥匙·壹",
+    "奇怪的钥匙·贰",
+    "被浸湿的秘籍"
+   ]
+  },
+  {
+   "name": "折桂寄思",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%8A%98%E6%A1%82%E5%AF%84%E6%80%9D",
+   "intro": "",
+   "highlights": [
+    "海客巷的墓地",
+    "折一枝桂花给他",
+    "可以给罗百万看看",
+    "将这枝桂花带回故乡",
+    "一起回家"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "花中第一流"
+   ],
+   "details": [
+    "前，有人正在驻足怀想……",
+    "罗百万不辨桂香，以为是亡魂的挽留。又或许，这只是他给心中歉疚寻找的借口。不妨。",
+    "中庭地白树栖鸦，冷露无声湿桂花。你折下来的一枝桂花，。",
+    "罗百万决定，就当是这群生死与共的朋友们陪他了。"
+   ],
+   "items": [
+    "一枝桂花"
+   ]
+  },
+  {
+   "name": "敲钟老人",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%95%B2%E9%92%9F%E8%80%81%E4%BA%BA",
+   "intro": "",
+   "highlights": [
+    "深仇大恨"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "据敲钟老人所言，三年前的一场大战使得太平钟楼钟碎楼毁，若想得知大战真相，可以入楼一探究竟。",
+    "钟楼中遍布凌厉刀痕，交战的一方应当是位刀客。",
+    "一条染血的丝带，未染血的部分绣着一个宝盖头的字，应是使柳叶镖女子之物。",
+    "钟楼四层破损极为严重。由此看出，双方越战越烈，也越发不留余地。",
+    "从密信得知大战的双方乃是褚清泉与洛神。大战起因为褚清泉受人所托，阻止洛神返回神仙渡守护宝物。"
+   ],
+   "items": []
+  },
+  {
+   "name": "故人蛇影",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%95%85%E4%BA%BA%E8%9B%87%E5%BD%B1",
+   "intro": "",
+   "highlights": [
+    "南屏山",
+    "柳子明",
+    "“蛇尸”",
+    "草绳",
+    "柳子明"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "下，一名青年文士不安地四处张望，口中念念有词。",
+    "坚称世上无鬼神，但他最近总觉得有毒蛇要害他。他声称刚才在竹林里斩杀了一条恶蛇，拜托你去找回，以证明自己没有疯。",
+    "在竹林阴暗的角落里，只找到了一截被砍成好几段的。根本没有什么毒蛇。",
+    "草绳非蛇，妖由人兴。多年前用毒蛇惊吓同窗，窃取了举荐名额。如今同窗返乡，他心中的愧疚与恐惧化作了挥之不去的蛇影。他不信鬼神，却困于自己的心魔。"
+   ],
+   "items": [
+    "草绳“花斑毒蛇”"
+   ]
+  },
+  {
+   "name": "敢问贵姓",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%95%A2%E9%97%AE%E8%B4%B5%E5%A7%93",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "平澜书院的水榭走廊上，有两个学生堵住过道，争得面红耳赤……",
+    "沈经和陆通都是心高气傲的世家子弟，非要争个先后，谁也不肯让路。宋夫子正在编纂的《百家姓》或许能帮他们做个了断。",
+    "《百家姓》手稿，记录了天下姓氏并依次排序，四字一句，八字一韵，念起来朗朗上口，是上好的蒙学读物。",
+    "根据《百家姓》的排序，沈经和陆通总算分出高下，让开了路。只是不知道日后再见，他们是否会给出身草莽的你让路呢。"
+   ],
+   "items": [
+    "《百家姓》手稿"
+   ]
+  },
+  {
+   "name": "文武之歧",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%96%87%E6%AD%A6%E4%B9%8B%E6%AD%A7",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "文津馆与江湖各名门正派向来交好，常有游侠慕名而来。若是好文，可前往藏书馆求学，若是好武，也可前往历城台演武馆。",
+    "自打前来藏书馆求学，天泉弟子江载舟便浑身刺挠。文人雅士在学斋一坐便是一天，让这个好武之人痛苦不堪。恰逢师兄来信，邀他前往演武馆相会。去，还是不去，这是个问题……",
+    "自打前来演武馆，天泉弟子云乘风便痛不欲生。武生们日日操练，从不休息，让这个原本好武之人竟萌生了弃武从文之心。恰逢师弟来信，邀他前往藏书馆相会。去，还是不去，这是个问题……",
+    "薄薄的小册子，绘制着藏书馆各处建筑，附有小字介绍。此书并非簇新，书页一角草草写着“天泉”二字。 藏书馆及演武馆都有不少慕名而来的天泉弟子，不妨将此书拿给他们看看？",
+    "抛开藏书馆便览，江载舟下定决心，即日前去演武馆。想到不久之后便能过上骑马射箭的幸福日子，江载舟的步伐越发快捷……",
+    "收起藏书馆便览，云乘风下定决心，即日前去藏书馆。想到不久之后便能与文人雅士们同座论道，做个文化人儿，云乘风笑得牙豁子都露了出来……"
+   ],
+   "items": [
+    "《藏书馆便览》"
+   ]
+  },
+  {
+   "name": "无意之辩",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%97%A0%E6%84%8F%E4%B9%8B%E8%BE%A9",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "话术【衣冠优孟】",
+    "话术【不易之理】",
+    "话术【快意口舌】",
+    "话术【因论之辩】"
+   ],
+   "achievements": [],
+   "details": [
+    "林文元曾于文津馆设百日筵，辩服天下文人，其设筵的厅堂如今成了文津馆弟子比拼话术的盛地……",
+    "舌战群儒后，不知谁人悄然放在你面前的一枚玉佩，此佩莹润有光，正面刻着一个“鸣”字。 据说十相之一的唐新词亦曾摘得此佩，不妨拿去问问她？",
+    "据程竞言所说，自林文元百日辩经之后，第二位曾在此地辩服诸人的便是唐新词。那时她刚入门不久，正值年轻气盛，有人出于妒忌邀她来辩经堂一决高下，唐新词引经据典、妙语连珠、口若悬河、滔滔不绝，令无数同窗折戟。",
+    "你无意引来众学子向你发起话术挑战，可巧赢得头筹。唐新词得知你的经历，忍俊不禁。无心插柳柳成荫，亦是美事。"
+   ],
+   "items": [
+    "争鸣佩"
+   ]
+  },
+  {
+   "name": "无心之失",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%97%A0%E5%BF%83%E4%B9%8B%E5%A4%B1",
+   "intro": "",
+   "highlights": [
+    "南高峰",
+    "叶栖栖",
+    "丢失了捣毒药的棒杵",
+    "希望你找到此物",
+    "可可",
+    "身旁守着一根积了灰的捣棒",
+    "奇怪的味道",
+    "可可成了叶栖栖家门的常客",
+    "有新的药杵玩具"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "在内，向来性格孤僻的出现在自家房门外，他表情急切，好像想找回什么丢失之物……",
+    "叶栖栖在屋外徘徊，他告知你自己，很有可能会伤到别人的性命，并。",
+    "一只名叫的猫坐在树林里，，它说追着此物跑了很久，它还告诉你捣棒上有，提醒你要小心。",
+    "，在这儿，它不仅，还有一个被沉默搭出来的小窝。"
+   ],
+   "items": [
+    "积灰捣棒"
+   ]
+  },
+  {
+   "name": "无名郎",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%97%A0%E5%90%8D%E9%83%8E",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "蚕花里村边客栈，店家夫妻正为一桩诡事争执……",
+    "客栈夫妻因为一个从不露面的腼腆男子而争吵，这背后似乎有毛骨悚然的事。",
+    "客商程小柱的同伴随无名郎进城后，如泥牛入海。程小柱沿夜路寻人，却在暗渠中寻得一沾泥褡裢，其主竟是数年前便已失踪的旧客。",
+    "看着遗落在荒郊野岭的旧行囊，客栈夫妻大惊失色。那位好心带路进城的“无名郎”，莫非真将人引向了一条黄泉路？"
+   ],
+   "items": []
+  },
+  {
+   "name": "无面不入",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%97%A0%E9%9D%A2%E4%B8%8D%E5%85%A5",
+   "intro": "",
+   "highlights": [
+    "登云阙",
+    "沈南心",
+    "戴夜",
+    "面具",
+    "登云阙",
+    "沈南心"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "传闻有一神秘之地，未覆假面者，皆不得入内……",
+    "沈家贵女久病缠身，欲往神秘地求取续命药。假面却不知所踪，或是遗落在耸翠楼、玉壶园#……",
+    "此人，只认假面，不问苍生。欲入其中，必先寻得一方，方可入局。",
+    "四季宅邸，冬芜庵内，满室假面。内或许有这些假面的用武之地……",
+    "玉壶园中遗落的面具，失主或许正在找寻。",
+    "你将面具交还，解其燃眉之急。沈南心感念恩情，与你同行，共探续命灵药之秘。"
+   ],
+   "items": [
+    "诡异的面具",
+    "诡异的面具"
+   ]
+  },
+  {
+   "name": "旧坛归迟",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%97%A7%E5%9D%9B%E5%BD%92%E8%BF%9F",
+   "intro": "",
+   "highlights": [
+    "曲院"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "一坛两喜"
+   ],
+   "details": [
+    "酿酒作坊的酒坛堆旁，一名老匠人正一边修坛，一边高声寻找不见踪影的徒弟。",
+    "陈七一面补坛，一面高声找徒弟林小乙。林小乙刚才还在跟前，转眼便不见了；陈七认定他又闯了祸，躲着不敢回来。",
+    "林小乙手里只有三十六张坛签，却数出三十七只坛。他怕账目对不上被陈七训斥，守在坛堆旁不敢回去。",
+    "搬坛伙计嫌一只丑坛挡在前堂，索性一把塞给林小乙，还为自己腾开地方颇为得意；他并不知道坛子的主人是谁。",
+    "旧坛厚底重身，坛套修补过数回，其中一层旧篷布带着焦边；内壁留有水垢，草套缝里卡着陈米和烟灰。夹层中的旧酒签写着：周家亲迎用酒一坛；坛底过厚，坛钱减三文。",
+    "陈七接过旧酒签，认出旧坛是自己年轻时做的厚底坛。周四娘带旧坛回来，要给即将出嫁的女儿再装一回酒；这只曾让陈七赔过三文的丑坛，后来还在城南走水时救过人。"
+   ],
+   "items": []
+  },
+  {
+   "name": "时也命也",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%97%B6%E4%B9%9F%E5%91%BD%E4%B9%9F",
+   "intro": "",
+   "highlights": [
+    "飞来峰上的塔林",
+    "游红尘、谢轻舟与印荷",
+    "游红尘",
+    "谢轻舟",
+    "印荷",
+    "将信给了游红尘",
+    "将信放在谢轻舟的小木舟上",
+    "将信给了容小丫代为转交"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "旧约已赴"
+   ],
+   "details": [
+    "之中，有位云游僧雨中打坐，不知发生了何事……",
+    "慈心受人之托，要将三封书信赠与三人，只是红尘茫茫无从寻找，而挚友之骨埋葬在此仍需照料，慈心正陷入两难境地。",
+    "在塔林处找到一封书信，落款为“何曾”，应当是写给挚友的信。",
+    "在塔林处找到一封书信，落款为“何曾”，应当是写给挚友的信。",
+    "在塔林处找到一封书信，落款为“何曾”，应当是写给挚友的信。",
+    "，他才得知原来何曾早已不在人世。信中所道皆是宽慰之言，读来依稀能想象出何曾是何模样。",
+    "，又将信中所写读了一遍，待谢轻舟归来，应当还能得见。",
+    "，静等印荷归来。",
+    "四位挚友的往事告一段落，你将此事告诉了慈心，他并未多说，仍然为故友守骨。"
+   ],
+   "items": [
+    "旧友书信·一",
+    "旧友书信·二",
+    "旧友书信·三"
+   ]
+  },
+  {
+   "name": "星火不熄",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%98%9F%E7%81%AB%E4%B8%8D%E7%86%84",
+   "intro": "",
+   "highlights": [
+    "丰禾村山崖旁"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "有一处紧锁的粮仓，全村人囤下的粮食都在里面，看守非常严密。听说，里面不只有粮食，还有村长的秘密……",
+    "一封写给村长的神秘信件，藏于守卫森严的粮仓。",
+    "你窃听了粮仓守卫的交谈，得知他们在这守的不仅仅是粮食，更是村长的秘密信件。丰禾村村长燕驰，似乎暗中一直与某位神秘的“大人”有来往。",
+    "你将秘密信件还给了村长，村长对你表示感谢。据村长所言，这些信件代表了北伐的“火种”……但更详细的内容，他却不肯再透露。"
+   ],
+   "items": [
+    "秘密信件"
+   ]
+  },
+  {
+   "name": "有钱能使鬼砸磨",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%89%E9%92%B1%E8%83%BD%E4%BD%BF%E9%AC%BC%E7%A0%B8%E7%A3%A8",
+   "intro": "",
+   "highlights": [
+    "镇远镖局"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "东北面的水岸边，一个穿蓑衣的船夫望着水面，正在沉思……",
+    "于蟾是一个杀手，他需要完成一个任务杀一个人，但他不想杀人，所以他需要钱离开。",
+    "正所谓有钱能使鬼推磨，有钱也能使鬼砸磨。磨砸开了，鬼就变成了人。"
+   ],
+   "items": []
+  },
+  {
+   "name": "有鱼",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%89%E9%B1%BC",
+   "intro": "",
+   "highlights": [
+    "蚕花里"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "中，鲍、庄两家的鱼塘只隔一道田埂。鲍婶子正指着庄老六数落，咬定他偷捞了自家田鱼。两家各有养鱼的法子，平日便互不服气，今日更闹得不可开交。",
+    "近日，鲍家塘中的赤尾田鲤竟有数尾游到了庄老六家。鲍婶子认定是庄老六暗中动了手脚，庄老六却矢口不认。",
+    "鲍家小春花抱着一只水桶，在旁踟蹰不前。细问之下才知，她与庄家女儿庄霏儿原是好友，见霏儿姐姐家中田鱼少，便想偷偷送些鱼苗过去。",
+    "将水桶交给春花的姆妈。鲍婶子与庄老六得知原委，才知错怪了彼此。两人想起孩子的一片心意，皆觉惭愧，终把旧日嫌隙一并说开。",
+    "将水桶交给庄霏儿。霏儿得知春花的心意，也要捞两尾乌脊石鲫送去鲍家，红尾黑脊，不分彼此。"
+   ],
+   "items": []
+  },
+  {
+   "name": "本心妙善",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%AC%E5%BF%83%E5%A6%99%E5%96%84",
+   "intro": "",
+   "highlights": [
+    "慈心山院",
+    "山院路口",
+    "静空",
+    "常在山院外流连",
+    "妙善禅师"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "传闻昔日曾名法华禅院，乃佛子妙善禅师居处。近日，有人曾在见过一位年轻僧侣，似乎正在为什么事烦恼……",
+    "僧人幼年时曾在法华禅院受戒出家，有幸服侍佛子妙善，后世宗灭佛，禅院更名为慈心山院，静空不得已随清玄前往佛光顶修行，因心中挂念妙善禅师，，只盼能与再次相见。",
+    "法华禅院外的静空小师父正在苦苦等候妙善禅师的消息，不如将这卷手书拿给他瞧瞧。",
+    "“世宗灭佛，心为天下，若得天下太平，世间再无禅院又如何？修佛当修心，心有菩提，不在菩提树下亦可得道。”读罢妙善手书，静空大彻大悟，洒脱一笑，飘然向佛光顶而去。"
+   ],
+   "items": [
+    "妙善手书"
+   ]
+  },
+  {
+   "name": "望阁兴叹",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%9B%E9%98%81%E5%85%B4%E5%8F%B9",
+   "intro": "",
+   "highlights": [
+    "藏书馆",
+    "天一楼",
+    "严成规",
+    "莫安拙",
+    "天一楼",
+    "《万章》抄本",
+    "天一楼专设有书案供学子抄书",
+    "若有人不得踏入天一楼，却渴求楼内典籍，或许可以钻这个空子……"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "文津馆弟子非闭门造车之辈，所谓读万卷书、行万里路，学子们学业有成之时往往结伴外出游历。但亦有传言，游历满一年后，学子们往往马不停蹄地返回，其行色之匆匆、面容之惨淡，着实令人纳罕……",
+    "一份抄本，为《九经》中《孟子·万章篇》。 一带或许有人正需要它。",
+    "莫安拙欲入天一楼，却被检阅人断然拒于门外。内中隐情，令人好奇。",
+    "天一楼外，有学子正唉声叹气，据他所言，只求有人能从内带一份，问其缘由，他似有难言之隐。按理说，，究竟是何缘故，让他只能于门外观望？",
+    "检阅人严成规看过抄本，将其还予你。文津馆规矩，入天一楼者若自行抄书，可随身带出。至于此书离开天一楼后落于谁手，便不在规矩之内了。",
+    "原来莫安拙曾于去岁外出游历，近日返回藏书馆著述宣讲，却铩羽而归。按照规矩，述学失败者一年不得踏入天一楼，但不进书库阅览群书，便不能于学业上再进一步。莫安拙接过抄本，决定埋头苦读，来年再雪前耻……"
+   ],
+   "items": [
+    "天一楼藏书抄本"
+   ]
+  },
+  {
+   "name": "木铎之仪",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9C%A8%E9%93%8E%E4%B9%8B%E4%BB%AA",
+   "intro": "",
+   "highlights": [
+    "钟楼",
+    "古钟",
+    "“木铎”",
+    "容舒迟",
+    "“先贤仪”",
+    "钟应辰",
+    "“先贤仪”",
+    "闻鸣谦",
+    "钟声",
+    "木铎",
+    "提及过木铎的人",
+    "木铎",
+    "“先贤仪”",
+    "钟应辰",
+    "木铎",
+    "“先贤仪”",
+    "闻鸣谦",
+    "钟应辰"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "藏书馆天一楼畔，有一钟楼，传闻上有一，铜身木舌，名作。虽有钟，却不闻钟声，也不知能否敲响？",
+    "不久前入门的学子常在木铎钟楼一带徘徊，举止鬼祟。有人问起，她便说自己久闻之名，迫切想要参与门中盛事，也不知是真是假？",
+    "《八佾》篇有云：“天下之无道也久矣，天将以夫子为木铎”。木铎钟楼的敲钟人声称，文津馆的木铎不同于庙宇晨钟，只有到了某一特定时刻才会敲响。",
+    "子曰：“有教无类。”向学之心无分昼夜，天一楼的大门无论何时都为好学之士敞开，唯有时例外。“先贤仪”究竟是何等盛事？天一楼的检阅人曾在提及“先贤仪”时说到，莫非此仪式与有关？",
+    "似乎是因年久失修而不慎脱落的钟舌。钟身为铜，钟舌为木，木铎起而千里应，古时用以文事，今日亦有妙用。 不妨拿给瞧瞧。",
+    "得知你擅闯钟楼，钟应辰瞠目结舌，又得知钟舌损毁，钟应辰悲痛欲绝！原来敲响便预示开启，此仪式意义重大，如今木铎损毁，只好暗中研究修钟之法，只盼别被他人发现……",
+    "得知你擅闯钟楼，闻鸣谦不禁动容，又得知钟被敲响，闻鸣谦愕然失色！原来敲响便预示开启，此仪式意义重大，如今木铎损毁，但为时不晚，决议先将敲钟的教训一番再作打算……"
+   ],
+   "items": [
+    "木铎钟舌"
+   ]
+  },
+  {
+   "name": "枣核不见",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%9E%A3%E6%A0%B8%E4%B8%8D%E8%A7%81",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "早悟寺附近的水泊中常有土匪劫道，一名香客被贼寇围住，向往来的人呼救……",
+    "张慧行在密林中徘徊不去，只因赶路时误将本欲赠给道觉禅师的一筐青州枣遗落，记得是在水泊密林一带，如今遍寻不见去向。",
+    "张慧行遗落的青州枣已被獐子吃尽，如今只剩下满地枣核，被你捡拾收拢进竹筐中。",
+    "从采枣老伯处买到的青州枣，满满一筐，新鲜硕大。",
+    "新鲜硕大的枣子从采枣老伯手中交到你这里，又从你这里交到张慧行手中。张慧行将枣赠给你，朝你深深一揖，转身离去，虽是空手，背影却颇显从容。枣在，人不在；人不在，枣还在；来去之间，该遇见的一个也没错过。",
+    "枣核寺已改作早悟寺，道觉禅师不知去向。青州枣的果肉尽数归于林中獐子腹中，只剩下枣核静卧竹筐。张慧行最终没有寻到他想见的人。他注视枣核良久，自言着相，转身走入密林深处，脚步比来时轻了许多。"
+   ],
+   "items": [
+    "一筐枣核",
+    "一筐青州枣"
+   ]
+  },
+  {
+   "name": "桃花春信",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%A1%83%E8%8A%B1%E6%98%A5%E4%BF%A1",
+   "intro": "",
+   "highlights": [
+    "阳春花白茸",
+    "花笺",
+    "樊楼",
+    "记在心上",
+    "桃花花笺",
+    "牡丹花笺",
+    "灼华馆",
+    "牡丹花笺"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "醉花阴有美人无数，翘楚者号称二十四番花信风。其中的，天生一双多情目，一抹勾人唇。拜倒于裙下者难以计数，只不知究竟谁能一获亲眼，摘得？",
+    "白茸姑娘似乎对你的调琴记谱十分满意，甚至愿意引你做她的“弦知音”。她说，希望你能将她“记在心上”，仿佛有意与你再会。可是诺大，美人姐姐究竟在何处下榻？",
+    "白茸姑娘用自己的，换走了樊楼楼主留下的，还约你他日中再会！她信中言辞情真意切，只不知你何时有暇，能去赴约？",
+    "看来襄王有意，神女含情，一支桃花花笺牵出一晌贪欢，一片春情。只是醉花阴中的人多情却总似无情，乱红飞过后，不知到底是谁交付真心。",
+    "可惜神女有意，襄王无梦。看来这支桃花花笺注定错付，只是醉花阴中的人多情却总似无情，乱红飞过后，不知是否有人当真交付过真心。"
+   ],
+   "items": [
+    "桃花花笺"
+   ]
+  },
+  {
+   "name": "欲望深渊",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%AC%B2%E6%9C%9B%E6%B7%B1%E6%B8%8A",
+   "intro": "",
+   "highlights": [
+    "酒肆背面",
+    "木白"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "听说常年游荡在的混混，似乎知道什么秘密……",
+    "神仙渡特产的美酒，滋味隽永，只有每年醉仙月，才可千金一求。",
+    "精酿的离人泪，比普通离人泪更加香醇，酒鬼木白非常喜爱。",
+    "木白虽是混混，倒也说话算话，你得知那幕后的南方组织，他们的头领竟是一个绝美的女人，但再要往下问，木白却不乐意，除非……你能给他一大坛离人泪。",
+    "木白告诉你，如果你能给他一瓶离人泪，那么就能从木白那里获得一个秘密。",
+    "木白一番痛饮，仍意犹未尽，他告诉你，那些背后抓捕伊刀的家伙，来自南方的唐国。但想继续让他为你探知情报，那么需要你为他找来一坛精酿离人泪。",
+    "木白索要无度，但好歹答应了为你办事。可是这一次，你隐隐有种不祥的预感——只怕木白此去便再也见不到了。"
+   ],
+   "items": [
+    "离人泪",
+    "精酿离人泪",
+    "大坛离人泪"
+   ]
+  },
+  {
+   "name": "棺船不沉",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%A3%BA%E8%88%B9%E4%B8%8D%E6%B2%89",
+   "intro": "",
+   "highlights": [
+    "沉舟坊",
+    "棺材船",
+    "铁命牌",
+    "沉舟坊中有富商哭哭啼啼送丧",
+    "两条棺材船",
+    "坊中多了个总是怪笑的帮工。"
+   ],
+   "goals": [],
+   "steps": [
+    "孙管事：水上义庄的管事，负责算账记人头，接待平民，闲暇时也教贫苦人家的孩子认字读书。",
+    "见闻：旧簿习字、送尸人、不沉之棺",
+    "遗迹：幽明古渡"
+   ],
+   "achievements": [],
+   "details": [
+    "旁，孙管事与黄公子正争执着什么。",
+    "黄公子告诉你，三涂泽中有一条不会沉没的，船中困着一名疯疯癫癫的绝顶高手。",
+    "一枚锈迹斑斑的，上头的名号都磨得看不清了。它在水中浮沉了好些年，今日方才上岸——是福是祸，只看落谁手里。",
+    "黄公子拿了命牌，志得意满，一心想把买凶杀人做得干净，却从此再无音讯。不久，，又往水中放下。",
+    "孙管事将命牌收好，不多时，常来三涂泽的人发现，"
+   ],
+   "items": [
+    "生锈的命牌"
+   ]
+  },
+  {
+   "name": "此木非梁",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%AD%A4%E6%9C%A8%E9%9D%9E%E6%A2%81",
+   "intro": "",
+   "highlights": [
+    "封龙书院",
+    "封龙山一处荒林里"
+   ],
+   "goals": [],
+   "steps": [
+    "程木：负笈于封龙书院的契丹青年，恩师被俘，同门遇害，忠义难两全。",
+    "郑言：封龙书院大儒，平生风骨峭峻。书院被围之际，他恰因故外出；待其闻讯归来，途中却为契丹游骑所虏，身陷囹圄。"
+   ],
+   "achievements": [],
+   "details": [
+    "时候未到，还请少侠先在探索一番。",
+    "，你发现一个受伤的青年，神情急切，似乎想要求助，但又带着一丝戒备……",
+    "你受一个青年所托，去救被困在契丹营地的书院先生。他给了你钥匙，还叮嘱你营救时，别提及他……",
+    "郑先生拒绝了你的营救。从他口中，你得知了那青年竟是契丹人。先生让你将断尺转交给青年。",
+    "青年收下断尺，托你向先生带话。言罢，他朝着书院与先生所在的方向遥遥叩首，默然转身，就此远去。",
+    "郑先生终是随书院一同去了。而那片被逐出的叶，向着他本来的根脉飘去，想去丈量一片没有墙的天下。"
+   ],
+   "items": [
+    "钥匙",
+    "断尺"
+   ]
+  },
+  {
+   "name": "此愿何偿",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%AD%A4%E6%84%BF%E4%BD%95%E5%81%BF",
+   "intro": "",
+   "highlights": [
+    "早悟寺外",
+    "施道长",
+    "道空住持"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，一位香客捶胸顿足，似乎遇到了什么不甘心的事。",
+    "一位学子来早悟寺祈求考试顺利，但却只得下下签，就连祈愿的信签也不见了。",
+    "一张写着心愿的纸条，似乎是个学子的。或许可以找找失主？",
+    "这位学子从小就苦于考试，于是才来寺里求保佑。他只是不想让父母再失望。",
+    "再找求签，却意外得到了“逆天改命”的结果。或许学子所求就能灵验……？",
+    "再找求签，结果依然不理想。看来此事还需要静待转机。"
+   ],
+   "items": [
+    "模糊的纸条"
+   ]
+  },
+  {
+   "name": "江湖黑话",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B1%9F%E6%B9%96%E9%BB%91%E8%AF%9D",
+   "intro": "",
+   "highlights": [
+    "不羡仙码头旁"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "似乎出没着一个鬼鬼祟祟的身影……",
+    "这枚造型奇异的令牌，难道就是那神秘人口中所言的物事？",
+    "此人口中念念有词，不知道说的是什么胡话，但你隐隐察觉，此人口中所言的物事，非同小可。",
+    "月上中天，渡过神仙。瓮里捉鳖，焚火行宴……那人所言到底是……"
+   ],
+   "items": [
+    "龙纹令牌·风"
+   ]
+  },
+  {
+   "name": "求药隐情",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B1%82%E8%8D%AF%E9%9A%90%E6%83%85",
+   "intro": "",
+   "highlights": [
+    "四名文津馆弟子",
+    "小神医",
+    "齐思贤等人",
+    "方白",
+    "隐情",
+    "方白",
+    "芥子庐",
+    "方白",
+    "齐思贤四人",
+    "齐思贤"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "据传，近日有造访芥子庐，不知何故竟在医馆住下，日行杂役之事，算来已有月余，观此四人神色颇为愁苦，却不知究竟有何把柄在手上，竟始终俯首任小神医驱使？",
+    "白马之祸后，文津馆英才凋零大半，余者携典籍四散乡野。逃离时偶然拾得一封来信，信上说有人携金桃自河西而来，或能解长安之乱。几人寻至秦川，与师叔相逢，此后不久，方白派遣四人前往芥子庐求药……",
+    "据素怀微所说，文津馆四人俱是不折不扣的呆瓜。方白派他们前来芥子庐求药，似乎正是为了让小神医有借口将他们留在此地。却不知其中究竟有何？",
+    "被妥善收藏的信件，封皮一角缀着“”二字。信封有拆开过的痕迹。 方白其名，似乎有人提起过？不妨在打听打听。",
+    "求药为假，支开师侄为真。原来根本没有宿疾，只是寻了个借口令前往芥子庐，所谓求药、杂役云云，只是绊住这四人的借口。素怀微猜测，方白约莫另有要事，不便带师侄们前往，这才行此金蝉脱壳之计……",
+    "求药为假，支开师侄为真。原来方白根本没有宿疾，只是寻了个借口令齐思贤四人前往芥子庐，所谓求药、杂役云云，只是绊住这四人的借口。得知此事如遭雷劈，他阅历尚浅，哪见过自己人骗自己人的勾当？"
+   ],
+   "items": [
+    "方白的信"
+   ]
+  },
+  {
+   "name": "江湖的柴",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B1%9F%E6%B9%96%E7%9A%84%E6%9F%B4",
+   "intro": "",
+   "highlights": [
+    "钱塘县衙",
+    "雅集苑"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "南面的屋顶上，一个蒙面人听着屋内的讨论，正在盘算什么……",
+    "县令屋顶的江湖人要找一份中的名册，这其中藏着什么秘密……",
+    "秘密的名册里记录有雅集苑中人的言行，但这有什么用？",
+    "新旧官员之间的争斗，添上一把来自江湖的柴。虽不知道会烧出怎样的火，但添柴添乱总是很有趣的。"
+   ],
+   "items": []
+  },
+  {
+   "name": "江中刀",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B1%9F%E4%B8%AD%E5%88%80",
+   "intro": "",
+   "highlights": [
+    "宝刀",
+    "武勇都",
+    "军刀"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "往事不可追"
+   ],
+   "details": [
+    "海塘边，有两名撩浅军在寻一把宝刀……",
+    "两名撩浅军在为一把的归属争论着，找到之后该物归原主，还是交给爱刀、惜刀者呢？",
+    "这把刀是顾守平祖上传下的武勇都旧物。但正因为这祖上的身份，影响了顾守平的命运，让他空有一身好功夫，却得不到施展的机会。",
+    "一把刻着“”三字的，看着有些年头。兵器有灵，习武之人的兵器就是心气，不知这把刀的主人现在如何了？",
+    "顾守平是武勇都旧部之后，因出身连累冷落三代，心灰意冷之下亲手把祖传的军刀扔进了江里。刀最终还是回到了他身边，但这刀接下来的命运何去何从，或许顾守平自己短时间内也给不出答案。",
+    "顾守平是武勇都旧部之后，因出身连累冷落三代，心灰意冷之下亲手把祖传的军刀扔进了江里。刀最终到了兵器痴秦戈的手里。兵器有灵，主人不认，自有人珍惜。"
+   ],
+   "items": [
+    "一把军刀"
+   ]
+  },
+  {
+   "name": "洞中仙",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B4%9E%E4%B8%AD%E4%BB%99",
+   "intro": "",
+   "highlights": [
+    "抱朴庐"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "洞中仙"
+   ],
+   "details": [
+    "亦名葛仙祠。山间有紫云、金鼓、银鼓诸洞，传为仙人修行之地。多年前，稚童吴复言在此遭遇狼群，称得洞中仙人搭救。如今他已及冠，携妻儿故地重游，欲寻仙迹。",
+    "青年在金鼓洞口徘徊，满心期盼能再见救命仙人。",
+    "葛岭山洞中供奉着神像，案台石灯旁，依稀可见一丝干涸的血迹。深入石缝探查，竟寻得一枚发黑的桃木符牌。",
+    "抱朴庐墙角的暗格中，藏着一本泛黄的名册，似乎记录着道院弟子的名录。翻至末页，有个名字被刺眼的朱砂画了红叉，字迹已辨识不清。"
+   ],
+   "items": [
+    "桃木符牌",
+    "残破名录"
+   ]
+  },
+  {
+   "name": "深夜犬吠",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B7%B1%E5%A4%9C%E7%8A%AC%E5%90%A0",
+   "intro": "",
+   "highlights": [
+    "曲坊东门附近"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "传闻在深夜里，就会传来阵阵犬吠声。一个狼狈的男人被狗狗阿黄堵截在了大树下，似乎需要找来肉骨头，才能让狗狗安静下来……",
+    "一块神秘的龙纹令牌，令牌的背面写有一个黝黑的阴字。",
+    "你将令牌交给了天叔，你看出了天叔认出这枚令牌的来历，但天叔并不愿意告诉你。",
+    "你将令牌交给了唐宝，唐宝却并不愿意告诉你这块令牌主人的线索。",
+    "一块肉骨头。",
+    "你从狗狗的手里救下了树上的狼狈男人，但他顾左言他，不愿和你多说，最后竟自顾离去。一块龙纹令牌，从男子身上悄然掉落到一旁的箱子上。快去拿到那块令牌，或许有人能够认出令牌的来历，知晓他的身份。",
+    "你将令牌交给了唐宝，唐宝告诉你这块令牌的主人，或许便是来自令不羡仙覆灭的组织——绣金楼。"
+   ],
+   "items": [
+    "龙纹令牌·阴",
+    "肉骨头"
+   ]
+  },
+  {
+   "name": "涌泉书缘",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%B6%8C%E6%B3%89%E4%B9%A6%E7%BC%98",
+   "intro": "",
+   "highlights": [
+    "《兔园册》",
+    "《兔园册》",
+    "学童",
+    "学童小满"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "听闻文津馆启蒙必读，缘于长乐老冯道为官时的经历。其时有同僚背后嘲戏：“若急行，必遗下。”长乐老闻之曰：“中朝士子止看文场秀句，便为举业，皆窃取公卿，何浅狭之甚！”",
+    "不知被谁人遗落在此的书籍抄本。《兔园册》，私塾常用于启蒙学童，士大夫自诩高雅，对此书常持轻蔑态度，唯长乐老称其为名儒所集，非浅狭之作。 既然是供学童启蒙的书籍，应当为所有。藏书馆内何处有学童？",
+    "据躲在晒书坪一角的哭诉，他从藏书馆获赠的书籍不慎遗失。小满似乎并非藏书馆学子，以他的年纪，所读的书或许并不艰深。",
+    "文津馆愿为天下人传道授业，只要有向学之心，无分男女老幼，无分高低贵贱。近旁的涌泉蒙学便颇受文津馆恩惠，学中免费为贫家子弟聘师启蒙，一应用度皆由藏书馆所出。滴水之恩未来或能以涌泉之势相馈。"
+   ],
+   "items": [
+    "《兔园册》抄本"
+   ]
+  },
+  {
+   "name": "漱石枕流",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E6%BC%B1%E7%9F%B3%E6%9E%95%E6%B5%81",
+   "intro": "",
+   "highlights": [
+    "趵突泉边",
+    "蒙学院"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，一个名叫江枕流的狂澜弟子手里拿着一本诗集，似乎在找什么人。",
+    "江枕流要找的人，似乎是的诸葛非非。",
+    "你拿了诸葛非非的和诗，赶去追赶江枕流。",
+    "同心之言，其嗅如兰。"
+   ],
+   "items": [
+    "江枕流的《漱石枕流》",
+    "诸葛非非的《漱石枕流》"
+   ]
+  },
+  {
+   "name": "牛死谁了",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%89%9B%E6%AD%BB%E8%B0%81%E4%BA%86",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "也可偷取老庖身上的勘状",
+    "不平事：一纸身家"
+   ],
+   "achievements": [],
+   "details": [
+    "百家集的某处民宅内，李老汉正跪在地上哀求官差……",
+    "李老汉声称自己手头有勘状，他似乎在等待着一个名叫张铁牛的人。",
+    "一张空白勘状，这张薄薄的纸片，就是决定李老汉生死的关键。",
+    "你将勘状交给了李老汉。凭借这张盖了印的文书，他逃过了眼前的牢狱之灾。然而，关于这起牛肉案件的调查才刚刚开始……",
+    "你将勘状作为物证交给了周城冠。按照律法，李老汉被关进大牢，而周城冠誓要借此线索，将城中私宰耕牛、暗中倒卖的窝点连根拔起。"
+   ],
+   "items": [
+    "勘状"
+   ]
+  },
+  {
+   "name": "生而所执",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%94%9F%E8%80%8C%E6%89%80%E6%89%A7",
+   "intro": "",
+   "highlights": [
+    "文人打扮的男子",
+    "刻有拇指图案",
+    "往历城台东的山脚去",
+    "沈韩杨"
+   ],
+   "goals": [],
+   "steps": [
+    "你将钟子夫的心愿原原本本讲了出来。",
+    "钟子夫转身离开，望着他的背影，沈韩杨有些怅然。",
+    "一声长笑，沈韩杨飞身而去，那是南面的方向……"
+   ],
+   "achievements": [],
+   "details": [
+    "从历城台至晚霞桥的路上，有一名正四处打探着什么人……只是他能给出的特征太也模糊。",
+    "原来钟子夫身染重疾，时日无多。临终前，他只想再见一次那名令他心折一生的剑客——那人有个习惯，随身物件上总。",
+    "你将那奇怪老头丢来的石片儿给钟子夫看。钟子夫确信那就是他要寻的人！沈韩杨的东西，从来只赠给配得上它的人。回想那老儿的去向……似乎是了……",
+    "正在岩壁下垂头丧气。原来他曾慑于林险生的剑势，不战而败。他自觉对不起自己的剑，藏于墓中苦练十余年，只为与林险生的剑再比试比试。听完你的来意，他一拍大腿：走！走！走！",
+    "剑客用一生追逐一把剑，又岂能轻易把剑放下。告别钟子夫后，沈韩杨决定走遍天涯，寻访名医，无论如何也要解了林险生身上的毒。待那人痊愈归来，犟老儿还要与他痛痛快快地战上一场——这一战，他等了太久，太久。"
+   ],
+   "items": []
+  },
+  {
+   "name": "登肩揽胜",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%99%BB%E8%82%A9%E6%8F%BD%E8%83%9C",
+   "intro": "",
+   "highlights": [
+    "临碣亭",
+    "临碣亭",
+    "擅绘者",
+    "华丹青",
+    "可以尽揽海景与藏书馆的佳地",
+    "华丹青",
+    "圣人肩头"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "藏书馆山水如画，有画师致力于将藏书馆之美绘成画卷，听闻在一带可寻得此人……",
+    "于圣人肩头，俯览海光山色。三尺素绢，淡墨临摹而成的山水画卷。 据说藏书馆常有出没，不妨将此画拿去品评一二。",
+    "画师徘徊于临碣亭，接连绘制几幅山水都觉得不尽如人意。他想要寻得一处作画，但数日也没能如愿。",
+    "看过你绘制的山水，对构图之精妙赞叹不已，对画技之拙劣大皱眉头。得知此画绘制于，他犹豫片刻，向你借去画作，决定以此为蓝本重新绘制一幅佳作。"
+   ],
+   "items": [
+    "藏书馆山水图"
+   ]
+  },
+  {
+   "name": "痴儿何从",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%97%B4%E5%84%BF%E4%BD%95%E4%BB%8E",
+   "intro": "",
+   "highlights": [
+    "飞来峰造像"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "处，一位穿着华贵的郎君正在岩壁旁亲手雕刻佛像……",
+    "周文朔告诉你，他的心上人要他亲手雕刻佛像以证真心，否则便不再理他。但他从未握过刀凿，进展艰难，忧心这不过是对方再不想见他的托词。",
+    "一块缺角的白玉令牌，玉质温润，边缘处却有一处明显的缺角，像是被谁刻意毁去的。"
+   ],
+   "items": []
+  },
+  {
+   "name": "真假少东家",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%9C%9F%E5%81%87%E5%B0%91%E4%B8%9C%E5%AE%B6",
+   "intro": "",
+   "highlights": [
+    "不羡仙"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "听闻外的商路上出现了一个卖离人泪的少东家，可你人还在这里呢？难道有人把你的酒偷出来卖了？",
+    "了不起，了不起，居然还有人敢当着你的面冒充你。这得和他好好说道说道，冒充你可以，败坏离人泪的名声可不行。",
+    "这个“少东家“看上去江湖经验有些不足，三两下就被诈出来了，无趣，无趣。",
+    "这酒看上去是开封那边的，其实不叫极品，也不叫离人泪，倒不失为一坛好酒。"
+   ],
+   "items": [
+    "极品离人泪"
+   ]
+  },
+  {
+   "name": "知恩图报",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%9F%A5%E6%81%A9%E5%9B%BE%E6%8A%A5",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "陈府内，护卫老齐正对着一堆奇奇怪怪的小玩意儿叹气……",
+    "陈府闹“贼”，但怪哉怪哉，此贼只送不偷。听护卫老齐说，今日送来的香囊，像是集市上的东西……",
+    "原来这“小贼”叫阿福，每日做些零工。今日线索断了，且待明日看看他还会送来什么。",
+    "今日那“小贼”送来了竹丝灯花，精巧雅致，看着像是柳岸集市上的物件。",
+    "又是阿福……今日的线索再次中断。仔细搜寻下周围，看看阿福是否还在此处。",
+    "草木有情，人心有义。回春堂里，多了一个快乐的小药童。"
+   ],
+   "items": []
+  },
+  {
+   "name": "种葱有道",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%A7%8D%E8%91%B1%E6%9C%89%E9%81%93",
+   "intro": "",
+   "highlights": [
+    "葱王坪",
+    "《大葱宝典》",
+    "《大葱宝典》",
+    "《人葱宝典》"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "文津馆弟子朱玲在徘徊不去，似乎遗失了什么东西……",
+    "朱玲在葱王坪丢了新买的，急得团团转。那秘籍据说是种葱行家所著，专教人如何种出葱王。朱玲日夜丈量，田里最高的大葱距上届葱王却还差一寸，恐怕只有从秘籍中寻找答案了。",
+    "在种植实验棚角落拾得一本，封面簇新，扉页写着“种葱行家，专种葱王”八字，想来便是朱玲遗失的种葱秘籍。",
+    "葱田间拾得一本，通篇都是向葱稽首、悬符于畦、鼓琴以气感之的玄学法门，乍看像是胡诌八咧。不过他山之石可以攻玉，说不准真有奇效？",
+    "朱玲翻看寻回的《大葱宝典》，竟是昔日自己的种葱笔记被盗印装订。一场乌龙过后，朱玲幡然醒悟：田里的大葱可比秘籍更真，有满天下寻秘籍的工夫，不如多和葱说说话。再等几日，说不定她真能种出大葱王呢！",
+    "朱玲翻开《人葱宝典》，满纸皆是斋心祷神、鼓琴感气的玄虚法门。她将信将疑，却有明悟——种葱之道，终归在己，神神鬼鬼的秘法固然荒谬，但多陪葱说说话总没坏处。再等几日，说不定她真能种出大葱王呢！"
+   ],
+   "items": [
+    "《大葱宝典》",
+    "《人葱宝典》"
+   ]
+  },
+  {
+   "name": "神秘的信",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%A5%9E%E7%A7%98%E7%9A%84%E4%BF%A1",
+   "intro": "",
+   "highlights": [
+    "寒香寻的房间里"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，似乎藏着什么秘密……",
+    "天不收与寒香寻相交多年，应当知道些线索，不过不羡仙里或许还有其他人也了解此事，比如裴……",
+    "天不收似乎对信中之人有种莫名的敌意，你有些吃不准，但隐隐你感觉，天不收的反应，就像那些街头话本子里常写的，表情上尽是吃醋二字。",
+    "你将信交给了裴猫儿，裴猫儿果真知道褚清泉的事。只是当年，褚清泉和寒香寻究竟发生了什么龃龉，才令二人分隔两地？"
+   ],
+   "items": [
+    "陈年旧信"
+   ]
+  },
+  {
+   "name": "福气西来",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%A6%8F%E6%B0%94%E8%A5%BF%E6%9D%A5",
+   "intro": "",
+   "highlights": [
+    "船寨",
+    "周盼儿",
+    "周盼儿",
+    "刺绣外衫",
+    "衣服内袋藏着一笔钱",
+    "决定将衣服里的钱用于偿还债务",
+    "她会用这笔钱让自己过得好一些"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "距离不远处，拿着一封信，似乎在打听什么人。",
+    "告诉你，她的父亲生意失败后在此地躲债，前不久却寄来了一封家书，邀请她搬到城外一同享福。",
+    "一件洗得发白的，早就不暖和了，衣角依稀能辨出个“周”字，可见主人曾经富贵，如今已经落魄，。"
+   ],
+   "items": [
+    "旧衣服"
+   ]
+  },
+  {
+   "name": "稚子童戏(万事知)",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%A8%9A%E5%AD%90%E7%AB%A5%E6%88%8F(%E4%B8%87%E4%BA%8B%E7%9F%A5)",
+   "intro": "",
+   "highlights": [
+    "皮影戏摊附近"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "丰禾村传来了孩子们稚嫩的童谣。仔细听，里面似乎还夹杂了某人的呜咽……",
+    "一个皮影娃娃，看起来破破的。",
+    "原来燕喜儿的娃娃不见了，丰禾村的孩子们似乎因此无法玩某个游戏……",
+    "孩子们寻回了娃娃，原来他们要玩的是扮演将士、收回燕北的游戏，这个娃娃便成了假想敌。这些孩子尚且年幼，恐怕一生都未去过燕北，却依旧对收回燕北如此执着……孩子尚且如此，何况丰禾村的大人呢。"
+   ],
+   "items": [
+    "皮影娃娃"
+   ]
+  },
+  {
+   "name": "窃读风云",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%AA%83%E8%AF%BB%E9%A3%8E%E4%BA%91",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "平澜书院的荷花池边，有个学生唉声叹气，听说是被先生没收了心爱之物。",
+    "原来饶漱玉深夜窃读《广异记》，古板的陈夫子把她抓了个正着，震怒之下没收了这等杂书。",
+    "《广异记》：唐人所著志怪传奇小说集，包罗豪侠、法术、公案、异遇等诸多奇幻故事，是学生之间广为流传的热门读物。",
+    "你向陈夫子讨回了《广异记》，饶漱玉惊喜不已，直夸你是空空儿、虬髯客、红拂女，那都是她最爱的故事里的人物！"
+   ],
+   "items": [
+    "《广异记》抄本"
+   ]
+  },
+  {
+   "name": "第三次佛光",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9B%E5%85%89",
+   "intro": "",
+   "highlights": [
+    "慈心镇",
+    "花田",
+    "慈心镇民杨一先",
+    "遗失的旧账本"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "灭佛之令传彻南北，佛雕产业一蹶不振。镇北中劳作的杨氏族人对此早有满腔抱怨……",
+    "遗失在菩提苦海深处的旧账本，封皮上写着一个“杨”字。书页沾染了血渍与灰尘，想必丢在此地已有些时日。翻阅内容，虽是账本，却也记录着一些家常琐事。杨氏为慈心镇四大姓之一，或许账本的主人就在慈心镇。",
+    "菩提苦海发生那桩惨事后，镇上不少门户失去了顶梁柱。的老父受妙善禅师之邀前往罪业塔开石，从此音讯全无。杨一先对寻回老父早已不抱希望，但他念念不忘的是那开石的工钱，据说杨老爹有一本，常年贴身收藏。若是找回账本，便有了讨工钱的依仗。",
+    "捧着账本，杨一先迫不及待地翻找着，果不其然，账本中记录着杨老爹为妙善禅师开石的始末，但所开之物并非顽石，而是一块带有佛影的稀世美玉。杨一先喜不自胜：“这开石和开玉，可是不同的价钱！”听渡口的老周说过，第三次佛光降临之日便是妙善禅师现身之时，届时也正是他上门讨工钱的好日子。"
+   ],
+   "items": [
+    "遗失的旧账本"
+   ]
+  },
+  {
+   "name": "筷寻苏老太",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%AD%B7%E5%AF%BB%E8%8B%8F%E8%80%81%E5%A4%AA",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "钱江市井东北角落的破酒馆外，一个人正在踌躇……",
+    "易学香想要得到苏老太身上的筷子。筷子？为什么是筷子？",
+    "怎么看都是一双普普通通的筷子，不过似乎有个人想要得到它。",
+    "普通的人用筷子吃饭，不普通的人用筷子做刀。苏老太显然是一个不普通的人。"
+   ],
+   "items": [
+    "苏老太的筷子"
+   ]
+  },
+  {
+   "name": "纸上吉凶",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%BA%B8%E4%B8%8A%E5%90%89%E5%87%B6",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "一张写满小字的纸条，正面尽是“文曲入命”“额角峥嵘”等吉利话，反面却是“印堂暗淡”“同窗相克”之类的晦气话。",
+    "橘公子将纸条撕毁，下定决心再也不走老路……他也确实用不着了，毕竟按九姑娘的安排，他该收拾行李，前往孤云求学了，据说，那里能学到真正的术数之理。",
+    "橘公子翻找着自己全身上下的口袋，似乎弄丢了什么东西。",
+    "为做好算命生意，橘公子想了个歪招，这招数的内容嘛……似乎与纸条有关。"
+   ],
+   "items": [
+    "小纸条"
+   ]
+  },
+  {
+   "name": "绣云朵",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%BB%A3%E4%BA%91%E6%9C%B5",
+   "intro": "",
+   "highlights": [
+    "景岩街绣坊的屋顶"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，有一位绣娘在念叨着什么……",
+    "原来慧娘要将天上的云朵绣下来。她在梦中见过几张绣谱。或许可以问问绣坊的娘子们。",
+    "根据绣娘所言，青州当地的刺绣因工艺限制，很难绣出云朵。不过绣花样子代代相传，兴许从前有绣云的方法。",
+    "一张绣谱，上面画着流云，还有运针的技法。或许只有精通女工的人才能看懂其中的奥秘。",
+    "杨慧娘从绣谱残页中找到了绣云的方法。她已然开始兴致勃勃地研究。",
+    "绣谱失而复得，石雪姑娘很是开心。她也将绣云朵的法子教给了绣娘们。"
+   ],
+   "items": [
+    "绣谱残页"
+   ]
+  },
+  {
+   "name": "美味惊喜",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%BE%8E%E5%91%B3%E6%83%8A%E5%96%9C",
+   "intro": "",
+   "highlights": [
+    "太平钟楼"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "山脚下，爱妻好男人蔡菜正准备给妻子做一道美味新菜。",
+    "刚摘的鲜蘑菇。也许某位正在筹备新菜的人会需要它。",
+    "肉质鲜美的活山鸡。也许某位正在筹备新菜的人会需要它。",
+    "刻着“蔡”字的火折子，它的主人应当姓蔡。",
+    "蔡菜的新菜，还缺一只活山鸡和一些新鲜蘑菇，这两样食材都得在太平钟楼这片山里找，离远了拿来便不新鲜了。除此之外，还要顺道帮他寻回那刻着‘蔡’字的火折子。",
+    "原来蔡菜口中的媳妇竟是他身边的那只猫，可惜他的猫媳妇对他的新菜品毫无兴趣，毕竟猫最爱的还是鱼啊。"
+   ],
+   "items": [
+    "蔡字火折",
+    "活山鸡",
+    "蔡字火折"
+   ]
+  },
+  {
+   "name": "缓笔秘籍",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E7%BC%93%E7%AC%94%E7%A7%98%E7%B1%8D",
+   "intro": "",
+   "highlights": [
+    "“缓笔秘籍”",
+    "“济民道”",
+    "“临别意”",
+    "“仁义妙”",
+    "谢中孚"
+   ],
+   "goals": [],
+   "steps": [
+    "提交四页日程簿残页"
+   ],
+   "achievements": [],
+   "details": [
+    "近日，文津馆弟子们于蓬山各处寻得前辈安池的日程簿残页，人称。此秘籍散落四方，静待有缘人。",
+    "偶得安池前辈日程簿残页，悟缓笔之技，名曰。",
+    "偶得安池前辈日程簿残页，悟缓笔之技，名曰。",
+    "偶得安池前辈日程簿残页，悟缓笔之技，名曰。",
+    "三位同窗欲观三日开泰，奈何课业缠身，唯愿讨一日宽限。遂托你去寻传闻中安池前辈的“缓笔秘籍”，悟各式缓笔之技，向那严厉的老师求个情。",
+    "感悟天地、践行真知，老师自当支持。只是，不曾想这安池前辈的“缓笔秘籍”，原是谢中孚老师的旧物。不过，传闻中的安池，或许向来不止一位。"
+   ],
+   "items": [
+    "缓笔秘籍·济民道",
+    "缓笔秘籍·临别意",
+    "缓笔秘籍·仁义妙"
+   ]
+  },
+  {
+   "name": "聊以慰英灵",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%81%8A%E4%BB%A5%E6%85%B0%E8%8B%B1%E7%81%B5",
+   "intro": "",
+   "highlights": [
+    "七伐坡茶水摊处"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "站着一位老人，正对着北盟遗址的方向掩面而泣……",
+    "不知道是谁丢的包裹？",
+    "老人远道而来，只为祭拜此处安眠的英烈。但经过北边的山坡时摔了一跤，包裹滚下去不见了。",
+    "你虽然找回了包裹，却发现里面的酒坛全碎了。不妨去周围绿林的营地里再寻两坛，带去界碑处。",
+    "常见的酒坛。",
+    "老人邀你一起在界碑前以酒祭地，告慰英灵。倏忽间铃声四起，似在遥遥回应。"
+   ],
+   "items": [
+    "湿漉漉的包裹",
+    "满当当的酒坛"
+   ]
+  },
+  {
+   "name": "胆小之人",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%83%86%E5%B0%8F%E4%B9%8B%E4%BA%BA",
+   "intro": "",
+   "highlights": [
+    "云栖竹径"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "在中，一位自称是懦夫的人在竹林中像无头苍蝇一样打转，时不时发出一些哽咽声，似乎在寻找什么人……",
+    "任单说他与一位友人曾因竹林中升起浓雾而分开，自此之后他再也没见过自己的朋友，并常年深陷自责之中。",
+    "你找到了一个木偶人，它的外形与任单所说的朋友有九分相似，但它只是一个木偶人。",
+    "木偶人见过两个胆小的人。一个至死都不承认自己的胆小，而另一个，他早就在为自己的胆小不断偿还了。"
+   ],
+   "items": [
+    "破碎木偶"
+   ]
+  },
+  {
+   "name": "花中愿",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%8A%B1%E4%B8%AD%E6%84%BF",
+   "intro": "",
+   "highlights": [
+    "来生岸",
+    "来生岸",
+    "杨信儿",
+    "摩诃曼殊沙华"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "花开彼岸本无岸，花开叶落永不见。只盛放一种花，也只有一位采花姑娘，不知她看着满目鲜艳的彼岸花，心中想着什么呢？",
+    "这或许就是杨信儿姑娘正在苦苦寻找的花儿，不妨送给她。",
+    "的采花姑娘坚信，是最具佛性的花儿，要是能找到它献给真佛，许什么愿望都能成真。",
+    "人之所以求佛，只因无可奈何。杨信儿只盼将这摩诃曼殊沙华献给石佛，便能实现心中夙愿。只叹：花不解语花颔首，佛渡我心佛空叹。"
+   ],
+   "items": [
+    "摩诃曼殊沙华"
+   ]
+  },
+  {
+   "name": "苏老太的筷",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%8B%8F%E8%80%81%E5%A4%AA%E7%9A%84%E7%AD%B7",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "坏腹"
+   ],
+   "achievements": [],
+   "details": [
+    "钱江市井东北角落的破酒馆外，有个人正对着墙上的筷子大笑……",
+    "吴有力想拔出墙上的筷子换苏老太的酒。这事简单，只需要一式摄星拿月……",
+    "很普通的筷子，可以向苏老太换到一壶酒。不过一个小小破酒馆里的酒，有没有必要换到手呢？",
+    "吴有力一心想拔出墙上的筷子换苏老太的酒，却被你抢了先。这是酒馆的噱头，还是市井藏有奇酒？",
+    "市井里藏着奇人，奇人藏的酒不知味道如何？",
+    "有些酒不必吃，但账得算。"
+   ],
+   "items": [
+    "墙上的筷子",
+    "苏老太的酒"
+   ]
+  },
+  {
+   "name": "荒祠暗影",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%8D%92%E7%A5%A0%E6%9A%97%E5%BD%B1",
+   "intro": "",
+   "highlights": [
+    "将军祠外面",
+    "小石头"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "的流浪儿的蹴鞠似乎不见了。",
+    "小石头告诉你祠堂的石板松动了，蹴鞠掉了进去，里面有很深的洞穴，不知道有什么。",
+    "一个破旧的蹴鞠，似乎是小石头的玩具。",
+    "小石头得到蹴鞠很开心，在这苦难的世界，可能这蹴鞠就是他唯一的慰藉。"
+   ],
+   "items": [
+    "蹴鞠"
+   ]
+  },
+  {
+   "name": "蛇王密藏",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%9B%87%E7%8E%8B%E5%AF%86%E8%97%8F",
+   "intro": "",
+   "highlights": [
+    "抱山湖",
+    "抱山湖",
+    "抱山湖"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "清河隐现毒人，听闻已有青溪侠士正在附近追查，不知是否与此事有关。",
+    "多年前清河附近曾有很多毒蛇，有一神秘人来此之后，蛇就慢慢消失了，仅仅附近还有毒蛇存在，它们似乎在守护什么东西。",
+    "那日蛇王死时，曾有一医者带一幼童求见神秘人，此后蛇王便只剩下了骨头。后来医者便将蛇王骨分成三段藏在各地，而真正的秘密就在藏蛇窟。",
+    "神秘人出现在附近不久后，蛇群中就出现了一种特殊的蛇，它们凶狠异常胸前有奇怪的伤口。其中更有一条蛇王可号令群蛇。",
+    "孙玉堂交给你一份手稿这是一张蛇窟秘图，记载了蛇王骨碎片的位置，只有得到这些碎片才能安然进入藏蛇窟。",
+    "谁也不知道蛇窟内竟然有这样一座密室，似乎有人曾经在此处研究毒蛇，但是不知道什么原因又放弃了。但是即使他放弃的研究似乎也造成了不可挽救的灾难。"
+   ],
+   "items": [
+    "蛇王骨碎片",
+    "蛇王骨碎片",
+    "蛇王骨碎片"
+   ]
+  },
+  {
+   "name": "蚕花娘娘",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%9A%95%E8%8A%B1%E5%A8%98%E5%A8%98",
+   "intro": "",
+   "highlights": [
+    "千丝林",
+    "千丝林"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "年迈的俞阿婆跪在蚕神神龛前，声声叹息……",
+    "传说的蚕花娘娘，会把“无用”的织女带走。俞阿婆腿脚不便，却一心祈望进入森林，让蚕花娘娘带走自己。",
+    "中，来自姑苏的少女柳芽儿正对着神龛虔诚叩首。带来了一封跨越数十年的信——她的外婆被金缕衣暗中救下，在姑苏安了家。外婆一直惦念着当年走散的旧友，特意托她来送信还愿。",
+    "半生负疚，只当故人遇险，一纸平安，方知旧友安康。俞阿婆终释心结，求死的念头也渐渐淡去。"
+   ],
+   "items": []
+  },
+  {
+   "name": "衔经疑案",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%A1%94%E7%BB%8F%E7%96%91%E6%A1%88",
+   "intro": "",
+   "highlights": [
+    "刻印坊",
+    "官刻《九经》的印板",
+    "印千章",
+    "印板",
+    "刻印坊",
+    "刻印坊中人",
+    "长乐老",
+    "印千章"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "昔日长乐老冯道曾倡导主持雕印《九经》，后藏书馆建立时，便有了一座，坊内诸般器具齐全，专为雕印典籍。据传，刻印坊内甚至藏有当年……",
+    "刻印坊的老工匠曾在日间携印板前往光亮处检查刻文磨损几何，然而事后却百寻不着那块印板。每至夜间，老工匠便会四处找寻，甚至无暇休憩。若是知道下落，不妨帮帮老师傅。",
+    "莫名出现在鸟巢中的印板。板材棱角柔和，泛着温润的光泽，似是常被摩挲。板上墨迹早已干涸，被岁月磨平的阳文依稀可辨。藏书馆有专司雕版印刷的，此印板或许就来自此处，不妨拿给瞧瞧。",
+    "雕印《九经》为官刻儒家典籍之始，功不可没。故人虽已逝去，昔年官刻的印板犹存。读不懂圣贤书，但他或许读懂了长乐老的期盼。刷墨于板，覆板于纸，成书千万。刻印不止，则文脉不绝。"
+   ],
+   "items": [
+    "遗失的印板"
+   ]
+  },
+  {
+   "name": "认祖离宗",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%AE%A4%E7%A5%96%E7%A6%BB%E5%AE%97",
+   "intro": "",
+   "highlights": [
+    "村长家对面",
+    "牌位"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "住在的燕大志一家，十分重视先祖，每天早晚都要祭拜祖宗牌位。但近来，他们家不闻磕头声、只闻吵架声……",
+    "一块牌位，上刻“先考吴公讳良生之位”。",
+    "诸位先人的牌位，哪怕沉重，也是燕大志几经迁家都不忍丢下的重要物件。数日前，不知发生了何事，供台狼藉一片，其中一块牌位也神秘消失。燕大志一家为此不思茶饭，甚至起了争执。",
+    "原来是一条贪嘴黄狗吃掉供品、叼走牌位。你将牌位还给燕家，却发现燕家这些先人竟无一人姓燕……燕姓并非他们原本的姓氏，但个中原因，燕大志的妻子燕七巧却不愿多谈。"
+   ],
+   "items": [
+    "遗失牌位"
+   ]
+  },
+  {
+   "name": "诨号末相",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%AF%A8%E5%8F%B7%E6%9C%AB%E7%9B%B8",
+   "intro": "",
+   "highlights": [
+    "稽古斋的人",
+    "董正声",
+    "末相",
+    "宁不疑",
+    "董正声"
+   ],
+   "goals": [],
+   "steps": [
+    "第二天"
+   ],
+   "achievements": [],
+   "details": [
+    "自长乐老以来，文津馆十相以文元、武元为首，余者地位相当。但今时却有“末相”一称，指的便是林文元高徒唐新词，不知这一称谓有何缘故？",
+    "在稽古斋一处书案下觅得的小纸条，蝇头小字，密密麻麻，似乎是学子间的八卦之言。 既是在稽古斋寻获，不妨拿给瞧瞧？",
+    "关于唐新词，稽古斋的师长颇多赞誉。依他之见，唐新词博闻强识、辩才过人，年少多舛却百折不挠，高瞻远瞩，行事颇有林文元之风，乃文津馆未来栋梁。“”之称，只是嫉贤妒能的庸人背后阴阳怪气罢了。",
+    "看过字条，大吃一惊，自己与同窗课间戏闹之作可不能落到董师手上……他苦苦哀求，宁愿自罚抄书百遍。日后有余暇，倒要看看他守不守承诺。",
+    "看过字条，怒发冲冠，学子们不务正业之举令他大动肝火……董正声决定要给这群丈八烛台治治臭毛病。说不定下堂课上，就有热闹可瞧了……"
+   ],
+   "items": [
+    "满是小字的寸褚"
+   ]
+  },
+  {
+   "name": "贼子报恩",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%B4%BC%E5%AD%90%E6%8A%A5%E6%81%A9",
+   "intro": "",
+   "highlights": [
+    "葱王坪南的山坡",
+    "阿九"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "上，有一绿林草贼徘徊不去，鬼鬼祟祟……",
+    "在葱王坪南边树丛中捡到的钱袋，沉甸甸的，内有三两碎银，一百二十九文通宝。",
+    "章阿狗声称他丢了钱袋，内有三两碎银和一百二十九文通宝，你若寻到了，可以交还给他，也可以替他转交给他的恩人“”。",
+    "王阿九想起了那个偷烧饼的小贼，也想起了曾经给过他一块饼的恩人。他接过钱袋，背上一捆大葱，赶往恩人居住的泉镇——那份情谊他无论如何都该报答。",
+    "章阿狗带上钱袋，身影消失在夜色里。此去一别，不知多年以后，他是否也会遇到一个走投无路的少年，然后像他的恩人“阿九”那样，给一块烧饼，塞几文铜钱。"
+   ],
+   "items": [
+    "一袋银钱"
+   ]
+  },
+  {
+   "name": "财神归位",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%B4%A2%E7%A5%9E%E5%BD%92%E4%BD%8D",
+   "intro": "",
+   "highlights": [
+    "村口"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "丰禾村家家供奉着一尊神秘神像，说是他们的财神……近来，燕慧家中的财神像不慎遗失，主人甚是着急。",
+    "一尊少见的财神像。",
+    "燕慧称，那尊财神像与她家颇有渊源。昔日与契丹战乱那几年，是那尊财神像护住了他们一家……一尊神像真有如此神通吗？",
+    "你帮燕慧找回了财神像，发现神像底部印着一个“柴”字。原来所谓的财神，其实是柴荣柴神。真正与丰禾村有渊源的，非神非佛，而是那位世宗皇帝。"
+   ],
+   "items": [
+    "财神像"
+   ]
+  },
+  {
+   "name": "辟邪钱袋",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%BE%9F%E9%82%AA%E9%92%B1%E8%A2%8B",
+   "intro": "",
+   "highlights": [
+    "佛光顶",
+    "三个钱袋"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "附近，有位妇人正在焦急地四处寻找什么东西……",
+    "郭婶的丈夫听信某大师之言，将家中积蓄分装进了三个作过法的钱袋，藏在了佛光顶附近，说是能辟邪消灾。而郭婶只希望能早些找回这些钱，否则家中就快揭不开锅了。",
+    "绣着【崇】字的奇怪钱袋，不知是拿来招崇的，还是辟崇的。",
+    "绣着【尽】字的奇怪钱袋，看着有些莫名邪乎。",
+    "绣着【邪】字的奇怪钱袋，不知是拿来招邪的，还是辟邪的。",
+    "你替郭婶找齐三个辟邪钱袋，万幸袋中一文不少。生于乱世，与其拿钱去供神辟邪，不如叫自个吃饱穿暖。"
+   ],
+   "items": [
+    "【崇】字钱袋",
+    "【尽】字钱袋",
+    "【邪】字钱袋"
+   ]
+  },
+  {
+   "name": "踏粪挚交",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%B8%8F%E7%B2%AA%E6%8C%9A%E4%BA%A4",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "把绝交信给他们"
+   ],
+   "achievements": [],
+   "details": [
+    "慧穑正焦躁等人，他那好友，这几日竟又与他绝交了……",
+    "田耘欲与慧穑一刀两断，慧穑拒不接受，托你将此绝交信当面退还。天色未晚，田耘应仍在近处林中砍柴未归。",
+    "田耘听罢慧穑的难处，决意明日午后登门道歉。刚放下这头，田耘又摸出一封绝交书来，要和谷朴一刀两段，谷朴多半在附近打坐。",
+    "谷朴与田耘甚是默契，也要一刀两断。明日午后，且来庙里，将这绝交信交与田耘。",
+    "待你来到庙中，三人已闹作一团。原来他们竟是三天两头就要一刀两断，你一番好言相劝，三人似有所悟。"
+   ],
+   "items": []
+  },
+  {
+   "name": "越说越错",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E8%B6%8A%E8%AF%B4%E8%B6%8A%E9%94%99",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "听说平澜书院的学斋里，学子们听了严夫子对自己的称呼后纷纷避犹不及。",
+    "严知朔深信末页全班亲笔落款，宁可把“严姥爷”当作吴地回礼，也没怀疑册中释义。",
+    "杜随安承认覆纸是他贴的。起初只想让早课笑一回，严知朔真的照册问安后，他又想趁无人偷偷揭纸；越拖越不敢公开认错。",
+    "当天午后，半个学斋的辈分总算归了位。严知朔一句重话也没说，只把从青州带来的几部世家谱牒推给杜随安，算作那堂吴音课的“回礼”。此后杜随安白日抄世系，夜里梦房支，梦话里还在分哪一房是族叔、哪一支又是再从兄弟。"
+   ],
+   "items": []
+  },
+  {
+   "name": "遗失的资金",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%81%97%E5%A4%B1%E7%9A%84%E8%B5%84%E9%87%91",
+   "intro": "",
+   "highlights": [
+    "神仙渡西侧"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，好像有位客商丢了东西，正急得不得了。",
+    "小偷的包袱，上面写着一个大大的贾字，似乎是失主名姓。",
+    "客商告诉你，他的钱袋丢了。据他猜测，多半是小偷所为。听说最近村子里经常有个可疑的家伙晃悠，好像是叫盗什么飞的，会不会是他犯下的好事。",
+    "你从小偷那里，将窃来的包裹，还给了客商，但客商却从中发现了一样不属于他的东西——龙纹令牌。你隐隐感觉，这块龙纹令牌，或许另有用处。"
+   ],
+   "items": [
+    "小偷的包袱"
+   ]
+  },
+  {
+   "name": "遗失的语录",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%81%97%E5%A4%B1%E7%9A%84%E8%AF%AD%E5%BD%95",
+   "intro": "",
+   "highlights": [
+    "菩提苦海",
+    "三册《妙善语录》"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "南侧有位法号慧静的僧人丢失了三册重要典籍，正为此苦恼不已。",
+    "慧静丢失的是上中下三册《妙善语录》。据他所说，也许是被谁捡了去，也许是被破戒僧人夺了去，也或许只是落在了某个有佛缘的地方。",
+    "语录上册，应当是某位僧人的遗失之物。",
+    "语录中册，原主大约是某位僧人。",
+    "语录下册，不知是破戒僧人从哪儿夺来的。",
+    "眼见三册语录失而复得，慧静更为笃信妙善会重回清河，届时他将继续随妙善修行，记下更多的语录……"
+   ],
+   "items": [
+    "妙善语录·上",
+    "妙善语录·中",
+    "妙善语录·下"
+   ]
+  },
+  {
+   "name": "铁心难静",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%93%81%E5%BF%83%E9%9A%BE%E9%9D%99",
+   "intro": "",
+   "highlights": [
+    "春秋别馆后山脚下"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "有一名姓叶的军伍中人，观其装扮，似是出身天虎军。可天虎军远在北疆，这位军爷到此有何公干？",
+    "铁心将军为北伐不惜酿下惨剧，不久后便自军营中消失，叶猛多方探听将军下落，辗转寻至清河。",
+    "一柄深色的匕首，外表黝黑无光，但寒气逼人。刀身篆刻着“叶万山”三个小字。这莫非是昔日那位“铁心将军”的贴身之物，怎么会落在菩提苦海？",
+    "如今看到这枚匕首，方知将军身在菩提苦海。叶猛大喜过望，忙不迭动身朝苦海而去。"
+   ],
+   "items": [
+    "叶万山的匕首"
+   ]
+  },
+  {
+   "name": "金鳞一梦",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%87%91%E9%B3%9E%E4%B8%80%E6%A2%A6",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "林锦娘的眼睛在显德大火中受损，即将失明。目盲前，她想画下童年记忆里的“金鳞”色……",
+    "林锦娘为了在显德大火中救好友阿媛，双眼即将彻底失明。她想在看不清前画下童年记忆里的金鳞之色，需要些物件来“借光照明”。",
+    "从打碎主家器皿的仆人手里，拿到了一片能折射金光的琉璃盏碎片。",
+    "在巷口遇到一个徘徊的女子。她留下一个装着眼药和丝帕的锦盒后，匆匆离去。",
+    "锦娘认出了阿媛的手艺。她决定停笔熬药，要把眼睛留到重逢的那一天，去画阿媛现在的样子。",
+    "锦娘借着琉璃盏折射的金光，安静地继续作画。"
+   ],
+   "items": []
+  },
+  {
+   "name": "长生鹿仙人",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%95%BF%E7%94%9F%E9%B9%BF%E4%BB%99%E4%BA%BA",
+   "intro": "",
+   "highlights": [
+    "隐月山龙虎寨",
+    "荒魂村"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "在附近，有一只沉睡的鹿，周围还有一些神秘的祭台。难道有人又开始了曾经的鹿仙人祭祀？",
+    "长生果，鹿仙人，十多年前附近的村民信仰鹿仙人，他们将三枚长生果祭祀给鹿仙人，认为这样就可以获得长生。只是如今长生果依然不多，也许只有在才能寻得一些。",
+    "长生果树并不能结出长生果！！那沉睡的鹿仙又是怎么回事？不妨再回去看看。",
+    "鹿仙人最开始出现的地方是小鹿村，她一出现就治好了小鹿村神奇的怪病，奇怪的是鹿仙人并不愿意承认自己是鹿仙人。",
+    "自从鹿仙人消失之后，长生果也几乎消失不见，相传长生果虽然虽然酷似果子的模样，但是其实是活物。只是如今谁也不知道这是不是真的。",
+    "鹿仙人一出现就治好了小鹿村神奇的怪病，奇怪的是鹿仙人并不愿意承认自己是鹿仙人，并毁掉了长生果，仅仅留了一颗种子被鹿仙身边的守护神带入荧渊之下。",
+    "因痴而迷，因痴而迷。这一切不过是镜花水，所谓的鹿仙也许并不存在。"
+   ],
+   "items": [
+    "村长手札"
+   ]
+  },
+  {
+   "name": "闲汉不闲",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%97%B2%E6%B1%89%E4%B8%8D%E9%97%B2",
+   "intro": "",
+   "highlights": [
+    "四季宅邸",
+    "耸翠楼的官酒裹贴",
+    "五龙王庙主殿"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "门前，一名抱着酒坛的小哥正焦躁地来回踱步，神情懊丧，似是不敢进门……",
+    "曾不闲在跑腿路上弄掉了，但不知掉在了何处。他拜托你去他经过的附近店铺、五龙王庙探查，寻找遗失的裹贴。",
+    "在的角落，发现了一张精美的裹贴。裹贴没有破损褶皱，只沾上了几粒香灰，看起来是刚掉落在这里不久。",
+    "你将裹贴交给曾不闲，他长舒一口气，转身又风风火火扎进巷子里去了。巷口又有人扯着嗓子喊他帮忙，也不知下回，他会绕去哪一家门前。这好心“闲汉”竟成了街巷上最忙碌的人。"
+   ],
+   "items": [
+    "耸翠楼的裹贴"
+   ]
+  },
+  {
+   "name": "难因善果",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%9A%BE%E5%9B%A0%E5%96%84%E6%9E%9C",
+   "intro": "",
+   "highlights": [
+    "菩提苦海一带"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "苦海难渡，佛山难归。佛光顶有对师徒下山化缘，此后杳无音信。据传最后一次有人看到他们，是在……",
+    "路遇劫匪，被师父庇护先行逃脱的小因果，日夜守在回佛光顶的必经之路上，苦苦等待师父静难的出现。",
+    "在匪徒们劫掠而来的财物堆中发现的小包袱，入手甚轻，里面只有一些带着牙印的干粮，似乎因为干粮太硬，被匪徒们丢在一旁。",
+    "静难与小徒因果本是隐居在佛光顶的僧人，为化缘下山。不想归途中却遇劫匪，师徒二人就此失散。静难不幸沦落菩提苦海的沼泽深处，苦苦寻求徒儿的下落。",
+    "化缘所得的干粮失而复得，静难不禁欣喜地念起佛来：“南无阿弥陀佛，我佛曾经曰过，善有善报。待寻得小徒因果，贫僧便积德圆满，可回佛光顶喽。”",
+    "看到师父的包袱，小因果不禁放声大哭，包袱在这里，师父却在何处？莫不是真被匪徒一刀子了结，立地成佛了？“师父，小因果会记住你的……”他哭哭啼啼地沿山路向佛光顶走去。"
+   ],
+   "items": [
+    "静难的包袱"
+   ]
+  },
+  {
+   "name": "阿姐阿妹",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%98%BF%E5%A7%90%E9%98%BF%E5%A6%B9",
+   "intro": "",
+   "highlights": [
+    "灵隐新寺"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "灵隐集的手串摊位前，云彩四处张望，似乎在等人。",
+    "灵隐集中，手串摊主的女儿云彩和阿姐鱼儿拌嘴，二人生了嫌隙，谁也不肯理谁。往常，鱼儿会捡了菩提子送回来，今日却没来，云彩央求你帮忙前去的鼓楼附近看看。",
+    "一袋菩提子，鱼儿在灵隐新寺鼓楼前捡了好久才有了这么一袋。鱼儿将菩提子捡起，再由云彩串成手串，菩提子粒粒相依，仿佛从未分离，如同这对姐妹一般。",
+    "将菩提子交给云彩，得知姐妹吵架的原因是鱼儿想拜师去闯荡江湖，云彩不想要她去。不过，姐妹二人都还惦念对方，与你交谈过后，云彩便前去找鱼儿求和了……"
+   ],
+   "items": []
+  },
+  {
+   "name": "青莲允愿",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%9D%92%E8%8E%B2%E5%85%81%E6%84%BF",
+   "intro": "",
+   "highlights": [
+    "南山青莲寺",
+    "少女",
+    "城中大火里逃生",
+    "留下伤疤",
+    "莲花",
+    "红莲池",
+    "白莲池",
+    "不同的祈愿代价",
+    "红莲如火，白莲如雪",
+    "赤瓣如焰，灼目惊心",
+    "暗中庇佑",
+    "避过了一场“点化”",
+    "雪瓣无瑕，清辉入水",
+    "愿虽迟滞，终求得无灾无妄"
+   ],
+   "goals": [],
+   "steps": [
+    "野外首领：青瓶居士"
+   ],
+   "achievements": [
+    "青莲允愿"
+   ],
+   "details": [
+    "在附近，莲池旁有一个正望着水面发呆……",
+    "何小虫在婴儿时期从，。她把这个称为火神给她的刺青，天不怕地不怕。她请你为她采一朵做莲灯许愿。",
+    "传闻灵验但透着诡异，清朗但少有人去。两色莲花似乎代表着。",
+    "荷塘边，。一水之间红白分明，似阴阳两判，各有因果。",
+    "。手臂疤痕或许真能，她于冥冥中。",
+    "。或因其愿微茫，未达天听，或因青瓶居士法眼微阖，独漏此一念。然。"
+   ],
+   "items": [
+    "白色莲花",
+    "红色莲花"
+   ]
+  },
+  {
+   "name": "非亲胜亲",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%9D%9E%E4%BA%B2%E8%83%9C%E4%BA%B2",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "天外村，一大爷正老神在在，在饺子馆前挥斥方遒……",
+    "饺子店店主张全对刘大爷很是亲昵，亦如刘大爷对张全一家。",
+    "刘大爷气定神闲，正说着曾经流传在这里的传说，似有其事。",
+    "虽非骨肉血亲，然刘大爷与张全一家，早已宛如亲人。非亲而胜亲，彼此扶持，互相关照。"
+   ],
+   "items": []
+  },
+  {
+   "name": "香金难持",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%A6%99%E9%87%91%E9%9A%BE%E6%8C%81",
+   "intro": "",
+   "highlights": [],
+   "goals": [],
+   "steps": [
+    "后续对话"
+   ],
+   "achievements": [],
+   "details": [
+    "早悟寺外，一位盗贼惊魂甫定，似乎是遭遇可怕之事。",
+    "山贼因为偷了庙里的钱非常害怕。这笔钱该还给寺里的僧人，还是交给贼首呢……",
+    "犯错之人也得到了宽恕和救赎。",
+    "铁镇山收下了香火钱，从此消失不见。一起不见的，还有那位小山贼。"
+   ],
+   "items": [
+    "一袋香火钱"
+   ]
+  },
+  {
+   "name": "高端商战",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%AB%98%E7%AB%AF%E5%95%86%E6%88%98",
+   "intro": "",
+   "highlights": [
+    "千翠村村口",
+    "解决掉对方门口那棵镇店发财树"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "有人说，那狠不得每分每秒都在赚钱的升日斋老板齐天，这几日却不管生意，频频徘徊在，急出了满头大汗……",
+    "齐天再也忍耐不了死对头总是在处处模仿自家的经营路数，决定“重金”聘请一位武艺精湛的游侠，去，阻断死对头的财路！",
+    "升日斋的发财树旁，小厮仇昭一边给树浇水，一边抱怨自家掌柜的不做人。但听他那口气，好像“被抢生意”这回事，背后还另有隐情？",
+    "升曰斋的掌柜昊孟与齐天师出同门，早些年昊孟受齐天的构陷被赶出了师门，因此结下梁子。",
+    "发财树最终确实蔫了，但被你浇死的那棵盆栽，压根不是齐天竞争对手家的，而是齐天最为宝贝的招财金橘树。",
+    "升曰斋那棵“发财树”如齐天所愿的蔫了，只是，昊孟的财路是否真的会被一株辣椒苗影响，那就不得而知了。"
+   ],
+   "items": []
+  },
+  {
+   "name": "鹬蚌相忘",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%B9%AC%E8%9A%8C%E7%9B%B8%E5%BF%98",
+   "intro": "",
+   "highlights": [
+    "南山陌"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [
+    "鹬蚌相忘"
+   ],
+   "details": [
+    "杭城大牢里曾有两大刺头，名唤张阿三与李阿四。张阿三出狱时已洗心革面，与李阿四定下约定：三年后再见。算算日子，赴约之期就在眼前。",
+    "张阿三即将与牢友再会，极重脸面，托人帮他去亭边探探风。",
+    "湖边观景亭，假山下埋着一个封口的泥坛，还有张字迹潦草的信件。",
+    "信件上赫然写着张阿三的名字。这坛中之物，或许就是李阿四迟迟未现身的原因。"
+   ],
+   "items": []
+  },
+  {
+   "name": "鹭璐相伴",
+   "category": "wanshizhi",
+   "source": "https://yy16s.huijiwiki.com/wiki/%E9%B9%AD%E7%92%90%E7%9B%B8%E4%BC%B4",
+   "intro": "",
+   "highlights": [
+    "结缘坊水道边",
+    "夜鹭的市集"
+   ],
+   "goals": [],
+   "steps": [],
+   "achievements": [],
+   "details": [
+    "，似乎有一位年轻女子黯然神伤……",
+    "叶璐璐的夜鹭随笔不知何时掉了两页，她仿佛丢了魂般整日黯然。或许一墙之隔，她经常观察里能找到些什么。",
+    "夜间敏捷者，白日痴痴者，展翅如鹤者，缩颈似禅者……与鹭结缘者，在等待一纸归还。",
+    "璐璐与夜鹭，相伴过无数难熬的长夜。愿你此后，随心而动，如鹭自由。"
+   ],
+   "items": [
+    "陈旧的纸页"
+   ]
+  }
+ ]
+}

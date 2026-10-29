@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { QuestBrowser } from "@/components/quest-browser";
 import { MAIN_CHAPTERS, listQuests } from "@/lib/content";
+import { findQuestGuide } from "@/lib/quest-guides";
 
 export const metadata: Metadata = {
   title: "任务目录",
@@ -10,6 +11,11 @@ export const metadata: Metadata = {
 
 export default function QuestsPage() {
   const entries = listQuests();
+  const guideMap: Record<string, string> = {};
+  for (const entry of entries) {
+    const guide = findQuestGuide(entry.name);
+    if (guide) guideMap[entry.name] = guide.name;
+  }
   return (
     <div className="flex flex-col gap-5">
       <header>
@@ -19,7 +25,7 @@ export default function QuestsPage() {
         </p>
       </header>
       <Suspense fallback={<p className="text-sm text-muted">加载任务目录…</p>}>
-        <QuestBrowser entries={entries} chapters={MAIN_CHAPTERS} />
+        <QuestBrowser entries={entries} chapters={MAIN_CHAPTERS} guideMap={guideMap} />
       </Suspense>
     </div>
   );

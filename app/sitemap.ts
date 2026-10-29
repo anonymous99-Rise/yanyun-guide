@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { GUIDES } from "@/lib/content";
 import { MAIN_QUEST_CHAPTERS } from "@/lib/main-quests";
+import { QUEST_GUIDES } from "@/lib/quest-guides";
 import { SITE_URL } from "@/lib/site-meta";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -20,5 +21,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly" as const,
     priority: 0.8,
   }));
-  return [...statics, ...mainQuests, ...guideUrls];
+  const questGuides = QUEST_GUIDES.map((g) => ({
+    url: `${SITE_URL}/quest-guide/${encodeURIComponent(g.name)}`,
+    changeFrequency: "weekly" as const,
+    priority: 0.6,
+  }));
+  return [...statics, ...mainQuests, ...questGuides, ...guideUrls];
 }

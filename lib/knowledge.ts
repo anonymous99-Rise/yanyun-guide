@@ -1,7 +1,7 @@
 // 助手知识层：站点大纲 + 术语表常驻，其余靠检索按题组上下文。
 import { DATA_AS_OF } from "./site-meta";
 import { GUIDES, QUEST_ENTRIES, searchContent, type Guide, type QuestEntry } from "./content";
-import { getGlossary, loadSearchCorpus, type MainSection } from "./queries";
+import { getGlossary, loadSearchCorpus, type MainSection, type QuestGuide } from "./queries";
 
 type Glossary = { terms?: { term?: string; def?: string }[]; systems?: { name?: string; cap?: string; source?: string }[] };
 
@@ -54,6 +54,17 @@ function sectionBlock(s: MainSection): string {
   return parts.join("\n");
 }
 
+function questGuideCard(g: QuestGuide): string {
+  const kind = g.category === "wanshizhi" ? "万事知" : "奇遇";
+  const parts = [`【${kind}攻略 · ${g.name}】`];
+  if (g.intro) parts.push(`简介：${g.intro}`);
+  if (g.highlights.length) parts.push(`触发提示：${g.highlights.join("；")}`);
+  if (g.goals.length) parts.push(`任务目标：\n${g.goals.map((x, i) => `${i + 1}. ${x}`).join("\n")}`);
+  if (g.details?.length) parts.push(`攻略要点：\n${g.details.map((d, i) => `${i + 1}. ${d}`).join("\n")}`);
+  if (g.achievements.length) parts.push(`相关成就：${g.achievements.join("、")}`);
+  return parts.join("\n");
+}
+
 // 检索命中 → 资料块文本。guide 取头部元信息加正文片段，quest 取全字段。
 function guideBlock(guide: Guide): string {
   const head = `【攻略 · ${guide.title}】（${guide.categoryLabel} · ${guide.version}）\n`;
@@ -92,7 +103,8 @@ export async function retrieveContext(question: string, focus?: string): Promise
   const seenGuides = new Set<string>();
   const seenQuests = new Set<string>();
   const seenSections = new Set<string>();
-  for (const hit of searchContent(question, corpus, 12)) {
+  const seenGuideCards = new Set<string>();
+  for (const hit of searchContent(question, corpus, 14)) {
     if (used >= CONTEXT_BUDGET) break;
     if (hit.kind === "guide" && hit.guide && !seenGuides.has(hit.guide.slug)) {
       seenGuides.add(hit.guide.slug);
@@ -111,6 +123,13 @@ export async function retrieveContext(question: string, focus?: string): Promise
     if (hit.kind === "section" && hit.section && !seenSections.has(hit.section.slug)) {
       seenSections.add(hit.section.slug);
       const block = sectionBlock({ ...hit.section, chapter: hit.section.chapterName.split(" ")[0] } as MainSection);
+      if (used + block.length > CONTEXT_BUDGET) continue;
+      sections.push(block);
+      used += block.length;
+    }
+    if (hit.kind === "questGuide" && hit.questGuide && !seenGuideCards.has(hit.questGuide.name)) {
+      seenGuideCards.add(hit.questGuide.name);
+      const block = questGuideCard(hit.questGuide as QuestGuide);
       if (used + block.length > CONTEXT_BUDGET) continue;
       sections.push(block);
       used += block.length;

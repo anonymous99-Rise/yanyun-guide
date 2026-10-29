@@ -100,7 +100,7 @@ export function getDataset(key: string): unknown {
 }
 
 export type SearchHit = {
-  kind: "guide" | "quest" | "section";
+  kind: "guide" | "quest" | "section" | "questGuide";
   score: number;
   guide?: Guide;
   quest?: QuestEntry;
@@ -113,6 +113,16 @@ export type SearchHit = {
     intro: string;
     goals: string[];
     steps: string[];
+    achievements: string[];
+    source: string;
+  };
+  questGuide?: {
+    name: string;
+    category: string;
+    intro: string;
+    highlights: string[];
+    goals: string[];
+    details: string[];
     achievements: string[];
     source: string;
   };
@@ -140,6 +150,16 @@ export function searchContent(
       intro: string;
       goals: string[];
       steps: string[];
+      achievements: string[];
+      source: string;
+    }[];
+    questGuides?: {
+      name: string;
+      category: string;
+      intro: string;
+      highlights: string[];
+      goals: string[];
+      details: string[];
       achievements: string[];
       source: string;
     }[];
@@ -181,6 +201,10 @@ export function searchContent(
   for (const section of corpus.mainSections ?? []) {
     const s = score([section.chapterName, section.region, section.title, section.intro, section.goals, section.steps]);
     if (s > 0) hits.push({ kind: "section", score: s + 2, section });
+  }
+  for (const qg of corpus.questGuides ?? []) {
+    const s = score([qg.name, qg.category === "wanshizhi" ? "万事知" : "奇遇", qg.intro, qg.highlights, qg.goals, qg.details]);
+    if (s > 0) hits.push({ kind: "questGuide", score: s + 2, questGuide: qg });
   }
   return hits.sort((a, b) => b.score - a.score).slice(0, limit);
 }

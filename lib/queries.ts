@@ -76,7 +76,33 @@ function toQuest(row: QuestRow): QuestEntry {
   };
 }
 
-export type Corpus = { guides: Guide[]; quests: QuestEntry[]; mainSections: MainSection[] };
+export type Corpus = { guides: Guide[]; quests: QuestEntry[]; mainSections: MainSection[]; questGuides: QuestGuide[] };
+
+export type QuestGuide = {
+  name: string;
+  category: string;
+  intro: string;
+  highlights: string[];
+  goals: string[];
+  steps: string[];
+  achievements: string[];
+  details: string[];
+  items: string[];
+  source: string;
+};
+
+type QuestGuideRow = {
+  name: string;
+  category: string;
+  intro: string;
+  highlights: string[];
+  goals: string[];
+  steps: string[];
+  achievements: string[];
+  details: string[];
+  items: string[];
+  source: string;
+};
 
 export type MainSection = {
   slug: string;
@@ -109,10 +135,11 @@ type MainSectionRow = {
 // 全量语料：助手检索与站内搜索一次取全部条目，应用层计分。
 export async function loadSearchCorpus(): Promise<Corpus> {
   const sql = getDb();
-  const [guideRows, questRows, sectionRows] = await Promise.all([
+  const [guideRows, questRows, sectionRows, guideCardRows] = await Promise.all([
     sql<[GuideRow]>`select * from guides`,
     sql<[QuestRow]>`select * from quests`,
     sql<[MainSectionRow]>`select * from main_sections`,
+    sql<[QuestGuideRow]>`select * from quest_guides`,
   ]);
   return {
     guides: guideRows.map(toGuide),
@@ -128,6 +155,18 @@ export async function loadSearchCorpus(): Promise<Corpus> {
       goals: r.goals ?? [],
       steps: r.steps ?? [],
       achievements: r.achievements ?? [],
+      source: r.source,
+    })),
+    questGuides: guideCardRows.map((r) => ({
+      name: r.name,
+      category: r.category,
+      intro: r.intro,
+      highlights: r.highlights ?? [],
+      goals: r.goals ?? [],
+      steps: r.steps ?? [],
+      achievements: r.achievements ?? [],
+      details: r.details ?? [],
+      items: r.items ?? [],
       source: r.source,
     })),
   };

@@ -17,6 +17,7 @@ const guides = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "guides.json"),
 const quests = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "quests.json"), "utf8"));
 const datasets = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "datasets.json"), "utf8"));
 const mainQuests = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "huiji/parsed/main-quests.json"), "utf8"));
+const questGuides = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "huiji/parsed/quest-guides.json"), "utf8"));
 
 try {
   await sql.begin(async (tx) => {
@@ -71,6 +72,18 @@ try {
       achievements jsonb not null default '[]',
       source text not null default ''
     )`;
+    await tx`create table if not exists quest_guides (
+      name text primary key,
+      category text not null,
+      intro text not null default '',
+      highlights jsonb not null default '[]',
+      goals jsonb not null default '[]',
+      steps jsonb not null default '[]',
+      achievements jsonb not null default '[]',
+      details jsonb not null default '[]',
+      items jsonb not null default '[]',
+      source text not null default ''
+    )`;
 
     await tx`delete from guides`;
     for (const g of guides) {
@@ -100,10 +113,18 @@ try {
           values (${s.slug}, ${ch.key}, ${ch.name}, ${ch.region}, ${s.section}, ${s.title}, ${s.intro}, ${JSON.stringify(s.goals)}, ${JSON.stringify(s.steps)}, ${JSON.stringify(s.achievements)}, ${s.source})`;
       }
     }
+
+    await tx`delete from quest_guides`;
+    for (const g of [...questGuides.encounters, ...questGuides.wanshizhi]) {
+      await tx`
+        insert into quest_guides (name, category, intro, highlights, goals, steps, achievements, details, items, source)
+        values (${g.name}, ${g.category}, ${g.intro}, ${JSON.stringify(g.highlights)}, ${JSON.stringify(g.goals)}, ${JSON.stringify(g.steps)}, ${JSON.stringify(g.achievements)}, ${JSON.stringify(g.details ?? [])}, ${JSON.stringify(g.items ?? [])}, ${g.source})`;
+    }
   });
 
   const sectionCount = mainQuests.chapters.reduce((s, c) => s + c.sections.length, 0);
-  console.log(`导入完成：guides ${guides.length} 篇，quests ${quests.entries.length} 条，datasets ${Object.keys(datasets).length} 块，main_sections ${sectionCount} 节`);
+  const guideCount = questGuides.encounters.length + questGuides.wanshizhi.length;
+  console.log(`导入完成：guides ${guides.length} 篇，quests ${quests.entries.length} 条，datasets ${Object.keys(datasets).length} 块，main_sections ${sectionCount} 节，quest_guides ${guideCount} 条`);
 } finally {
   await sql.end();
 }
