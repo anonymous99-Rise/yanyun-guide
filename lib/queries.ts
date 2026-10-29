@@ -177,3 +177,28 @@ export async function getGlossary(): Promise<unknown> {
   const rows = await sql<[{ data: unknown }]>`select data from datasets where key = 'glossary' limit 1`;
   return rows[0]?.data;
 }
+
+export type HuijiPage = { title: string; wikitext: string; categories: string[]; source: string };
+
+export async function getHuijiPage(title: string): Promise<HuijiPage | undefined> {
+  const sql = getDb();
+  const rows = await sql<[{ title: string; wikitext: string; categories: string[]; source: string }]>
+    `select title, wikitext, categories, source from huiji_pages where title = ${title} limit 1`;
+  return rows[0];
+}
+
+// 全量 wiki 关键词检索：ILIKE 命中标题或正文，标题命中加权
+export async function searchHuijiPages(query: string, limit = 12): Promise<{ title: string; snippet: string; source: string }[]> {
+  const needle = `%${query.trim()}%`;
+  const sql = getDb();
+  const rows = await sql<[{ title: string; wikitext: string; source: string }]>`
+    select title, wikitext, source from huiji_pages
+    where title ilike ${needle} or wikitext ilike ${needle}
+    order by (title ilike ${needle})::int desc, length(wikitext) desc
+    limit ${limit}`;
+  return rows.map((r) => {
+    const at = r.wikitext.toLowerCase().indexOf(query.trim().toLowerCase());
+    const snippet = at >= 0 ? r.wikitext.slice(Math.max(0, at - 80), at + 220) : r.wikitext.slice(0, 220);
+    return { title: r.title, snippet: snippet.replace(/\s+/g, " "), source: r.source };
+  });
+}

@@ -7,7 +7,7 @@ export const maxDuration = 60;
 const DEFAULT_MODEL = "claude-haiku-4-5";
 const TOTAL_BUDGET_MS = 55_000;
 const MAX_ANSWER_CHARS = 20_000;
-const MAX_TOKENS = 900;
+const MAX_TOKENS = 1400;
 const REQUESTS_PER_WINDOW = 12;
 const WINDOW_MS = 60_000;
 
@@ -71,8 +71,10 @@ export async function POST(request: Request): Promise<Response> {
   const controller = new AbortController();
   const budget = setTimeout(() => controller.abort(), TOTAL_BUDGET_MS);
 
-  const [systemPrompt, retrieved] = await Promise.all([buildSystemPrompt(), retrieveContext(question, focus)]);
-  const prompt = buildPrompt(question, retrieved, turns);
+  const [systemPrompt, gathered] = await Promise.all([buildSystemPrompt(), retrieveContext(question, focus)]);
+  const prompt = buildPrompt(question, gathered.context, turns);
+  // 官方 web_search 服务端工具：网关透传 Anthropic 时即可用；不支持则降级重发无工具请求
+  const tools = [{ type: "web_search_20250305", name: "web_search", max_uses: 2 }];
 
   const encoder = new TextEncoder();
   const sse = (event: string, data: unknown) => encoder.encode(`event: ${event}\ndata: ${JSON.stringify(data)}\n\n`);
@@ -89,8 +91,8 @@ export async function POST(request: Request): Promise<Response> {
       send("status", { state: "initializing" });
       let answer = "";
       let settled = false;
-      try {
-        const upstream = await fetch(`${base}/v1/messages`, {
+      const callUpstream = (withTools: boolean) =>
+        fetch(`${base}/v1/messages`, {
           method: "POST",
           signal: controller.signal,
           headers: {
@@ -105,8 +107,15 @@ export async function POST(request: Request): Promise<Response> {
             thinking: { type: "disabled" },
             system: systemPrompt,
             messages: [{ role: "user", content: prompt }],
+            ...(withTools ? { tools } : {}),
           }),
         });
+      try {
+        let upstream = await callUpstream(true);
+        if (!upstream.ok) {
+          // 工具不被网关/上游支持时，降级为无工具请求（网络信息已由 DDG 注入上下文）
+          upstream = await callUpstream(false);
+        }
         if (!upstream.ok || !upstream.body) {
           const detail = await upstream.text().catch(() => "");
           const code = /model|unauthorized|forbidden/i.test(detail) ? "upstream_rejected" : "upstream_unavailable";

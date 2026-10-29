@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { searchContent } from "@/lib/content";
-import { loadSearchCorpus } from "@/lib/queries";
+import { loadSearchCorpus, searchHuijiPages } from "@/lib/queries";
 
 export const metadata: Metadata = {
   title: "搜索",
@@ -25,7 +25,9 @@ export default function SearchPage({ searchParams }: PageProps<"/search">) {
 async function Results({ searchParams }: { searchParams: PageProps<"/search">["searchParams"] }) {
   const params = await searchParams;
   const query = typeof params.q === "string" ? params.q.trim() : "";
-  const hits = query ? searchContent(query, await loadSearchCorpus(), 30) : [];
+  const [hits, wikiHits] = query
+    ? await Promise.all([searchContent(query, await loadSearchCorpus(), 30), searchHuijiPages(query, 8)])
+    : [[], []];
   const guideHits = hits.filter((h) => h.kind === "guide");
   const questHits = hits.filter((h) => h.kind === "quest");
   const sectionHits = hits.filter((h) => h.kind === "section");
@@ -120,6 +122,25 @@ async function Results({ searchParams }: { searchParams: PageProps<"/search">["s
                   </li>
                 ),
             )}
+          </ul>
+        </section>
+      )}
+
+      {wikiHits.length > 0 && (
+        <section className="flex flex-col gap-2">
+          <h2 className="text-xs tracking-[0.25em] text-muted">燕云wiki ({wikiHits.length})</h2>
+          <ul className="grid gap-2">
+            {wikiHits.map((w) => (
+              <li key={w.title}>
+                <Link
+                  href={`/wiki/${encodeURIComponent(w.title)}`}
+                  className="block rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent/60"
+                >
+                  <span className="font-medium">{w.title}</span>
+                  <p className="mt-0.5 text-[13px] leading-6 text-muted">{w.snippet.slice(0, 120)}…</p>
+                </Link>
+              </li>
+            ))}
           </ul>
         </section>
       )}

@@ -18,6 +18,8 @@ const quests = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "quests.json"),
 const datasets = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "datasets.json"), "utf8"));
 const mainQuests = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "huiji/parsed/main-quests.json"), "utf8"));
 const questGuides = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "huiji/parsed/quest-guides.json"), "utf8"));
+const huijiPagesPath = path.join(CONTENT_DIR, "huiji/pages.json");
+const huijiPages = fs.existsSync(huijiPagesPath) ? JSON.parse(fs.readFileSync(huijiPagesPath, "utf8")).pages : null;
 
 try {
   await sql.begin(async (tx) => {
@@ -120,11 +122,32 @@ try {
         insert into quest_guides (name, category, intro, highlights, goals, steps, achievements, details, items, source)
         values (${g.name}, ${g.category}, ${g.intro}, ${JSON.stringify(g.highlights)}, ${JSON.stringify(g.goals)}, ${JSON.stringify(g.steps)}, ${JSON.stringify(g.achievements)}, ${JSON.stringify(g.details ?? [])}, ${JSON.stringify(g.items ?? [])}, ${g.source})`;
     }
+
+    if (huijiPages) {
+      await tx`create table if not exists huiji_pages (
+        title text primary key,
+        wikitext text not null,
+        categories jsonb not null default '[]',
+        source text not null default ''
+      )`;
+      await tx`delete from huiji_pages`;
+      const rows = huijiPages.map((p) => ({
+        title: p.title,
+        wikitext: p.wikitext,
+        categories: JSON.stringify(p.categories ?? []),
+        source: `https://yy16s.huijiwiki.com/wiki/${encodeURIComponent(p.title.replace(/ /g, "_"))}`,
+      }));
+      for (let i = 0; i < rows.length; i += 200) {
+        const batch = rows.slice(i, i + 200);
+        await tx`insert into huiji_pages ${tx(batch, "title", "wikitext", "categories", "source")}`;
+        process.stdout.write(`   huiji_pages ${Math.min(i + 200, rows.length)}/${rows.length}\n`);
+      }
+    }
   });
 
   const sectionCount = mainQuests.chapters.reduce((s, c) => s + c.sections.length, 0);
   const guideCount = questGuides.encounters.length + questGuides.wanshizhi.length;
-  console.log(`导入完成：guides ${guides.length} 篇，quests ${quests.entries.length} 条，datasets ${Object.keys(datasets).length} 块，main_sections ${sectionCount} 节，quest_guides ${guideCount} 条`);
+  console.log(`导入完成：guides ${guides.length} 篇，quests ${quests.entries.length} 条，datasets ${Object.keys(datasets).length} 块，main_sections ${sectionCount} 节，quest_guides ${guideCount} 条${huijiPages ? `，huiji_pages ${huijiPages.length} 页` : ""}`);
 } finally {
   await sql.end();
 }

@@ -167,7 +167,7 @@ export function AssistantPanel({
                   {message.text ? (
                     <p className="whitespace-pre-wrap text-[15px] leading-7 break-words">{message.text}</p>
                   ) : message.pending ? (
-                    <span className="text-sm text-muted">{phase === "initializing" ? "正在检索站内资料…" : "正在组织答案…"}</span>
+                    <span className="text-sm text-muted">{phase === "initializing" ? "正在聚合站内攻略、wiki 与网络…" : "正在组织答案…"}</span>
                   ) : null}
                   {message.reason && <p className="mt-1 text-xs text-accent">{FAILURES[message.reason] ?? "回答失败，请重试。"}</p>}
                 </div>
