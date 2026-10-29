@@ -197,23 +197,42 @@ export async function getHuijiPage(title: string): Promise<HuijiPage | undefined
   return { ...row, categories };
 }
 
-// 全量 wiki 关键词检索：ILIKE 命中标题或正文，标题命中加权。LIKE 通配符需转义。
+// 全量 wiki 关键词检索：多关键词 OR 命中（SQL 宽取，应用层按命中数与标题加权排序）
 function escapeLike(text: string): string {
   return text.replace(/([%_\\])/g, "\\$1");
 }
 
-export async function searchHuijiPages(query: string, limit = 12): Promise<{ title: string; snippet: string; source: string }[]> {
-  const trimmed = query.trim();
-  if (!trimmed) return [];
-  const needle = `%${escapeLike(trimmed)}%`;
+export async function searchHuijiPages(keywords: string[], limit = 12): Promise<{ title: string; snippet: string; source: string }[]> {
+  const words = keywords.map((k) => k.trim()).filter((k) => k.length >= 2).slice(0, 6);
+  if (words.length === 0) return [];
+  const patterns = words.map((w) => `%${escapeLike(w)}%`);
   const sql = getDb();
   const rows = await sql<[{ title: string; wikitext: string; source: string }]>`
     select title, wikitext, source from huiji_pages
-    where title ilike ${needle} or wikitext ilike ${needle}
-    order by (title ilike ${needle})::int desc, length(wikitext) desc
-    limit ${limit}`;
-  return rows.map((r) => {
-    const at = r.wikitext.toLowerCase().indexOf(trimmed.toLowerCase());
+    where title ilike any(${patterns}) or wikitext ilike any(${patterns})
+    limit ${limit * 4}`;
+
+  const lower = (s: string) => s.toLowerCase();
+  const scored = rows
+    .map((r) => {
+      let hits = 0;
+      for (const w of words) {
+        if (lower(r.title).includes(lower(w))) hits += 3;
+        if (lower(r.wikitext).includes(lower(w))) hits += 1;
+      }
+      return { ...r, hits };
+    })
+    .filter((r) => r.hits > 0)
+    .sort((a, b) => b.hits - a.hits || a.wikitext.length - b.wikitext.length)
+    .slice(0, limit);
+
+  return scored.map((r) => {
+    const lowerWikitext = lower(r.wikitext);
+    let at = -1;
+    for (const w of words) {
+      at = lowerWikitext.indexOf(lower(w));
+      if (at >= 0) break;
+    }
     const snippet = at >= 0 ? r.wikitext.slice(Math.max(0, at - 80), at + 220) : r.wikitext.slice(0, 220);
     return { title: r.title, snippet: snippet.replace(/\s+/g, " "), source: r.source };
   });

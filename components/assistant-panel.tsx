@@ -143,7 +143,15 @@ export function AssistantPanel({
           <p className="text-xs text-muted">按本站收录的攻略与任务资料作答，答不出会直说。</p>
         </div>
         {messages.length > 0 && (
-          <button type="button" onClick={() => setMessages([])} className="text-sm text-muted hover:text-accent">
+          <button
+            type="button"
+            onClick={() => {
+              setMessages([]);
+              setFocus("");
+              setFocusLabel("");
+            }}
+            className="text-sm text-muted hover:text-accent"
+          >
             清空
           </button>
         )}

@@ -94,6 +94,21 @@ function questBlock(quest: QuestEntry): string {
 
 const CONTEXT_BUDGET = 9000;
 
+// 从问题提取检索关键词：短段整词，长段 2 字滑窗，滤掉疑问词
+const STOP_WORDS = ["怎么", "什么", "如何", "哪里", "为什么", "请问", "告诉", "一下", "帮助", "不过", "还是", "可以", "应该"];
+export function keywordsFromQuestion(question: string, max = 6): string[] {
+  const clean = question.replace(/[？?！!。,，、：:；;（）()「」『』\s]+/g, " ");
+  const words = new Set<string>();
+  for (const seg of clean.split(/\s+/).filter(Boolean)) {
+    if (seg.length <= 4) {
+      if (seg.length >= 2) words.add(seg);
+      continue;
+    }
+    for (let i = 0; i + 2 <= seg.length; i++) words.add(seg.slice(i, i + 2));
+  }
+  return [...words].filter((w) => !STOP_WORDS.includes(w)).slice(0, max);
+}
+
 // 本地命中偏弱、或问题明显超出站内语料时，才动用网络与 GameKee
 function looksBeyondSite(question: string): boolean {
   return /最新|版本|什么时候|更新|活动|官网|下载|配置| Steam |steam|bug|闪退|氪金|值得|对比|评测/.test(question);
@@ -154,10 +169,9 @@ export async function retrieveContext(question: string, focus?: string): Promise
   const weak = topScore < 6;
   const usedWeb = weak || looksBeyondSite(question);
 
-  // 灰机全量 wiki：命中站内语料时也补 wiki 视角（关键词取问题前 12 字）
+  // 灰机全量 wiki：多关键词分词检索
   try {
-    const keyword = question.replace(/[？?！!。,，\s]+/g, " ").trim().slice(0, 12);
-    const wikiHits = await searchHuijiPages(keyword, 4);
+    const wikiHits = await searchHuijiPages(keywordsFromQuestion(question), 4);
     const seenTitles = new Set<string>();
     const wikiLines: string[] = [];
     for (const w of wikiHits) {
@@ -193,7 +207,7 @@ export async function retrieveContext(question: string, focus?: string): Promise
   // GameKee 资料库条目索引
   if (looksExplore(question)) {
     try {
-      const leaves = await searchLeaves(question.replace(/[？?！!。,，\s]+/g, "").slice(0, 16), 0);
+      const leaves = await searchLeaves(keywordsFromQuestion(question, 2).join("").slice(0, 16), 0);
       if (leaves.length) {
         const block = `【GameKee 资料库条目】\n${leaves.slice(0, 5).map((l) => `- ${l.name}（${l.path.join(" > ")}）`).join("\n")}`;
         sections.push(block);

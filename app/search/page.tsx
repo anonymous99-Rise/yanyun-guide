@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { searchContent } from "@/lib/content";
 import { loadSearchCorpus, searchHuijiPages } from "@/lib/queries";
+import { keywordsFromQuestion } from "@/lib/knowledge";
 import { wikiHref } from "@/lib/site-meta";
 
 export const metadata: Metadata = {
@@ -27,8 +28,8 @@ async function Results({ searchParams }: { searchParams: PageProps<"/search">["s
   const params = await searchParams;
   const query = typeof params.q === "string" ? params.q.trim() : "";
   const [hits, wikiHits] = query
-    ? await Promise.all([searchContent(query, await loadSearchCorpus(), 30), searchHuijiPages(query, 8)])
-    : [[], []];
+    ? await Promise.all([searchContent(query, await loadSearchCorpus(), 30), searchHuijiPages(keywordsFromQuestion(query, 6), 8)])
+    : [[], []] as const;
   const guideHits = hits.filter((h) => h.kind === "guide");
   const questHits = hits.filter((h) => h.kind === "quest");
   const sectionHits = hits.filter((h) => h.kind === "section");
