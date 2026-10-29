@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { QUEST_GUIDES } from "@/lib/quest-guides";
+import { AskAssistantButton } from "@/components/ask-assistant-button";
 
 export function generateStaticParams() {
   return QUEST_GUIDES.map((g) => ({ name: g.name }));
@@ -9,15 +10,25 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/quest-guide/[name]">): Promise<Metadata> {
   const { name } = await params;
-  const guide = QUEST_GUIDES.find((g) => g.name === name);
+  const decoded = safeDecode(name);
+  const guide = QUEST_GUIDES.find((g) => g.name === decoded);
   if (!guide) return { title: "条目不存在" };
   const kind = guide.category === "wanshizhi" ? "万事知" : "奇遇";
-  return { title: `${name} · ${kind}攻略`, description: guide.intro || guide.highlights.join("；") || `${name}的${kind}攻略要点。` };
+  return { title: `${decoded} · ${kind}攻略`, description: guide.intro || guide.highlights.join("；") || `${decoded}的${kind}攻略要点。` };
+}
+
+function safeDecode(value: string): string {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
 }
 
 export default async function QuestGuidePage({ params }: PageProps<"/quest-guide/[name]">) {
   const { name } = await params;
-  const guide = QUEST_GUIDES.find((g) => g.name === name);
+  const decoded = safeDecode(name);
+  const guide = QUEST_GUIDES.find((g) => g.name === decoded);
   if (!guide) notFound();
   const kind = guide.category === "wanshizhi" ? "万事知" : "奇遇";
 
@@ -103,7 +114,16 @@ export default async function QuestGuidePage({ params }: PageProps<"/quest-guide
         </section>
       )}
 
-      <footer className="flex flex-col gap-2 border-t border-border pt-4 text-xs text-muted">
+      <footer className="flex flex-col gap-3 border-t border-border pt-4 text-xs text-muted">
+        <div className="flex flex-wrap gap-2">
+          <AskAssistantButton
+            context={[guide.intro && `简介：${guide.intro}`, guide.highlights.length && `触发提示：${guide.highlights.join("；")}`, guide.goals.length && `目标：${guide.goals.join(" → ")}`, guide.details?.length && `要点：${guide.details.join("；")}`].filter(Boolean).join("\n")}
+            label={guide.name}
+          />
+          <Link href="/quests" className="rounded-md border border-border px-3.5 py-2 text-sm text-muted transition hover:text-foreground">
+            ← 任务目录
+          </Link>
+        </div>
         <p>
           来源：
           <a href={guide.source} target="_blank" rel="noreferrer noopener" className="underline underline-offset-4 hover:text-accent">
@@ -111,9 +131,6 @@ export default async function QuestGuidePage({ params }: PageProps<"/quest-guide
           </a>
           （CC BY-NC-SA）· 以游戏内实际触发为准
         </p>
-        <Link href="/quests" className="hover:text-accent">
-          ← 返回任务目录
-        </Link>
       </footer>
     </div>
   );

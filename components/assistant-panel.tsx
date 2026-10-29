@@ -6,6 +6,7 @@ import { streamAssistant, type GuideTurn } from "@/lib/assistant-client";
 type ChatMessage = GuideTurn & { pending?: boolean; reason?: string };
 
 const STORAGE_KEY = "yy-assistant.v1";
+const FOCUS_KEY = "yy-assistant-focus";
 
 const SUGGESTIONS = [
   "心力应该先花在哪？",
@@ -32,8 +33,8 @@ const FAILURES: Record<string, string> = {
 };
 
 export function AssistantPanel({
-  focus = "",
-  focusLabel = "",
+  focus: focusProp = "",
+  focusLabel: focusLabelProp = "",
   onClearFocus,
   seed,
   onSeedUsed,
@@ -47,6 +48,8 @@ export function AssistantPanel({
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [draft, setDraft] = useState("");
   const [phase, setPhase] = useState<"idle" | "initializing" | "running">("idle");
+  const [focus, setFocus] = useState(focusProp);
+  const [focusLabel, setFocusLabel] = useState(focusLabelProp);
   const restore = useRef<(() => void) | null>(null);
 
   useEffect(() => {
@@ -55,6 +58,20 @@ export function AssistantPanel({
       if (saved) setMessages(JSON.parse(saved) as ChatMessage[]);
     } catch {
       /* 本地历史不可读时忽略 */
+    }
+    // 从其他页面跳转过来时恢复附带的条目资料
+    try {
+      const raw = sessionStorage.getItem(FOCUS_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw) as { context?: string; label?: string };
+        if (parsed.context) {
+          setFocus(parsed.context);
+          setFocusLabel(parsed.label ?? "");
+        }
+        sessionStorage.removeItem(FOCUS_KEY);
+      }
+    } catch {
+      /* 忽略 */
     }
   }, []);
 
@@ -179,8 +196,16 @@ export function AssistantPanel({
 
       {focus && (
         <div className="mx-5 mb-2 flex items-center justify-between gap-3 rounded-md border border-gold/40 bg-gold/10 px-3 py-2 text-xs">
-          <span className="truncate">已附上条目：{focusLabel}</span>
-          <button type="button" onClick={() => onClearFocus?.()} className="shrink-0 text-muted hover:text-foreground">
+          <span className="truncate">已附上条目：{focusLabel || "（内容）"}</span>
+          <button
+            type="button"
+            onClick={() => {
+              setFocus("");
+              setFocusLabel("");
+              onClearFocus?.();
+            }}
+            className="shrink-0 text-muted hover:text-foreground"
+          >
             移除
           </button>
         </div>

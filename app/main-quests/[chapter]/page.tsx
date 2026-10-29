@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MAIN_QUEST_CHAPTERS, getMainQuestChapter } from "@/lib/main-quests";
+import { AskAssistantButton } from "@/components/ask-assistant-button";
 
 export function generateStaticParams() {
   return MAIN_QUEST_CHAPTERS.map((c) => ({ chapter: c.key }));
@@ -9,14 +10,24 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/main-quests/[chapter]">): Promise<Metadata> {
   const { chapter } = await params;
-  const ch = getMainQuestChapter(chapter);
+  const ch = getMainQuestChapter(safeDecode(chapter));
   if (!ch) return { title: "章节不存在" };
   return { title: `${ch.name} · 主章攻略`, description: `${ch.name}主章逐节攻略：${ch.sections.map((s) => s.title).join("、")}` };
 }
 
+function safeDecode(value: string): string {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
 export default async function MainQuestChapterPage({ params }: PageProps<"/main-quests/[chapter]">) {
   const { chapter } = await params;
-  const ch = getMainQuestChapter(chapter);
+  // Next 16 的 params 保持 URL 编码，中文 key 需手动解码
+  const decoded = safeDecode(chapter);
+  const ch = getMainQuestChapter(decoded);
   if (!ch) notFound();
 
   return (
@@ -84,13 +95,16 @@ export default async function MainQuestChapterPage({ params }: PageProps<"/main-
             </div>
           )}
 
-          <p className="mt-4 text-xs text-muted">
-            来源：
-            <a href={s.source} target="_blank" rel="noreferrer noopener" className="underline underline-offset-4 hover:text-accent">
-              灰机wiki · {s.slug}
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <AskAssistantButton
+              context={[s.intro && `剧情：${s.intro}`, s.goals.length && `任务目标：${s.goals.join(" → ")}`, s.steps.length && `流程节点：${s.steps.join("、")}`, s.achievements.length && `成就：${s.achievements.join("、")}`].filter(Boolean).join("\n")}
+              label={`${ch.name}·${s.title || s.section}`}
+              className="rounded-md border border-accent/50 bg-accent/5 px-3 py-1.5 text-[13px] text-accent transition hover:bg-accent/15"
+            />
+            <a href={s.source} target="_blank" rel="noreferrer noopener" className="text-xs text-muted underline underline-offset-4 hover:text-accent">
+              灰机wiki 原文（CC BY-NC-SA）
             </a>
-            （CC BY-NC-SA）· 以游戏内实际流程为准
-          </p>
+          </div>
         </section>
       ))}
 

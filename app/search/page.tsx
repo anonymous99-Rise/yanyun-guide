@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { searchContent } from "@/lib/content";
 import { loadSearchCorpus, searchHuijiPages } from "@/lib/queries";
+import { wikiHref } from "@/lib/site-meta";
 
 export const metadata: Metadata = {
   title: "搜索",
@@ -133,7 +134,7 @@ async function Results({ searchParams }: { searchParams: PageProps<"/search">["s
             {wikiHits.map((w) => (
               <li key={w.title}>
                 <Link
-                  href={`/wiki/${encodeURIComponent(w.title)}`}
+                  href={wikiHref(w.title)}
                   className="block rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent/60"
                 >
                   <span className="font-medium">{w.title}</span>

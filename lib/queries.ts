@@ -78,6 +78,9 @@ function toQuest(row: QuestRow): QuestEntry {
 
 export type Corpus = { guides: Guide[]; quests: QuestEntry[]; mainSections: MainSection[]; questGuides: QuestGuide[] };
 
+// 语料进程内缓存（5 分钟）：/search 与助手高频复用，省去每次全量拉库
+let corpusCache: { at: number; data: Corpus } | null = null;
+
 export type QuestGuide = {
   name: string;
   category: string;
@@ -134,6 +137,7 @@ type MainSectionRow = {
 
 // 全量语料：助手检索与站内搜索一次取全部条目，应用层计分。
 export async function loadSearchCorpus(): Promise<Corpus> {
+  if (corpusCache && Date.now() - corpusCache.at < 300_000) return corpusCache.data;
   const sql = getDb();
   const [guideRows, questRows, sectionRows, guideCardRows] = await Promise.all([
     sql<[GuideRow]>`select * from guides`,
@@ -141,7 +145,7 @@ export async function loadSearchCorpus(): Promise<Corpus> {
     sql<[MainSectionRow]>`select * from main_sections`,
     sql<[QuestGuideRow]>`select * from quest_guides`,
   ]);
-  return {
+  const data: Corpus = {
     guides: guideRows.map(toGuide),
     quests: questRows.map(toQuest),
     mainSections: sectionRows.map((r) => ({
@@ -170,6 +174,8 @@ export async function loadSearchCorpus(): Promise<Corpus> {
       source: r.source,
     })),
   };
+  corpusCache = { at: Date.now(), data };
+  return data;
 }
 
 export async function getGlossary(): Promise<unknown> {
@@ -182,14 +188,24 @@ export type HuijiPage = { title: string; wikitext: string; categories: string[];
 
 export async function getHuijiPage(title: string): Promise<HuijiPage | undefined> {
   const sql = getDb();
-  const rows = await sql<[{ title: string; wikitext: string; categories: string[]; source: string }]>
+  const rows = await sql<[{ title: string; wikitext: string; categories: string[] | string; source: string }]>
     `select title, wikitext, categories, source from huiji_pages where title = ${title} limit 1`;
-  return rows[0];
+  const row = rows[0];
+  if (!row) return undefined;
+  // 批量导入路径会把数组双重编码为 JSON 字符串，读取时兼容
+  const categories = typeof row.categories === "string" ? (JSON.parse(row.categories) as string[]) : row.categories;
+  return { ...row, categories };
 }
 
-// 全量 wiki 关键词检索：ILIKE 命中标题或正文，标题命中加权
+// 全量 wiki 关键词检索：ILIKE 命中标题或正文，标题命中加权。LIKE 通配符需转义。
+function escapeLike(text: string): string {
+  return text.replace(/([%_\\])/g, "\\$1");
+}
+
 export async function searchHuijiPages(query: string, limit = 12): Promise<{ title: string; snippet: string; source: string }[]> {
-  const needle = `%${query.trim()}%`;
+  const trimmed = query.trim();
+  if (!trimmed) return [];
+  const needle = `%${escapeLike(trimmed)}%`;
   const sql = getDb();
   const rows = await sql<[{ title: string; wikitext: string; source: string }]>`
     select title, wikitext, source from huiji_pages
@@ -197,7 +213,7 @@ export async function searchHuijiPages(query: string, limit = 12): Promise<{ tit
     order by (title ilike ${needle})::int desc, length(wikitext) desc
     limit ${limit}`;
   return rows.map((r) => {
-    const at = r.wikitext.toLowerCase().indexOf(query.trim().toLowerCase());
+    const at = r.wikitext.toLowerCase().indexOf(trimmed.toLowerCase());
     const snippet = at >= 0 ? r.wikitext.slice(Math.max(0, at - 80), at + 220) : r.wikitext.slice(0, 220);
     return { title: r.title, snippet: snippet.replace(/\s+/g, " "), source: r.source };
   });
