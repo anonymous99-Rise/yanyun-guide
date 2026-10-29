@@ -98,13 +98,13 @@ try {
     for (const q of quests.entries) {
       await tx`
         insert into quests (id, category, sub, name, chapter, region, group_name, location, route, unlock, steps, note, caution, hint, time, source)
-        values (${q.id}, ${q.category}, ${q.sub ?? null}, ${q.name}, ${q.chapter ?? null}, ${q.region ?? null}, ${q.group ?? null}, ${q.location ?? null}, ${q.route ?? null}, ${q.unlock ?? null}, ${q.steps ? JSON.stringify(q.steps) : null}, ${q.note ?? null}, ${q.caution ?? null}, ${q.hint ?? null}, ${q.time ?? null}, ${q.source})`;
+        values (${q.id}, ${q.category}, ${q.sub ?? null}, ${q.name}, ${q.chapter ?? null}, ${q.region ?? null}, ${q.group ?? null}, ${q.location ?? null}, ${q.route ?? null}, ${q.unlock ?? null}, ${q.steps ? tx.json(q.steps) : null}, ${q.note ?? null}, ${q.caution ?? null}, ${q.hint ?? null}, ${q.time ?? null}, ${q.source})`;
     }
 
     await tx`delete from datasets`;
     for (const [key, data] of Object.entries(datasets)) {
       const updated = typeof data === "object" && data && "updated" in data ? String(data.updated) : "";
-      await tx`insert into datasets (key, data, updated) values (${key}, ${JSON.stringify(data)}, ${updated})`;
+      await tx`insert into datasets (key, data, updated) values (${key}, ${tx.json(data)}, ${updated})`;
     }
 
     await tx`delete from main_sections`;
@@ -112,7 +112,7 @@ try {
       for (const s of ch.sections) {
         await tx`
           insert into main_sections (slug, chapter, chapter_name, region, section, title, intro, goals, steps, achievements, source)
-          values (${s.slug}, ${ch.key}, ${ch.name}, ${ch.region}, ${s.section}, ${s.title}, ${s.intro}, ${JSON.stringify(s.goals)}, ${JSON.stringify(s.steps)}, ${JSON.stringify(s.achievements)}, ${s.source})`;
+          values (${s.slug}, ${ch.key}, ${ch.name}, ${ch.region}, ${s.section}, ${s.title}, ${s.intro}, ${tx.json(s.goals)}, ${tx.json(s.steps)}, ${tx.json(s.achievements)}, ${s.source})`;
       }
     }
 
@@ -120,7 +120,7 @@ try {
     for (const g of [...questGuides.encounters, ...questGuides.wanshizhi]) {
       await tx`
         insert into quest_guides (name, category, intro, highlights, goals, steps, achievements, details, items, source)
-        values (${g.name}, ${g.category}, ${g.intro}, ${JSON.stringify(g.highlights)}, ${JSON.stringify(g.goals)}, ${JSON.stringify(g.steps)}, ${JSON.stringify(g.achievements)}, ${JSON.stringify(g.details ?? [])}, ${JSON.stringify(g.items ?? [])}, ${g.source})`;
+        values (${g.name}, ${g.category}, ${g.intro}, ${tx.json(g.highlights)}, ${tx.json(g.goals)}, ${tx.json(g.steps)}, ${tx.json(g.achievements)}, ${tx.json(g.details ?? [])}, ${tx.json(g.items ?? [])}, ${g.source})`;
     }
 
     if (huijiPages) {

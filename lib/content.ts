@@ -199,7 +199,7 @@ export function searchContent(
     if (s > 0) hits.push({ kind: "quest", score: s, quest });
   }
   for (const section of corpus.mainSections ?? []) {
-    const s = score([section.chapterName, section.region, section.title, section.intro, section.goals, section.steps]);
+    const s = score([section.slug, section.chapterName, section.region, section.title, section.intro, section.goals, section.steps]);
     if (s > 0) hits.push({ kind: "section", score: s + 2, section });
   }
   for (const qg of corpus.questGuides ?? []) {

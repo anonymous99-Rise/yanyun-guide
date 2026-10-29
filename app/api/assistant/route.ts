@@ -5,6 +5,11 @@ import { buildSystemPrompt, retrieveContext } from "@/lib/knowledge";
 export const maxDuration = 60;
 
 const DEFAULT_MODEL = "claude-haiku-4-5";
+// [1M] 等方括号后缀是 Claude Code 客户端侧的上下文标记，直连 API 不识别（本地 dev 会继承 CC 的环境变量）
+function resolveModel(raw: string | undefined): string {
+  const cleaned = (raw ?? "").replace(/\[[^\]]+\]$/i, "").trim();
+  return cleaned || DEFAULT_MODEL;
+}
 const TOTAL_BUDGET_MS = 55_000;
 const MAX_ANSWER_CHARS = 20_000;
 const MAX_TOKENS = 1400;
@@ -101,7 +106,7 @@ export async function POST(request: Request): Promise<Response> {
             "content-type": "application/json",
           },
           body: JSON.stringify({
-            model: process.env.ANTHROPIC_MODEL?.trim() || DEFAULT_MODEL,
+            model: resolveModel(process.env.ANTHROPIC_MODEL),
             max_tokens: MAX_TOKENS,
             stream: true,
             thinking: { type: "disabled" },
@@ -118,6 +123,7 @@ export async function POST(request: Request): Promise<Response> {
         }
         if (!upstream.ok || !upstream.body) {
           const detail = await upstream.text().catch(() => "");
+          console.error(`[assistant] upstream ${upstream.status} model=${process.env.ANTHROPIC_MODEL || "(default)"} detail=${detail.slice(0, 300)}`);
           const code = /model|unauthorized|forbidden/i.test(detail) ? "upstream_rejected" : "upstream_unavailable";
           send("status", { state: "failed", reason: upstream.status === 401 || upstream.status === 403 ? "assistant_forbidden" : code });
           settled = true;
